@@ -16,6 +16,7 @@
     <sdef n="vbser"      c="Verb 'to be'"/>
     <sdef n="cnjcoo"     c="Coordinating conjunction"/>
     <sdef n="cnjsub"     c="Subordinating conjunction"/>
+    <sdef n="cnjadv"     c="Adverbial conjunction"/>
 
     <sdef n="itg"        c="Interrogative"/>
 
@@ -48,6 +49,8 @@
 
     <e><p><l>i<s n="cnjcoo"/></l><r>и<s n="cnjcoo"/></r></p></e>
     <e><p><l>že<s n="cnjsub"/></l><r>что<s n="cnjsub"/></r></p></e>
+    <e><p><l>když<s n="cnjsub"/></l><r>когда<s n="cnjsub"/></r></p></e>
+    <e><p><l>pokud<s n="cnjadv"/></l><r>если<s n="cnjsub"/></r></p></e>
 
     <!-- Раздел: Prepositions -->
 
@@ -55,6 +58,8 @@
     <e><p><l>od<s n="pr"/></l><r>от<s n="pr"/></r></p></e>
 
     <!-- Раздел: Pronouns -->
+
+    <e><p><l>prpers<s n="prn"/></l><r>prpers<s n="prn"/></r></p></e>
 
     <!-- Раздел: Determiners -->
 
