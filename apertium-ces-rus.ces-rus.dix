@@ -11,6 +11,8 @@
     <sdef n="adj"        c="Adjective"/>
     <sdef n="pr"         c="Preposition"/>
     <sdef n="vblex"      c="Verb"/>
+    <sdef n="vbmod"      c="Modal verb"/>
+    <sdef n="vbhaver"    c="Verb 'to have'"/>
     <sdef n="vbser"      c="Verb 'to be'"/>
     <sdef n="cnjcoo"     c="Coordinating conjunction"/>
     <sdef n="cnjsub"     c="Subordinating conjunction"/>
@@ -25,6 +27,9 @@
 
     <sdef n="aa"         c="Animate"/>
     <sdef n="nn"         c="Inanimate"/>
+
+    <sdef n="impf"       c="Imperfective"/>
+    <sdef n="perf"       c="Perfective"/>
 
     <sdef n="cm"         c="Comma"/>
     <sdef n="sent"       c="Sentence marker"/>
@@ -991,6 +996,244 @@
     <!-- Раздел: Verbs -->
 
     <e><p><l>být<s n="vbser"/></l><r>быть<s n="vbser"/></r></p></e>
+
+    <e><p><l>akceptovat<s n="vblex"/><s n="impf"/></l><r>принимать<s n="vblex"/><s n="impf"/></r></p></e>
+    <e><p><l>aplikovat<s n="vblex"/><s n="impf"/></l><r>применять<s n="vblex"/><s n="impf"/></r></p></e>
+    <e><p><l>aspirovat<s n="vblex"/><s n="impf"/></l><r>стремиться<s n="vblex"/><s n="impf"/></r></p></e>
+    <e><p><l>bít<s n="vblex"/><s n="impf"/></l><r>бить<s n="vblex"/><s n="impf"/></r></p></e>
+    <e><p><l>bít<s n="vblex"/><s n="impf"/></l><r>биться<s n="vblex"/><s n="impf"/></r></p></e>
+    <e><p><l>bojovat<s n="vblex"/><s n="impf"/></l><r>бороться<s n="vblex"/><s n="impf"/></r></p></e>
+    <e><p><l>budovat<s n="vblex"/><s n="impf"/></l><r>создавать<s n="vblex"/><s n="impf"/></r></p></e>
+    <e><p><l>budovat<s n="vblex"/><s n="impf"/></l><r>строить<s n="vblex"/><s n="impf"/></r></p></e>
+    <e><p><l>být<s n="vbser"/></l><r>бывать<s n="vblex"/><s n="impf"/></r></p></e>
+    <e><p><l>být<s n="vbser"/></l><r>быть<s n="vbser"/></r></p></e>
+    <e><p><l>čekat<s n="vblex"/><s n="impf"/></l><r>ждать<s n="vblex"/><s n="impf"/></r></p></e>
+    <e><p><l>cestovat<s n="vblex"/><s n="impf"/></l><r>ездить<s n="vblex"/><s n="impf"/></r></p></e>
+    <e><p><l>chápat<s n="vblex"/><s n="impf"/></l><r>воспринимать<s n="vblex"/><s n="impf"/></r></p></e>
+    <e><p><l>chápat<s n="vblex"/><s n="impf"/></l><r>понимать<s n="vblex"/><s n="impf"/></r></p></e>
+    <e><p><l>chtít<s n="vblex"/><s n="impf"/></l><r>желать<s n="vblex"/><s n="impf"/></r></p></e>
+    <e><p><l>chtít<s n="vblex"/><s n="impf"/></l><r>хотеть<s n="vbmod"/><s n="impf"/></r></p></e>
+    <e><p><l>číst<s n="vblex"/><s n="impf"/></l><r>читать<s n="vblex"/><s n="impf"/></r></p></e>
+    <e><p><l>darovat<s n="vblex"/><s n="impf"/></l><r>подарить<s n="vblex"/><s n="perf"/></r></p></e>
+    <e><p><l>dávat<s n="vblex"/><s n="impf"/></l><r>давать<s n="vblex"/><s n="impf"/></r></p></e>
+    <e><p><l>debatovat<s n="vblex"/><s n="impf"/></l><r>обсуждать<s n="vblex"/><s n="impf"/></r></p></e>
+    <e><p><l>definovat<s n="vblex"/><s n="impf"/></l><r>определить<s n="vblex"/><s n="perf"/></r></p></e>
+    <e><p><l>definovat<s n="vblex"/><s n="impf"/></l><r>определять<s n="vblex"/><s n="impf"/></r></p></e>
+    <e><p><l>děkovat<s n="vblex"/><s n="impf"/></l><r>благодарить<s n="vblex"/><s n="impf"/></r></p></e>
+    <e><p><l>dělat<s n="vblex"/><s n="impf"/></l><r>выполнять<s n="vblex"/><s n="impf"/></r></p></e>
+    <e><p><l>dělat<s n="vblex"/><s n="impf"/></l><r>делать<s n="vblex"/><s n="impf"/></r></p></e>
+    <e><p><l>demonstrovat<s n="vblex"/><s n="impf"/></l><r>демонстрировать<s n="vblex"/><s n="impf"/></r></p></e>
+    <e><p><l>disponovat<s n="vblex"/><s n="impf"/></l><r>обладать<s n="vblex"/><s n="impf"/></r></p></e>
+    <e><p><l>dodržovat<s n="vblex"/><s n="impf"/></l><r>выполнять<s n="vblex"/><s n="impf"/></r></p></e>
+    <e><p><l>dodržovat<s n="vblex"/><s n="impf"/></l><r>следовать<s n="vblex"/><s n="impf"/></r></p></e>
+    <e><p><l>dojít<s n="vblex"/><s n="perf"/></l><r>возникнуть<s n="vblex"/><s n="perf"/></r></p></e>
+    <e><p><l>dojít<s n="vblex"/><s n="perf"/></l><r>прийти<s n="vblex"/><s n="perf"/></r></p></e>
+    <e><p><l>dojít<s n="vblex"/><s n="perf"/></l><r>произойти<s n="vblex"/><s n="perf"/></r></p></e>
+    <e><p><l>dostávat<s n="vblex"/><s n="impf"/></l><r>получать<s n="vblex"/><s n="impf"/></r></p></e>
+    <e><p><l>dovolovat<s n="vblex"/><s n="impf"/></l><r>допускать<s n="vblex"/><s n="impf"/></r></p></e>
+    <e><p><l>dovolovat<s n="vblex"/><s n="impf"/></l><r>позволять<s n="vblex"/><s n="impf"/></r></p></e>
+    <e><p><l>dráždit<s n="vblex"/><s n="impf"/></l><r>раздражать<s n="vblex"/><s n="impf"/></r></p></e>
+    <e><p><l>existovat<s n="vblex"/><s n="impf"/></l><r>быть<s n="vbser"/></r></p></e>
+    <e><p><l>existovat<s n="vblex"/><s n="impf"/></l><r>существовать<s n="vblex"/><s n="impf"/></r></p></e>
+    <e><p><l>explodovat<s n="vblex"/><s n="impf"/></l><r>взорваться<s n="vblex"/><s n="perf"/></r></p></e>
+    <e><p><l>formovat<s n="vblex"/><s n="impf"/></l><r>создавать<s n="vblex"/><s n="impf"/></r></p></e>
+    <e><p><l>fungovat<s n="vblex"/><s n="impf"/></l><r>действовать<s n="vblex"/><s n="impf"/></r></p></e>
+    <e><p><l>fungovat<s n="vblex"/><s n="impf"/></l><r>работать<s n="vblex"/><s n="impf"/></r></p></e>
+    <e><p><l>gratulovat<s n="vblex"/><s n="impf"/></l><r>поздравлять<s n="vblex"/><s n="impf"/></r></p></e>
+    <e><p><l>házet<s n="vblex"/><s n="impf"/></l><r>бросать<s n="vblex"/><s n="impf"/></r></p></e>
+    <e><p><l>hledat<s n="vblex"/><s n="impf"/></l><r>искать<s n="vblex"/><s n="impf"/></r></p></e>
+    <e><p><l>hlídat<s n="vblex"/><s n="impf"/></l><r>следить<s n="vblex"/><s n="impf"/></r></p></e>
+    <e><p><l>hnát<s n="vblex"/><s n="impf"/></l><r>приводить<s n="vblex"/><s n="impf"/></r></p></e>
+    <e><p><l>hrát<s n="vblex"/><s n="impf"/></l><r>играть<s n="vblex"/><s n="impf"/></r></p></e>
+    <e><p><l>jít<s n="vblex"/><s n="impf"/></l><r>выходить<s n="vblex"/><s n="perf"/></r></p></e>
+    <e><p><l>jít<s n="vblex"/><s n="impf"/></l><r>идти<s n="vblex"/><s n="impf"/></r></p></e>
+    <e><p><l>jít<s n="vblex"/><s n="impf"/></l><r>касаться<s n="vblex"/><s n="impf"/></r></p></e>
+    <e><p><l>klamat<s n="vblex"/><s n="impf"/></l><r>обманывать<s n="vblex"/><s n="impf"/></r></p></e>
+    <e><p><l>konat<s n="vblex"/><s n="impf"/></l><r>быть<s n="vbser"/></r></p></e>
+    <e><p><l>konat<s n="vblex"/><s n="impf"/></l><r>действовать<s n="vblex"/><s n="impf"/></r></p></e>
+    <e><p><l>konat<s n="vblex"/><s n="impf"/></l><r>делать<s n="vblex"/><s n="impf"/></r></p></e>
+    <e><p><l>kontrolovat<s n="vblex"/><s n="impf"/></l><r>контролировать<s n="vblex"/><s n="impf"/></r></p></e>
+    <e><p><l>kupovat<s n="vblex"/><s n="impf"/></l><r>покупать<s n="vblex"/><s n="impf"/></r></p></e>
+    <e><p><l>lamentovat<s n="vblex"/><s n="impf"/></l><r>жаловаться<s n="vblex"/><s n="impf"/></r></p></e>
+    <e><p><l>líbat<s n="vblex"/><s n="impf"/></l><r>целовать<s n="vblex"/><s n="impf"/></r></p></e>
+    <e><p><l>litovat<s n="vblex"/><s n="impf"/></l><r>жалеть<s n="vblex"/><s n="impf"/></r></p></e>
+    <e><p><l>mávat<s n="vblex"/><s n="impf"/></l><r>махать<s n="vblex"/><s n="impf"/></r></p></e>
+    <e><p><l>mávat<s n="vblex"/><s n="impf"/></l><r>размахивать<s n="vblex"/><s n="impf"/></r></p></e>
+    <e><p><l>milovat<s n="vblex"/><s n="impf"/></l><r>любить<s n="vblex"/><s n="impf"/></r></p></e>
+    <e><p><l>mít<s n="vbhaver"/><s n="impf"/></l><r>владеть<s n="vblex"/><s n="impf"/></r></p></e>
+    <e><p><l>mít<s n="vbhaver"/><s n="impf"/></l><r>держать<s n="vblex"/><s n="impf"/></r></p></e>
+    <e><p><l>mít<s n="vbhaver"/><s n="impf"/></l><r>думать<s n="vblex"/><s n="impf"/></r></p></e>
+    <e><p><l>mít<s n="vbhaver"/><s n="impf"/></l><r>иметь<s n="vbhaver"/><s n="impf"/></r></p></e>
+    <e><p><l>mívat<s n="vblex"/><s n="impf"/></l><r>иметь<s n="vbhaver"/><s n="impf"/></r></p></e>
+    <e><p><l>mluvit<s n="vblex"/><s n="impf"/></l><r>говорить<s n="vblex"/><s n="impf"/></r></p></e>
+    <e><p><l>nabírat<s n="vblex"/><s n="impf"/></l><r>набирать<s n="vblex"/><s n="impf"/></r></p></e>
+    <e><p><l>nabývat<s n="vblex"/><s n="impf"/></l><r>приобретать<s n="vblex"/><s n="impf"/></r></p></e>
+    <e><p><l>nacházet<s n="vblex"/><s n="impf"/></l><r>находить<s n="vblex"/><s n="perf"/></r></p></e>
+    <e><p><l>nadejít<s n="vblex"/><s n="perf"/></l><r>настать<s n="vblex"/><s n="perf"/></r></p></e>
+    <e><p><l>napomáhat<s n="vblex"/><s n="impf"/></l><r>помогать<s n="vblex"/><s n="impf"/></r></p></e>
+    <e><p><l>napsat<s n="vblex"/><s n="perf"/></l><r>написать<s n="vblex"/><s n="perf"/></r></p></e>
+    <e><p><l>nastupovat<s n="vblex"/><s n="impf"/></l><r>вступать<s n="vblex"/><s n="impf"/></r></p></e>
+    <e><p><l>naučit<s n="vblex"/><s n="perf"/></l><r>научить<s n="vblex"/><s n="perf"/></r></p></e>
+    <e><p><l>obejít<s n="vblex"/><s n="perf"/></l><r>обойти<s n="vblex"/><s n="perf"/></r></p></e>
+    <e><p><l>obsahovat<s n="vblex"/><s n="impf"/></l><r>содержать<s n="vblex"/><s n="impf"/></r></p></e>
+    <e><p><l>obtěžovat<s n="vblex"/><s n="impf"/></l><r>беспокоить<s n="vblex"/><s n="impf"/></r></p></e>
+    <e><p><l>očekávat<s n="vblex"/><s n="impf"/></l><r>ждать<s n="vblex"/><s n="impf"/></r></p></e>
+    <e><p><l>očekávat<s n="vblex"/><s n="impf"/></l><r>ожидать<s n="vblex"/><s n="impf"/></r></p></e>
+    <e><p><l>ocenit<s n="vblex"/><s n="perf"/></l><r>оценить<s n="vblex"/><s n="perf"/></r></p></e>
+    <e><p><l>odmítat<s n="vblex"/><s n="impf"/></l><r>отказываться<s n="vblex"/><s n="impf"/></r></p></e>
+    <e><p><l>odolávat<s n="vblex"/><s n="impf"/></l><r>сопротивляться<s n="vblex"/><s n="impf"/></r></p></e>
+    <e><p><l>odpojit<s n="vblex"/><s n="perf"/></l><r>выключить<s n="vblex"/><s n="perf"/></r></p></e>
+    <e><p><l>odpovídat<s n="vblex"/><s n="impf"/></l><r>отвечать<s n="vblex"/><s n="impf"/></r></p></e>
+    <e><p><l>ohlašovat<s n="vblex"/><s n="impf"/></l><r>объявлять<s n="vblex"/><s n="impf"/></r></p></e>
+    <e><p><l>ohrožovat<s n="vblex"/><s n="impf"/></l><r>угрожать<s n="vblex"/><s n="impf"/></r></p></e>
+    <e><p><l>opakovat<s n="vblex"/><s n="impf"/></l><r>повторить<s n="vblex"/><s n="perf"/></r></p></e>
+    <e><p><l>opakovat<s n="vblex"/><s n="impf"/></l><r>повторять<s n="vblex"/><s n="impf"/></r></p></e>
+    <e><p><l>otáčet<s n="vblex"/><s n="impf"/></l><r>поворачивать<s n="vblex"/><s n="impf"/></r></p></e>
+    <e><p><l>pamatovat<s n="vblex"/><s n="impf"/></l><r>помнить<s n="vblex"/><s n="perf"/></r></p></e>
+    <e><p><l>patřit<s n="vblex"/><s n="impf"/></l><r>входить<s n="vblex"/><s n="impf"/></r></p></e>
+    <e><p><l>patřit<s n="vblex"/><s n="impf"/></l><r>относиться<s n="vblex"/><s n="impf"/></r></p></e>
+    <e><p><l>patřit<s n="vblex"/><s n="impf"/></l><r>принадлежать<s n="vblex"/><s n="impf"/></r></p></e>
+    <e><p><l>pít<s n="vblex"/><s n="impf"/></l><r>пить<s n="vblex"/><s n="impf"/></r></p></e>
+    <e><p><l>platit<s n="vblex"/><s n="impf"/></l><r>действовать<s n="vblex"/><s n="impf"/></r></p></e>
+    <e><p><l>platit<s n="vblex"/><s n="impf"/></l><r>платить<s n="vblex"/><s n="impf"/></r></p></e>
+    <e><p><l>plavat<s n="vblex"/><s n="impf"/></l><r>плавать<s n="vblex"/><s n="impf"/></r></p></e>
+    <e><p><l>pochybovat<s n="vblex"/><s n="impf"/></l><r>сомневаться<s n="vblex"/><s n="impf"/></r></p></e>
+    <e><p><l>počínat<s n="vblex"/><s n="impf"/></l><r>начинать<s n="vblex"/><s n="impf"/></r></p></e>
+    <e><p><l>počkat<s n="vblex"/><s n="perf"/></l><r>подождать<s n="vblex"/><s n="perf"/></r></p></e>
+    <e><p><l>podepsat<s n="vblex"/><s n="perf"/></l><r>подписать<s n="vblex"/><s n="perf"/></r></p></e>
+    <e><p><l>podporovat<s n="vblex"/><s n="impf"/></l><r>поддерживать<s n="vblex"/><s n="impf"/></r></p></e>
+    <e><p><l>pokládat<s n="vblex"/><s n="impf"/></l><r>полагать<s n="vblex"/><s n="impf"/></r></p></e>
+    <e><p><l>pokládat<s n="vblex"/><s n="impf"/></l><r>рассматривать<s n="vblex"/><s n="impf"/></r></p></e>
+    <e><p><l>pokládat<s n="vblex"/><s n="impf"/></l><r>считать<s n="vblex"/><s n="perf"/></r></p></e>
+    <e><p><l>pokračovat<s n="vblex"/><s n="impf"/></l><r>продолжать<s n="vblex"/><s n="impf"/></r></p></e>
+    <e><p><l>pomáhat<s n="vblex"/><s n="impf"/></l><r>поддерживать<s n="vblex"/><s n="impf"/></r></p></e>
+    <e><p><l>pomáhat<s n="vblex"/><s n="impf"/></l><r>помогать<s n="vblex"/><s n="impf"/></r></p></e>
+    <e><p><l>postupovat<s n="vblex"/><s n="impf"/></l><r>действовать<s n="vblex"/><s n="impf"/></r></p></e>
+    <e><p><l>potlačovat<s n="vblex"/><s n="impf"/></l><r>подавлять<s n="vblex"/><s n="impf"/></r></p></e>
+    <e><p><l>potřebovat<s n="vblex"/><s n="impf"/></l><r>нуждаться<s n="vblex"/><s n="impf"/></r></p></e>
+    <e><p><l>poukazovat<s n="vblex"/><s n="impf"/></l><r>отмечать<s n="vblex"/><s n="impf"/></r></p></e>
+    <e><p><l>poukazovat<s n="vblex"/><s n="impf"/></l><r>указывать<s n="vblex"/><s n="impf"/></r></p></e>
+    <e><p><l>povolit<s n="vblex"/><s n="perf"/></l><r>позволить<s n="vblex"/><s n="perf"/></r></p></e>
+    <e><p><l>pozorovat<s n="vblex"/><s n="impf"/></l><r>замечать<s n="vblex"/><s n="impf"/></r></p></e>
+    <e><p><l>pozorovat<s n="vblex"/><s n="impf"/></l><r>наблюдать<s n="vblex"/><s n="impf"/></r></p></e>
+    <e><p><l>pracovat<s n="vblex"/><s n="impf"/></l><r>действовать<s n="vblex"/><s n="impf"/></r></p></e>
+    <e><p><l>pracovat<s n="vblex"/><s n="impf"/></l><r>работать<s n="vblex"/><s n="impf"/></r></p></e>
+    <e><p><l>přečíst<s n="vblex"/><s n="perf"/></l><r>прочесть<s n="vblex"/><s n="perf"/></r></p></e>
+    <e><p><l>přednášet<s n="vblex"/><s n="impf"/></l><r>читать<s n="vblex"/><s n="impf"/></r></p></e>
+    <e><p><l>představovat<s n="vblex"/><s n="impf"/></l><r>представлять<s n="vblex"/><s n="impf"/></r></p></e>
+    <e><p><l>předstihovat<s n="vblex"/><s n="impf"/></l><r>превышать<s n="vblex"/><s n="impf"/></r></p></e>
+    <e><p><l>překročit<s n="vblex"/><s n="perf"/></l><r>перейти<s n="vblex"/><s n="perf"/></r></p></e>
+    <e><p><l>přenášet<s n="vblex"/><s n="impf"/></l><r>передавать<s n="vblex"/><s n="impf"/></r></p></e>
+    <e><p><l>přesouvat<s n="vblex"/><s n="impf"/></l><r>переводить<s n="vblex"/><s n="impf"/></r></p></e>
+    <e><p><l>přidávat<s n="vblex"/><s n="impf"/></l><r>добавлять<s n="vblex"/><s n="impf"/></r></p></e>
+    <e><p><l>přijít<s n="vblex"/><s n="perf"/></l><r>наступить<s n="vblex"/><s n="perf"/></r></p></e>
+    <e><p><l>přijít<s n="vblex"/><s n="perf"/></l><r>прийти<s n="vblex"/><s n="perf"/></r></p></e>
+    <e><p><l>přinést<s n="vblex"/><s n="perf"/></l><r>принести<s n="vblex"/><s n="impf"/></r></p></e>
+    <e><p><l>připomínat<s n="vblex"/><s n="impf"/></l><r>напоминать<s n="vblex"/><s n="impf"/></r></p></e>
+    <e><p><l>probíhat<s n="vblex"/><s n="impf"/></l><r>идти<s n="vblex"/><s n="impf"/></r></p></e>
+    <e><p><l>procházet<s n="vblex"/><s n="impf"/></l><r>проходить<s n="vblex"/><s n="impf"/></r></p></e>
+    <e><p><l>prodávat<s n="vblex"/><s n="impf"/></l><r>продавать<s n="vblex"/><s n="impf"/></r></p></e>
+    <e><p><l>produkovat<s n="vblex"/><s n="impf"/></l><r>производить<s n="vblex"/><s n="impf"/></r></p></e>
+    <e><p><l>pronásledovat<s n="vblex"/><s n="impf"/></l><r>преследовать<s n="vblex"/><s n="impf"/></r></p></e>
+    <e><p><l>pronikat<s n="vblex"/><s n="impf"/></l><r>проникать<s n="vblex"/><s n="impf"/></r></p></e>
+    <e><p><l>propůjčit<s n="vblex"/><s n="perf"/></l><r>предоставить<s n="vblex"/><s n="perf"/></r></p></e>
+    <e><p><l>protestovat<s n="vblex"/><s n="impf"/></l><r>возражать<s n="vblex"/><s n="impf"/></r></p></e>
+    <e><p><l>psát<s n="vblex"/><s n="impf"/></l><r>писать<s n="vblex"/><s n="impf"/></r></p></e>
+    <e><p><l>reagovat<s n="vblex"/><s n="impf"/></l><r>отвечать<s n="vblex"/><s n="impf"/></r></p></e>
+    <e><p><l>reagovat<s n="vblex"/><s n="impf"/></l><r>реагировать<s n="vblex"/><s n="impf"/></r></p></e>
+    <e><p><l>rozdělovat<s n="vblex"/><s n="impf"/></l><r>разделять<s n="vblex"/><s n="impf"/></r></p></e>
+    <e><p><l>rozlišovat<s n="vblex"/><s n="impf"/></l><r>различать<s n="vblex"/><s n="impf"/></r></p></e>
+    <e><p><l>sbírat<s n="vblex"/><s n="impf"/></l><r>собирать<s n="vblex"/><s n="impf"/></r></p></e>
+    <e><p><l>shodovat<s n="vblex"/><s n="impf"/></l><r>соглашаться<s n="vblex"/><s n="impf"/></r></p></e>
+    <e><p><l>skrývat<s n="vblex"/><s n="impf"/></l><r>прятать<s n="vblex"/><s n="impf"/></r></p></e>
+    <e><p><l>skrývat<s n="vblex"/><s n="impf"/></l><r>скрывать<s n="vblex"/><s n="impf"/></r></p></e>
+    <e><p><l>sledovat<s n="vblex"/><s n="impf"/></l><r>наблюдать<s n="vblex"/><s n="impf"/></r></p></e>
+    <e><p><l>slibovat<s n="vblex"/><s n="impf"/></l><r>обещать<s n="vblex"/><s n="impf"/></r></p></e>
+    <e><p><l>snášet<s n="vblex"/><s n="impf"/></l><r>переносить<s n="vblex"/><s n="impf"/></r></p></e>
+    <e><p><l>snášet<s n="vblex"/><s n="impf"/></l><r>терпеть<s n="vblex"/><s n="impf"/></r></p></e>
+    <e><p><l>souhlasit<s n="vblex"/><s n="impf"/></l><r>согласиться<s n="vblex"/><s n="perf"/></r></p></e>
+    <e><p><l>spoléhat<s n="vblex"/><s n="impf"/></l><r>полагаться<s n="vblex"/><s n="impf"/></r></p></e>
+    <e><p><l>spravovat<s n="vblex"/><s n="impf"/></l><r>управлять<s n="vblex"/><s n="impf"/></r></p></e>
+    <e><p><l>stíhat<s n="vblex"/><s n="impf"/></l><r>преследовать<s n="vblex"/><s n="impf"/></r></p></e>
+    <e><p><l>střílet<s n="vblex"/><s n="impf"/></l><r>стрелять<s n="vblex"/><s n="impf"/></r></p></e>
+    <e><p><l>testovat<s n="vblex"/><s n="impf"/></l><r>испытывать<s n="vblex"/><s n="impf"/></r></p></e>
+    <e><p><l>testovat<s n="vblex"/><s n="impf"/></l><r>проверять<s n="vblex"/><s n="impf"/></r></p></e>
+    <e><p><l>uchovávat<s n="vblex"/><s n="impf"/></l><r>сохранять<s n="vblex"/><s n="impf"/></r></p></e>
+    <e><p><l>učinit<s n="vblex"/><s n="perf"/></l><r>предпринять<s n="vblex"/><s n="perf"/></r></p></e>
+    <e><p><l>učinit<s n="vblex"/><s n="perf"/></l><r>сделать<s n="vblex"/><s n="perf"/></r></p></e>
+    <e><p><l>udržet<s n="vblex"/><s n="impf"/></l><r>поддержать<s n="vblex"/><s n="perf"/></r></p></e>
+    <e><p><l>udržet<s n="vblex"/><s n="impf"/></l><r>сохранить<s n="vblex"/><s n="perf"/></r></p></e>
+    <e><p><l>udržovat<s n="vblex"/><s n="impf"/></l><r>поддерживать<s n="vblex"/><s n="impf"/></r></p></e>
+    <e><p><l>ujít<s n="vblex"/><s n="perf"/></l><r>пройти<s n="vblex"/><s n="perf"/></r></p></e>
+    <e><p><l>ukázat<s n="vblex"/><s n="perf"/></l><r>показать<s n="vblex"/><s n="perf"/></r></p></e>
+    <e><p><l>ukazovat<s n="vblex"/><s n="impf"/></l><r>демонстрировать<s n="vblex"/><s n="impf"/></r></p></e>
+    <e><p><l>ukazovat<s n="vblex"/><s n="impf"/></l><r>показывать<s n="vblex"/><s n="impf"/></r></p></e>
+    <e><p><l>umírat<s n="vblex"/><s n="impf"/></l><r>умирать<s n="vblex"/><s n="impf"/></r></p></e>
+    <e><p><l>umožňovat<s n="vblex"/><s n="impf"/></l><r>делать<s n="vblex"/><s n="impf"/></r></p></e>
+    <e><p><l>umožňovat<s n="vblex"/><s n="impf"/></l><r>позволять<s n="vblex"/><s n="impf"/></r></p></e>
+    <e><p><l>usuzovat<s n="vblex"/><s n="impf"/></l><r>судить<s n="vblex"/><s n="impf"/></r></p></e>
+    <e><p><l>utržit<s n="vblex"/><s n="perf"/></l><r>заработать<s n="vblex"/><s n="perf"/></r></p></e>
+    <e><p><l>uvěřit<s n="vblex"/><s n="perf"/></l><r>поверить<s n="vblex"/><s n="perf"/></r></p></e>
+    <e><p><l>uvítat<s n="vblex"/><s n="perf"/></l><r>приветствовать<s n="vblex"/><s n="impf"/></r></p></e>
+    <e><p><l>varovat<s n="vblex"/><s n="impf"/></l><r>предупредить<s n="vblex"/><s n="perf"/></r></p></e>
+    <e><p><l>varovat<s n="vblex"/><s n="impf"/></l><r>предупреждать<s n="vblex"/><s n="impf"/></r></p></e>
+    <e><p><l>vědět<s n="vblex"/><s n="impf"/></l><r>знать<s n="vblex"/><s n="impf"/></r></p></e>
+    <e><p><l>vejít<s n="vblex"/><s n="perf"/></l><r>войти<s n="vblex"/><s n="perf"/></r></p></e>
+    <e><p><l>věnovat<s n="vblex"/><s n="impf"/></l><r>посвятить<s n="vblex"/><s n="perf"/></r></p></e>
+    <e><p><l>věřit<s n="vblex"/><s n="impf"/></l><r>верить<s n="vblex"/><s n="impf"/></r></p></e>
+    <e><p><l>vidět<s n="vblex"/><s n="impf"/></l><r>видеть<s n="vblex"/><s n="impf"/></r></p></e>
+    <e><p><l>vítat<s n="vblex"/><s n="impf"/></l><r>встречать<s n="vblex"/><s n="impf"/></r></p></e>
+    <e><p><l>vítat<s n="vblex"/><s n="impf"/></l><r>приветствовать<s n="vblex"/><s n="impf"/></r></p></e>
+    <e><p><l>vlastnit<s n="vblex"/><s n="impf"/></l><r>владеть<s n="vblex"/><s n="impf"/></r></p></e>
+    <e><p><l>vnímat<s n="vblex"/><s n="impf"/></l><r>воспринимать<s n="vblex"/><s n="impf"/></r></p></e>
+    <e><p><l>volat<s n="vblex"/><s n="impf"/></l><r>кричать<s n="vblex"/><s n="impf"/></r></p></e>
+    <e><p><l>volat<s n="vblex"/><s n="impf"/></l><r>призывать<s n="vblex"/><s n="impf"/></r></p></e>
+    <e><p><l>vracet<s n="vblex"/><s n="impf"/></l><r>возвращать<s n="vblex"/><s n="impf"/></r></p></e>
+    <e><p><l>vybírat<s n="vblex"/><s n="impf"/></l><r>выбирать<s n="vblex"/><s n="impf"/></r></p></e>
+    <e><p><l>vyčkávat<s n="vblex"/><s n="impf"/></l><r>ждать<s n="vblex"/><s n="impf"/></r></p></e>
+    <e><p><l>vyčlenit<s n="vblex"/><s n="perf"/></l><r>выделить<s n="vblex"/><s n="perf"/></r></p></e>
+    <e><p><l>vydávat<s n="vblex"/><s n="impf"/></l><r>выдавать<s n="vblex"/><s n="impf"/></r></p></e>
+    <e><p><l>vydávat<s n="vblex"/><s n="impf"/></l><r>выпускать<s n="vblex"/><s n="impf"/></r></p></e>
+    <e><p><l>vydávat<s n="vblex"/><s n="impf"/></l><r>тратить<s n="vblex"/><s n="impf"/></r></p></e>
+    <e><p><l>vyhrát<s n="vblex"/><s n="perf"/></l><r>выиграть<s n="vblex"/><s n="perf"/></r></p></e>
+    <e><p><l>vyhrát<s n="vblex"/><s n="perf"/></l><r>победить<s n="vblex"/><s n="perf"/></r></p></e>
+    <e><p><l>vyjít<s n="vblex"/><s n="perf"/></l><r>выйти<s n="vblex"/><s n="perf"/></r></p></e>
+    <e><p><l>vykazovat<s n="vblex"/><s n="impf"/></l><r>показывать<s n="vblex"/><s n="impf"/></r></p></e>
+    <e><p><l>vykonávat<s n="vblex"/><s n="impf"/></l><r>выполнять<s n="vblex"/><s n="impf"/></r></p></e>
+    <e><p><l>vykřikovat<s n="vblex"/><s n="impf"/></l><r>кричать<s n="vblex"/><s n="impf"/></r></p></e>
+    <e><p><l>vypadat<s n="vblex"/><s n="impf"/></l><r>выглядеть<s n="vblex"/><s n="perf"/></r></p></e>
+    <e><p><l>vyplnit<s n="vblex"/><s n="perf"/></l><r>заполнить<s n="vblex"/><s n="perf"/></r></p></e>
+    <e><p><l>vyslovovat<s n="vblex"/><s n="impf"/></l><r>выражать<s n="vblex"/><s n="impf"/></r></p></e>
+    <e><p><l>vystupovat<s n="vblex"/><s n="impf"/></l><r>выступать<s n="vblex"/><s n="impf"/></r></p></e>
+    <e><p><l>vytvářet<s n="vblex"/><s n="impf"/></l><r>производить<s n="vblex"/><s n="impf"/></r></p></e>
+    <e><p><l>vytvářet<s n="vblex"/><s n="impf"/></l><r>создавать<s n="vblex"/><s n="impf"/></r></p></e>
+    <e><p><l>vyžadovat<s n="vblex"/><s n="impf"/></l><r>требовать<s n="vblex"/><s n="impf"/></r></p></e>
+    <e><p><l>vyznačovat<s n="vblex"/><s n="impf"/></l><r>отмечать<s n="vblex"/><s n="impf"/></r></p></e>
+    <e><p><l>vzdorovat<s n="vblex"/><s n="impf"/></l><r>сопротивляться<s n="vblex"/><s n="impf"/></r></p></e>
+    <e><p><l>vzrůstat<s n="vblex"/><s n="impf"/></l><r>расти<s n="vblex"/><s n="impf"/></r></p></e>
+    <e><p><l>zabíjet<s n="vblex"/><s n="impf"/></l><r>убивать<s n="vblex"/><s n="impf"/></r></p></e>
+    <e><p><l>zachovat<s n="vblex"/><s n="impf"/></l><r>сохранить<s n="vblex"/><s n="perf"/></r></p></e>
+    <e><p><l>zadržovat<s n="vblex"/><s n="impf"/></l><r>сдерживать<s n="vblex"/><s n="impf"/></r></p></e>
+    <e><p><l>zahajovat<s n="vblex"/><s n="impf"/></l><r>начинать<s n="vblex"/><s n="impf"/></r></p></e>
+    <e><p><l>zahrnovat<s n="vblex"/><s n="impf"/></l><r>включать<s n="vblex"/><s n="impf"/></r></p></e>
+    <e><p><l>zajistit<s n="vblex"/><s n="perf"/></l><r>обеспечить<s n="vblex"/><s n="perf"/></r></p></e>
+    <e><p><l>zajít<s n="vblex"/><s n="perf"/></l><r>зайти<s n="vblex"/><s n="perf"/></r></p></e>
+    <e><p><l>zakrývat<s n="vblex"/><s n="impf"/></l><r>скрывать<s n="vblex"/><s n="impf"/></r></p></e>
+    <e><p><l>zaměřit<s n="vblex"/><s n="perf"/></l><r>направить<s n="vblex"/><s n="perf"/></r></p></e>
+    <e><p><l>zastávat<s n="vblex"/><s n="impf"/></l><r>занимать<s n="vblex"/><s n="impf"/></r></p></e>
+    <e><p><l>závidět<s n="vblex"/><s n="impf"/></l><r>завидовать<s n="vblex"/><s n="impf"/></r></p></e>
+    <e><p><l>získávat<s n="vblex"/><s n="impf"/></l><r>получать<s n="vblex"/><s n="impf"/></r></p></e>
+    <e><p><l>žít<s n="vblex"/><s n="impf"/></l><r>жить<s n="vblex"/><s n="impf"/></r></p></e>
+    <e><p><l>změnit<s n="vblex"/><s n="perf"/></l><r>изменить<s n="vblex"/><s n="perf"/></r></p></e>
+    <e><p><l>znamenat<s n="vblex"/><s n="impf"/></l><r>значить<s n="vblex"/><s n="impf"/></r></p></e>
+    <e><p><l>znamenat<s n="vblex"/><s n="impf"/></l><r>означать<s n="vblex"/><s n="impf"/></r></p></e>
+    <e><p><l>zničit<s n="vblex"/><s n="perf"/></l><r>разрушить<s n="vblex"/><s n="perf"/></r></p></e>
+    <e><p><l>zpívat<s n="vblex"/><s n="impf"/></l><r>петь<s n="vblex"/><s n="impf"/></r></p></e>
+    <e><p><l>zrušit<s n="vblex"/><s n="perf"/></l><r>отменить<s n="vblex"/><s n="perf"/></r></p></e>
+    <e><p><l>ztratit<s n="vblex"/><s n="perf"/></l><r>потерять<s n="vblex"/><s n="perf"/></r></p></e>
+    <e><p><l>zůstat<s n="vblex"/><s n="perf"/></l><r>остаться<s n="vblex"/><s n="perf"/></r></p></e>
+    <e><p><l>zvýšit<s n="vblex"/><s n="perf"/></l><r>увеличить<s n="vblex"/><s n="perf"/></r></p></e>
+
 
     <!-- Раздел: Punctuation -->
 
