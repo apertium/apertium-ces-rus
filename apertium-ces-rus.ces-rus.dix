@@ -18,7 +18,6 @@
     <sdef n="cnjsub"     c="Subordinating conjunction"/>
     <sdef n="cnjadv"     c="Adverbial conjunction"/>
 
-    <sdef n="itg"        c="Interrogative"/>
 
     <sdef n="f"          c="Feminine"/>
     <sdef n="m"          c="Masculine"/>
@@ -30,9 +29,17 @@
     <sdef n="nn"         c="Inanimate"/>
 
     <sdef n="rel"        c="Relative"/>
+    <sdef n="ref"        c="Reflexive"/>
+    <sdef n="pos"        c="Possessive"/>
+    <sdef n="ind"        c="Indefinite"/>
+    <sdef n="dem"        c="Demonstrative"/>
+    <sdef n="ord"        c="Ordinal"/>
+    <sdef n="itg"        c="Interrogative"/>
 
     <sdef n="impf"       c="Imperfective"/>
     <sdef n="perf"       c="Perfective"/>
+
+    <sdef n="sint"       c="Synthetic"/>
 
     <sdef n="cm"         c="Comma"/>
     <sdef n="sent"       c="Sentence marker"/>
@@ -124,6 +131,19 @@
     <e><p><l>prpers<s n="prn"/></l><r>prpers<s n="prn"/></r></p></e>
 
     <!-- Раздел: Determiners -->
+
+    <e><p><l>čí<s n="det"/><s n="itg"/></l><r>чей<s n="det"/><s n="pos"/></r></p></e>
+    <e><p><l>jiný<s n="det"/><s n="ind"/></l><r>другой<s n="det"/><s n="ind"/></r></p></e>
+    <e><p><l>můj<s n="det"/><s n="pos"/></l><r>мой<s n="det"/><s n="pos"/></r></p></e>
+    <e><p><l>samotný<s n="adj"/><s n="sint"/></l><r>сам<s n="det"/><s n="ref"/></r></p></e>
+    <e><p><l>svůj<s n="det"/><s n="pos"/></l><r>свой<s n="det"/><s n="pos"/></r></p></e>
+    <e><p><l>takový<s n="det"/><s n="dem"/></l><r>такой<s n="det"/><s n="ind"/></r></p></e>
+    <e><p><l>toto<s n="det"/><s n="dem"/></l><r>этот<s n="det"/><s n="dem"/></r></p></e>
+    <e><p><l>to<s n="det"/><s n="dem"/></l><r>тот<s n="det"/><s n="dem"/></r></p></e>
+    <e><p><l>tvůj<s n="det"/><s n="pos"/></l><r>твой<s n="det"/><s n="pos"/></r></p></e>
+    <e><p><l>všechen<s n="det"/><s n="ind"/></l><r>весь<s n="det"/><s n="ind"/></r></p></e>
+
+    <e><p><l>sedmý<s n="det"/><s n="ord"/></l><r>седьмой<s n="det"/><s n="ord"/></r></p></e>
 
     <!-- Раздел: Numerals -->
    
