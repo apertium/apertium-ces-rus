@@ -1,0 +1,12 @@
+DELIMITERS = "<.>" "<!>" "<?>" ; 
+SOFT-DELIMITERS = "<,>" ;
+
+LIST BOS = (>>>) ; 
+LIST EOS = (<<<) ;
+
+NP-MOD = adj det ; 
+NGDAILV = nom gen dat acc ins loc voc ;
+
+SECTION
+
+REMOVE $$NGDAILV IF (0C NP-MOD) (1C N) (NOT 1C N + $$NGDAILV);

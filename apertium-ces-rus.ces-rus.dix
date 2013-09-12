@@ -1,0 +1,23 @@
+
+<dictionary>
+  <alphabet/>
+  <sdefs>
+    <sdef n="n"          c="Noun"/>
+    <sdef n="np"         c="Proper noun"/>
+    <sdef n="det"        c="Determiner"/>
+    <sdef n="prn"        c="Pronoun"/>
+    <sdef n="num"        c="Numeral"/>
+    <sdef n="pr"         c="Preposition"/>
+    <sdef n="vblex"      c="Verb"/>
+  </sdefs>
+
+  <section id="main" type="standard">
+   
+    <!-- SECTION: Verbs -->
+
+    <e><p><l>být<s n="vblex"/></l><r>быть<s n="vblex"/></r></p></e>
+
+  </section>
+
+</dictionary>
+
