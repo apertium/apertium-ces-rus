@@ -29,6 +29,8 @@
     <sdef n="aa"         c="Animate"/>
     <sdef n="nn"         c="Inanimate"/>
 
+    <sdef n="rel"        c="Relative"/>
+
     <sdef n="impf"       c="Imperfective"/>
     <sdef n="perf"       c="Perfective"/>
 
@@ -56,6 +58,66 @@
 
     <e><p><l>v<s n="pr"/></l><r>в<s n="pr"/></r></p></e>
     <e><p><l>od<s n="pr"/></l><r>от<s n="pr"/></r></p></e>
+    <e><p><l>asi<s n="pr"/></l><r>около<s n="pr"/></r></p></e>
+    <e><p><l>během<s n="pr"/></l><r>в<s n="pr"/></r></p></e>
+    <e><p><l>díky<s n="pr"/></l><r>благодаря<s n="pr"/></r></p></e>
+    <e><p><l>dle<s n="pr"/></l><r>по<s n="pr"/></r></p></e>
+    <e><p><l>do<s n="pr"/></l><r>в<s n="pr"/></r></p></e>
+    <e><p><l>jako<s n="pr"/></l><r>вроде<s n="pr"/></r></p></e>
+    <e><p><l>kromě<s n="pr"/></l><r>кроме<s n="pr"/></r></p></e>
+    <e><p><l>kvůli<s n="pr"/></l><r>благодаря<s n="pr"/></r></p></e>
+    <e><p><l>kvůli<s n="pr"/></l><r>для<s n="pr"/></r></p></e>
+    <e><p><l>kvůli<s n="pr"/></l><r>из-за<s n="pr"/></r></p></e>
+    <e><p><l>k<s n="pr"/></l><r>для<s n="pr"/></r></p></e>
+    <e><p><l>k<s n="pr"/></l><r>к<s n="pr"/></r></p></e>
+    <e><p><l>mezi<s n="pr"/></l><r>меж<s n="pr"/></r></p></e>
+    <e><p><l>mezi<s n="pr"/></l><r>между<s n="pr"/></r></p></e>
+    <e><p><l>mimo<s n="pr"/></l><r>вне<s n="pr"/></r></p></e>
+    <e><p><l>mimo<s n="pr"/></l><r>кроме<s n="pr"/></r></p></e>
+    <e><p><l>mimo<s n="pr"/></l><r>помимо<s n="pr"/></r></p></e>
+    <e><p><l>nad<s n="pr"/></l><r>над<s n="pr"/></r></p></e>
+    <e><p><l>namísto<s n="pr"/></l><r>вместо<s n="pr"/></r></p></e>
+    <e><p><l>naproti<s n="pr"/></l><r>напротив<s n="pr"/></r></p></e>
+    <e><p><l>navzdory<s n="pr"/></l><r>вопреки<s n="pr"/></r></p></e>
+    <e><p><l>navzdory<s n="pr"/></l><r>несмотря<s n="pr"/></r></p></e>
+    <e><p><l>na<s n="pr"/></l><r>в<s n="pr"/></r></p></e>
+    <e><p><l>od<s n="pr"/></l><r>от<s n="pr"/></r></p></e>
+    <e><p><l>okolo<s n="pr"/></l><r>вокруг<s n="pr"/></r></p></e>
+    <e><p><l>okolo<s n="pr"/></l><r>около<s n="pr"/></r></p></e>
+    <e><p><l>oproti<s n="pr"/></l><r>против<s n="pr"/></r></p></e>
+    <e><p><l>o<s n="pr"/></l><r>в<s n="pr"/></r></p></e>
+    <e><p><l>o<s n="pr"/></l><r>на<s n="pr"/></r></p></e>
+    <e><p><l>podél<s n="pr"/></l><r>вдоль<s n="pr"/></r></p></e>
+    <e><p><l>pod<s n="pr"/></l><r>за<s n="pr"/></r></p></e>
+    <e><p><l>pod<s n="pr"/></l><r>ниже<s n="pr"/></r></p></e>
+    <e><p><l>pod<s n="pr"/></l><r>под<s n="pr"/></r></p></e>
+    <e><p><l>po<s n="pr"/></l><r>до<s n="pr"/></r></p></e>
+    <e><p><l>po<s n="pr"/></l><r>по<s n="pr"/></r></p></e>
+    <e><p><l>po<s n="pr"/></l><r>после<s n="pr"/></r></p></e>
+    <e><p><l>před<s n="pr"/></l><r>до<s n="pr"/></r></p></e>
+    <e><p><l>přes<s n="pr"/></l><r>несмотря<s n="pr"/></r></p></e>
+    <e><p><l>při<s n="pr"/></l><r>в<s n="pr"/></r></p></e>
+    <e><p><l>proti<s n="pr"/></l><r>вопреки<s n="pr"/></r></p></e>
+    <e><p><l>proti<s n="pr"/></l><r>от<s n="pr"/></r></p></e>
+    <e><p><l>proti<s n="pr"/></l><r>против<s n="pr"/></r></p></e>
+    <e><p><l>pro<s n="pr"/></l><r>для<s n="pr"/></r></p></e>
+    <e><p><l>shora<s n="pr"/></l><r>сверху<s n="pr"/></r></p></e>
+    <e><p><l>s<s n="pr"/></l><r>от<s n="pr"/></r></p></e>
+    <e><p><l>s<s n="pr"/></l><r>при<s n="pr"/></r></p></e>
+    <e><p><l>s<s n="pr"/></l><r>с<s n="pr"/></r></p></e>
+    <e><p><l>uprostřed<s n="pr"/></l><r>посередине<s n="pr"/></r></p></e>
+    <e><p><l>uprostřed<s n="pr"/></l><r>посреди<s n="pr"/></r></p></e>
+    <e><p><l>u<s n="pr"/></l><r>в<s n="pr"/></r></p></e>
+    <e><p><l>včetně<s n="pr"/></l><r>включая<s n="pr"/></r></p></e>
+    <e><p><l>vně<s n="pr"/></l><r>вне<s n="pr"/></r></p></e>
+    <e><p><l>vůči<s n="pr"/></l><r>перед<s n="pr"/></r></p></e>
+    <e><p><l>vyjma<s n="pr"/></l><r>кроме<s n="pr"/></r></p></e>
+    <e><p><l>v<s n="pr"/></l><r>в<s n="pr"/></r></p></e>
+    <e><p><l>za<s n="pr"/></l><r>в<s n="pr"/></r></p></e>
+    <e><p><l>za<s n="pr"/></l><r>за<s n="pr"/></r></p></e>
+    <e><p><l>zpod<s n="pr"/></l><r>из-под<s n="pr"/></r></p></e>
+    <e><p><l>z<s n="pr"/></l><r>в<s n="pr"/></r></p></e>
+
 
     <!-- Раздел: Pronouns -->
 
@@ -996,6 +1058,105 @@
     <e><p><l>ne<s n="adv"/></l><r>не<s n="adv"/></r></p></e>
     <e><p><l>tiď<s n="adv"/></l><r>сейчас<s n="adv"/></r></p></e>
     <e><p><l>tiď<s n="adv"/></l><r>теперь<s n="adv"/></r></p></e>
+    <e><p><l>denně<s n="adv"/></l><r>ежедневно<s n="adv"/></r></p></e>
+    <e><p><l>dnes<s n="adv"/></l><r>сегодня<s n="adv"/></r></p></e>
+    <e><p><l>docela<s n="adv"/></l><r>вполне<s n="adv"/></r></p></e>
+    <e><p><l>dohromady<s n="adv"/></l><r>вместе<s n="adv"/></r></p></e>
+    <e><p><l>dokonce<s n="adv"/></l><r>вообще<s n="adv"/></r></p></e>
+    <e><p><l>dokonce<s n="adv"/></l><r>даже<s n="adv"/></r></p></e>
+    <e><p><l>doopravdy<s n="adv"/></l><r>действительно<s n="adv"/></r></p></e>
+    <e><p><l>hned<s n="adv"/></l><r>немедленно<s n="adv"/></r></p></e>
+    <e><p><l>hned<s n="adv"/></l><r>сейчас<s n="adv"/></r></p></e>
+    <e><p><l>ihned<s n="adv"/></l><r>немедленно<s n="adv"/></r></p></e>
+    <e><p><l>ihned<s n="adv"/></l><r>сейчас<s n="adv"/></r></p></e>
+    <e><p><l>ihned<s n="adv"/></l><r>сразу<s n="adv"/></r></p></e>
+    <e><p><l>jenom<s n="adv"/></l><r>лишь<s n="adv"/></r></p></e>
+    <e><p><l>jenom<s n="adv"/></l><r>только<s n="adv"/></r></p></e>
+    <e><p><l>jen<s n="adv"/></l><r>едва<s n="adv"/></r></p></e>
+    <e><p><l>jen<s n="adv"/></l><r>лишь<s n="adv"/></r></p></e>
+    <e><p><l>jen<s n="adv"/></l><r>только<s n="adv"/></r></p></e>
+    <e><p><l>ještě<s n="adv"/></l><r>ещё<s n="adv"/></r></p></e>
+    <e><p><l>kam<s n="adv"/><s n="itg"/></l><r>куда<s n="adv"/></r></p></e>
+    <e><p><l>konečně<s n="adv"/></l><r>наконец<s n="adv"/></r></p></e>
+    <e><p><l>kupříkladu<s n="adv"/></l><r>например<s n="adv"/></r></p></e>
+    <e><p><l>mlčky<s n="adv"/></l><r>молча<s n="adv"/></r></p></e>
+    <e><p><l>mnohdy<s n="adv"/></l><r>часто<s n="adv"/></r></p></e>
+    <e><p><l>náhle<s n="adv"/></l><r>вдруг<s n="adv"/></r></p></e>
+    <e><p><l>náhle<s n="adv"/></l><r>внезапно<s n="adv"/></r></p></e>
+    <e><p><l>najednou<s n="adv"/></l><r>вдруг<s n="adv"/></r></p></e>
+    <e><p><l>najednou<s n="adv"/></l><r>внезапно<s n="adv"/></r></p></e>
+    <e><p><l>najednou<s n="adv"/></l><r>одновременно<s n="adv"/></r></p></e>
+    <e><p><l>nakonec<s n="adv"/></l><r>наконец<s n="adv"/></r></p></e>
+    <e><p><l>naopak<s n="adv"/></l><r>наоборот<s n="adv"/></r></p></e>
+    <e><p><l>například<s n="adv"/></l><r>например<s n="adv"/></r></p></e>
+    <e><p><l>navždy<s n="adv"/></l><r>навсегда<s n="adv"/></r></p></e>
+    <e><p><l>nedávno<s n="adv"/></l><r>недавно<s n="adv"/></r></p></e>
+    <e><p><l>ne<s n="adv"/></l><r>не<s n="adv"/></r></p></e>
+    <e><p><l>nikde<s n="adv"/></l><r>нигде<s n="adv"/></r></p></e>
+    <e><p><l>nikdy<s n="adv"/></l><r>никогда<s n="adv"/></r></p></e>
+    <e><p><l>občas<s n="adv"/></l><r>иногда<s n="adv"/></r></p></e>
+    <e><p><l>odtud<s n="adv"/></l><r>отсюда<s n="adv"/></r></p></e>
+    <e><p><l>opět<s n="adv"/></l><r>вновь<s n="adv"/></r></p></e>
+    <e><p><l>opět<s n="adv"/></l><r>снова<s n="adv"/></r></p></e>
+    <e><p><l>opravdu<s n="adv"/></l><r>действительно<s n="adv"/></r></p></e>
+    <e><p><l>ovšemže<s n="adv"/></l><r>конечно<s n="adv"/></r></p></e>
+    <e><p><l>pak<s n="adv"/></l><r>затем<s n="adv"/></r></p></e>
+    <e><p><l>pohromadě<s n="adv"/></l><r>вместе<s n="adv"/></r></p></e>
+    <e><p><l>pomalu<s n="adv"/></l><r>медленно<s n="adv"/></r></p></e>
+    <e><p><l>poněkud<s n="adv"/></l><r>немного<s n="adv"/></r></p></e>
+    <e><p><l>poněkud<s n="adv"/></l><r>несколько<s n="adv"/></r></p></e>
+    <e><p><l>pospolu<s n="adv"/></l><r>вместе<s n="adv"/></r></p></e>
+    <e><p><l>poté<s n="adv"/></l><r>затем<s n="adv"/></r></p></e>
+    <e><p><l>potom<s n="adv"/></l><r>затем<s n="adv"/></r></p></e>
+    <e><p><l>potom<s n="adv"/></l><r>тогда<s n="adv"/></r></p></e>
+    <e><p><l>pouze<s n="adv"/></l><r>лишь<s n="adv"/></r></p></e>
+    <e><p><l>pouze<s n="adv"/></l><r>только<s n="adv"/></r></p></e>
+    <e><p><l>právě<s n="adv"/></l><r>именно<s n="adv"/></r></p></e>
+    <e><p><l>předem<s n="adv"/></l><r>заранее<s n="adv"/></r></p></e>
+    <e><p><l>přesně<s n="adv"/></l><r>точно<s n="adv"/></r></p></e>
+    <e><p><l>proč<s n="rel"/><s n="adv"/></l><r>зачем<s n="adv"/></r></p></e>
+    <e><p><l>proč<s n="rel"/><s n="adv"/></l><r>почему<s n="adv"/></r></p></e>
+    <e><p><l>prozatím<s n="adv"/></l><r>ещё<s n="adv"/></r></p></e>
+    <e><p><l>prozatím<s n="adv"/></l><r>пока<s n="adv"/></r></p></e>
+    <e><p><l>samozřejmě<s n="adv"/></l><r>конечно<s n="adv"/></r></p></e>
+    <e><p><l>snad<s n="adv"/></l><r>вероятно<s n="adv"/></r></p></e>
+    <e><p><l>snad<s n="adv"/></l><r>возможно<s n="adv"/></r></p></e>
+    <e><p><l>spolu<s n="adv"/></l><r>вместе<s n="adv"/></r></p></e>
+    <e><p><l>stále<s n="adv"/></l><r>всегда<s n="adv"/></r></p></e>
+    <e><p><l>stále<s n="adv"/></l><r>постоянно<s n="adv"/></r></p></e>
+    <e><p><l>tady<s n="adv"/></l><r>здесь<s n="adv"/></r></p></e>
+    <e><p><l>také<s n="adv"/></l><r>также<s n="adv"/></r></p></e>
+    <e><p><l>takřka<s n="adv"/></l><r>почти<s n="adv"/></r></p></e>
+    <e><p><l>tak<s n="adv"/></l><r>столь<s n="adv"/></r></p></e>
+    <e><p><l>tak<s n="adv"/></l><r>так<s n="adv"/></r></p></e>
+    <e><p><l>tehdy<s n="adv"/></l><r>тогда<s n="adv"/></r></p></e>
+    <e><p><l>téměř<s n="adv"/></l><r>почти<s n="adv"/></r></p></e>
+    <e><p><l>teprve<s n="adv"/></l><r>лишь<s n="adv"/></r></p></e>
+    <e><p><l>teprve<s n="adv"/></l><r>только<s n="adv"/></r></p></e>
+    <e><p><l>trochu<s n="adv"/></l><r>немного<s n="adv"/></r></p></e>
+    <e><p><l>údajně<s n="adv"/></l><r>якобы<s n="adv"/></r></p></e>
+    <e><p><l>už<s n="adv"/></l><r>уже<s n="adv"/></r></p></e>
+    <e><p><l>včera<s n="adv"/></l><r>вчера<s n="adv"/></r></p></e>
+    <e><p><l>velice<s n="adv"/></l><r>очень<s n="adv"/></r></p></e>
+    <e><p><l>velmi<s n="adv"/></l><r>весьма<s n="adv"/></r></p></e>
+    <e><p><l>velmi<s n="adv"/></l><r>очень<s n="adv"/></r></p></e>
+    <e><p><l>všude<s n="adv"/></l><r>везде<s n="adv"/></r></p></e>
+    <e><p><l>vůbec<s n="adv"/></l><r>вообще<s n="adv"/></r></p></e>
+    <e><p><l>vždy<s n="adv"/></l><r>всегда<s n="adv"/></r></p></e>
+    <e><p><l>zároveň<s n="adv"/></l><r>вместе<s n="adv"/></r></p></e>
+    <e><p><l>zároveň<s n="adv"/></l><r>одновременно<s n="adv"/></r></p></e>
+    <e><p><l>zároveň<s n="adv"/></l><r>также<s n="adv"/></r></p></e>
+    <e><p><l>zase<s n="adv"/></l><r>опять<s n="adv"/></r></p></e>
+    <e><p><l>zatímco<s n="adv"/></l><r>пока<s n="adv"/></r></p></e>
+    <e><p><l>zcela<s n="adv"/></l><r>вполне<s n="adv"/></r></p></e>
+    <e><p><l>zcela<s n="adv"/></l><r>полностью<s n="adv"/></r></p></e>
+    <e><p><l>zdarma<s n="adv"/></l><r>бесплатно<s n="adv"/></r></p></e>
+    <e><p><l>zde<s n="adv"/></l><r>здесь<s n="adv"/></r></p></e>
+    <e><p><l>zejména<s n="adv"/></l><r>особенно<s n="adv"/></r></p></e>
+    <e><p><l>zítra<s n="adv"/></l><r>завтра<s n="adv"/></r></p></e>
+    <e><p><l>znovu<s n="adv"/></l><r>вновь<s n="adv"/></r></p></e>
+    <e><p><l>znovu<s n="adv"/></l><r>снова<s n="adv"/></r></p></e>
+    <e><p><l>zřejmě<s n="adv"/></l><r>очевидно<s n="adv"/></r></p></e>
 
 
     <!-- Раздел: Verbs -->
