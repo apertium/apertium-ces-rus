@@ -4,8 +4,10 @@ SOFT-DELIMITERS = "<,>" ;
 LIST BOS = (>>>) ; 
 LIST EOS = (<<<) ;
 
-NP-MOD = adj det ; 
-NGDAILV = nom gen dat acc ins loc voc ;
+LIST N = n ;
+
+LIST NP-MOD = adj det ; 
+LIST NGDAILV = nom gen dat acc ins loc voc ;
 
 SECTION
 

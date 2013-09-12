@@ -8,7 +8,6 @@ AC_INIT([apertium-ces-rus], [0.0.1], [foo@foo.com])
 AM_INIT_AUTOMAKE([apertium-ces-rus], [0.0.1], no-define)
 AC_PROG_LN_S
 AC_PROG_AWK
-AC_CONFIG_HEADER([config])
 
 AC_DEFUN([PKG_CHECK_APERTIUM], [
   APERTIUM_VER=0
