@@ -14,6 +14,7 @@
     <sdef n="abbr"       c="Abbreviation"/>
     <sdef n="part"       c="'Particle'"/>
     <sdef n="vbmod"      c="Modal verb"/>
+    <sdef n="vaux"       c="Auxiliary verb"/>
     <sdef n="vbhaver"    c="Verb 'to have'"/>
     <sdef n="vbser"      c="Verb 'to be'"/>
     <sdef n="cnjcoo"     c="Coordinating conjunction"/>
@@ -2531,6 +2532,8 @@
     <!-- Раздел: Verbs -->
 
     <e><p><l>být<s n="vbser"/></l><r>быть<s n="vbser"/></r></p></e>
+    <e><p><l>být<s n="vbser"/></l><r>бывать<s n="vblex"/><s n="impf"/></r></p></e>
+    <e><p><l>moci<s n="vaux"/><s n="impf"/></l><r>мочь<s n="vbmod"/><s n="impf"/></r></p></e>
 
     <e><p><l>akceptovat<s n="vblex"/><s n="impf"/></l><r>принимать<s n="vblex"/><s n="impf"/></r></p></e>
     <e><p><l>aplikovat<s n="vblex"/><s n="impf"/></l><r>применять<s n="vblex"/><s n="impf"/></r></p></e>
@@ -2540,8 +2543,6 @@
     <e><p><l>bojovat<s n="vblex"/><s n="impf"/></l><r>бороться<s n="vblex"/><s n="impf"/></r></p></e>
     <e><p><l>budovat<s n="vblex"/><s n="impf"/></l><r>создавать<s n="vblex"/><s n="impf"/></r></p></e>
     <e><p><l>budovat<s n="vblex"/><s n="impf"/></l><r>строить<s n="vblex"/><s n="impf"/></r></p></e>
-    <e><p><l>být<s n="vbser"/></l><r>бывать<s n="vblex"/><s n="impf"/></r></p></e>
-    <e><p><l>být<s n="vbser"/></l><r>быть<s n="vbser"/></r></p></e>
     <e><p><l>čekat<s n="vblex"/><s n="impf"/></l><r>ждать<s n="vblex"/><s n="impf"/></r></p></e>
     <e><p><l>cestovat<s n="vblex"/><s n="impf"/></l><r>ездить<s n="vblex"/><s n="impf"/></r></p></e>
     <e><p><l>chápat<s n="vblex"/><s n="impf"/></l><r>воспринимать<s n="vblex"/><s n="impf"/></r></p></e>
