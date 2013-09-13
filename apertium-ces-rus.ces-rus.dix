@@ -1919,6 +1919,27 @@
     <e><p><l>archeologie<s n="n"/><s n="f"/></l><r>археология<s n="n"/><s n="f"/><s n="nn"/></r></p></e>
     <e><p><l>agentura<s n="n"/><s n="f"/></l><r>агентство<s n="n"/><s n="nt"/><s n="nn"/></r></p></e>
 
+    <e><p><l>delirium<s n="n"/><s n="nt"/></l><r>бред<s n="n"/><s n="m"/><s n="nn"/></r></p></e>
+    <e><p><l>gusto<s n="n"/><s n="nt"/></l><r>вкус<s n="n"/><s n="m"/><s n="nn"/></r></p></e>
+    <e><p><l>jídlo<s n="n"/><s n="nt"/></l><r>блюдо<s n="n"/><s n="nt"/><s n="nn"/></r></p></e>
+    <e><p><l>jídlo<s n="n"/><s n="nt"/></l><r>еда<s n="n"/><s n="f"/><s n="nn"/></r></p></e>
+    <e><p><l>jídlo<s n="n"/><s n="nt"/></l><r>пища<s n="n"/><s n="f"/><s n="nn"/></r></p></e>
+    <e><p><l>křeslo<s n="n"/><s n="nt"/></l><r>кресло<s n="n"/><s n="nt"/><s n="nn"/></r></p></e>
+    <e><p><l>lano<s n="n"/><s n="nt"/></l><r>веревка<s n="n"/><s n="f"/><s n="nn"/></r></p></e>
+    <e><p><l>minorita<s n="n"/><s n="f"/></l><r>меньшинство<s n="n"/><s n="nt"/><s n="nn"/></r></p></e>
+    <e><p><l>moře<s n="n"/><s n="nt"/></l><r>море<s n="n"/><s n="nt"/><s n="nn"/></r></p></e>
+    <e><p><l>mužstvo<s n="n"/><s n="nt"/></l><r>команда<s n="n"/><s n="f"/><s n="nn"/></r></p></e>
+    <e><p><l>plavidlo<s n="n"/><s n="nt"/></l><r>судно<s n="n"/><s n="nt"/><s n="nn"/></r></p></e>
+    <e><p><l>pouto<s n="n"/><s n="nt"/></l><r>связь<s n="n"/><s n="f"/><s n="nn"/></r></p></e>
+    <e><p><l>představenstvo<s n="n"/><s n="nt"/></l><r>правление<s n="n"/><s n="nt"/><s n="nn"/></r></p></e>
+    <e><p><l>privilegium<s n="n"/><s n="nt"/></l><r>преимущество<s n="n"/><s n="nt"/><s n="nn"/></r></p></e>
+    <e><p><l>procento<s n="n"/><s n="nt"/></l><r>процент<s n="n"/><s n="m"/><s n="nn"/></r></p></e>
+    <e><p><l>studium<s n="n"/><s n="nt"/></l><r>изучение<s n="n"/><s n="nt"/><s n="nn"/></r></p></e>
+    <e><p><l>studium<s n="n"/><s n="nt"/></l><r>исследование<s n="n"/><s n="nt"/><s n="nn"/></r></p></e>
+    <e><p><l>těleso<s n="n"/><s n="nt"/></l><r>тело<s n="n"/><s n="nt"/><s n="nn"/></r></p></e>
+    <e><p><l>tempo<s n="n"/><s n="nt"/></l><r>темп<s n="n"/><s n="m"/><s n="nn"/></r></p></e>
+    <e><p><l>teritorium<s n="n"/><s n="nt"/></l><r>территория<s n="n"/><s n="f"/><s n="nn"/></r></p></e>
+
     <!-- Раздел: Proper nouns -->
 
     <e><p><l>Evropa<s n="np"/><s n="top"/><s n="f"/></l><r>Европа<s n="np"/><s n="top"/><s n="f"/></r></p></e>
