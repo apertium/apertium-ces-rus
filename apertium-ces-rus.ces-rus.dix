@@ -12,6 +12,7 @@
     <sdef n="pr"         c="Preposition"/>
     <sdef n="vblex"      c="Verb"/>
     <sdef n="abbr"       c="Abbreviation"/>
+    <sdef n="part"       c="'Particle'"/>
     <sdef n="vbmod"      c="Modal verb"/>
     <sdef n="vbhaver"    c="Verb 'to have'"/>
     <sdef n="vbser"      c="Verb 'to be'"/>
@@ -43,6 +44,8 @@
     <sdef n="perf"       c="Perfective"/>
 
     <sdef n="sint"       c="Synthetic"/>
+
+    <sdef n="comp"       c="Comparative"/>
 
     <sdef n="top"        c="Toponym"/>
     <sdef n="indecl"     c="Indeclinable"/>
@@ -2338,6 +2341,9 @@
 
     <!-- Раздел: Adverbs -->
 
+    <e><p><l>ano<s n="adv"/></l><r>да<s n="part"/></r></p></e>
+    <e><p><l>zda<s n="adv"/><s n="itg"/></l><r>ли<s n="part"/></r></p></e>
+
     <e><p><l>nej<s n="adv"/></l><r>более<s n="preadv"/></r></p></e>
 
     <e><p><l>kdy<s n="adv"/><s n="itg"/></l><r>когда<s n="adv"/><s n="itg"/></r></p></e>
@@ -2446,6 +2452,77 @@
     <e><p><l>znovu<s n="adv"/></l><r>вновь<s n="adv"/></r></p></e>
     <e><p><l>znovu<s n="adv"/></l><r>снова<s n="adv"/></r></p></e>
     <e><p><l>zřejmě<s n="adv"/></l><r>очевидно<s n="adv"/></r></p></e>
+
+
+    <e><p><l>bedlivě<s n="adv"/><s n="sint"/></l><r>внимательно<s n="adv"/></r></p></e>
+    <e><p><l>bezprostředně<s n="adv"/><s n="sint"/></l><r>непосредственно<s n="adv"/></r></p></e>
+    <e><p><l>často<s n="adv"/><s n="sint"/></l><r>часто<s n="adv"/></r></p></e>
+    <e><p><l>celkem<s n="adv"/></l><r>весьма<s n="adv"/></r></p></e>
+    <e><p><l>daleko<s n="adv"/><s n="sint"/></l><r>гораздо<s n="adv"/></r></p></e>
+    <e><p><l>daleko<s n="adv"/><s n="sint"/></l><r>далеко<s n="adv"/></r></p></e>
+    <e><p><l>daleko<s n="adv"/><s n="sint"/><s n="comp"/></l><r>далее<s n="adv"/></r></p></e>
+    <e><p><l>daleko<s n="adv"/><s n="sint"/><s n="comp"/></l><r>ещё<s n="adv"/></r></p></e>
+    <e><p><l>dávno<s n="adv"/></l><r>давно<s n="adv"/></r></p></e>
+    <e><p><l>definitivně<s n="adv"/><s n="sint"/></l><r>окончательно<s n="adv"/></r></p></e>
+    <e><p><l>dobře<s n="adv"/><s n="sint"/></l><r>прекрасно<s n="adv"/></r></p></e>
+    <e><p><l>dobře<s n="adv"/><s n="sint"/></l><r>хорошо<s n="adv"/></r></p></e>
+    <e><p><l>dodatečně<s n="adv"/><s n="sint"/></l><r>впоследствии<s n="adv"/></r></p></e>
+    <e><p><l>doma<s n="adv"/></l><r>дома<s n="adv"/></r></p></e>
+    <e><p><l>vpravo<s n="adv"/></l><r>вправо<s n="adv"/></r></p></e>
+    <e><p><l>důkladně<s n="adv"/><s n="sint"/></l><r>тщательно<s n="adv"/></r></p></e>
+    <e><p><l>evidentně<s n="adv"/><s n="sint"/></l><r>очевидно<s n="adv"/></r></p></e>
+    <e><p><l>hodně<s n="adv"/><s n="sint"/></l><r>много<s n="adv"/></r></p></e>
+    <e><p><l>hojně<s n="adv"/><s n="sint"/></l><r>много<s n="adv"/></r></p></e>
+    <e><p><l>hustě<s n="adv"/><s n="sint"/></l><r>густо<s n="adv"/></r></p></e>
+    <e><p><l>hustě<s n="adv"/><s n="sint"/></l><r>плотно<s n="adv"/></r></p></e>
+    <e><p><l>jedině<s n="adv"/><s n="sint"/></l><r>лишь<s n="adv"/></r></p></e>
+    <e><p><l>jedině<s n="adv"/><s n="sint"/></l><r>только<s n="adv"/></r></p></e>
+    <e><p><l>krajně<s n="adv"/><s n="sint"/></l><r>крайне<s n="adv"/></r></p></e>
+    <e><p><l>málo<s n="adv"/><s n="sint"/></l><r>мало<s n="adv"/></r></p></e>
+    <e><p><l>málo<s n="adv"/><s n="sint"/></l><r>немного<s n="adv"/></r></p></e>
+    <e><p><l>mimořádně<s n="adv"/><s n="sint"/></l><r>исключительно<s n="adv"/></r></p></e>
+    <e><p><l>mimořádně<s n="adv"/><s n="sint"/></l><r>чрезвычайно<s n="adv"/></r></p></e>
+    <e><p><l>možná<s n="adv"/></l><r>возможно<s n="adv"/></r></p></e>
+    <e><p><l>následně<s n="adv"/><s n="sint"/></l><r>впоследствии<s n="adv"/></r></p></e>
+    <e><p><l>obdobně<s n="adv"/><s n="sint"/></l><r>подобно<s n="adv"/></r></p></e>
+    <e><p><l>obecně<s n="adv"/><s n="sint"/></l><r>вообще<s n="adv"/></r></p></e>
+    <e><p><l>obráceně<s n="adv"/><s n="sint"/></l><r>наоборот<s n="adv"/></r></p></e>
+    <e><p><l>odděleně<s n="adv"/><s n="sint"/></l><r>отдельно<s n="adv"/></r></p></e>
+    <e><p><l>oficiálně<s n="adv"/><s n="sint"/></l><r>официально<s n="adv"/></r></p></e>
+    <e><p><l>okamžitě<s n="adv"/><s n="sint"/></l><r>мгновенно<s n="adv"/></r></p></e>
+    <e><p><l>okamžitě<s n="adv"/><s n="sint"/></l><r>немедленно<s n="adv"/></r></p></e>
+    <e><p><l>otevřeně<s n="adv"/><s n="sint"/></l><r>откровенно<s n="adv"/></r></p></e>
+    <e><p><l>otevřeně<s n="adv"/><s n="sint"/></l><r>открыто<s n="adv"/></r></p></e>
+    <e><p><l>pečlivě<s n="adv"/><s n="sint"/></l><r>аккуратно<s n="adv"/></r></p></e>
+    <e><p><l>pečlivě<s n="adv"/><s n="sint"/></l><r>тщательно<s n="adv"/></r></p></e>
+    <e><p><l>podobně<s n="adv"/><s n="sint"/></l><r>подобно<s n="adv"/></r></p></e>
+    <e><p><l>podrobně<s n="adv"/><s n="sint"/></l><r>подробно<s n="adv"/></r></p></e>
+    <e><p><l>podstatně<s n="adv"/><s n="sint"/></l><r>значительно<s n="adv"/></r></p></e>
+    <e><p><l>postupně<s n="adv"/><s n="sint"/></l><r>постепенно<s n="adv"/></r></p></e>
+    <e><p><l>pozdě<s n="adv"/><s n="sint"/></l><r>поздно<s n="adv"/></r></p></e>
+    <e><p><l>pravděpodobně<s n="adv"/><s n="sint"/></l><r>вероятно<s n="adv"/></r></p></e>
+    <e><p><l>přibližně<s n="adv"/><s n="sint"/></l><r>грубо<s n="adv"/></r></p></e>
+    <e><p><l>radostně<s n="adv"/><s n="sint"/></l><r>радостно<s n="adv"/></r></p></e>
+    <e><p><l>relativně<s n="adv"/><s n="sint"/></l><r>относительно<s n="adv"/></r></p></e>
+    <e><p><l>stejně<s n="adv"/><s n="sint"/></l><r>одинаково<s n="adv"/></r></p></e>
+    <e><p><l>stejně<s n="adv"/><s n="sint"/></l><r>подобно<s n="adv"/></r></p></e>
+    <e><p><l>stejně<s n="adv"/><s n="sint"/></l><r>также<s n="adv"/></r></p></e>
+    <e><p><l>těsně<s n="adv"/><s n="sint"/></l><r>вплоть<s n="adv"/></r></p></e>
+    <e><p><l>těžko<s n="adv"/></l><r>трудно<s n="adv"/></r></p></e>
+    <e><p><l>úplně<s n="adv"/><s n="sint"/></l><r>абсолютно<s n="adv"/></r></p></e>
+    <e><p><l>úplně<s n="adv"/><s n="sint"/></l><r>полностью<s n="adv"/></r></p></e>
+    <e><p><l>ustavičně<s n="adv"/><s n="sint"/></l><r>постоянно<s n="adv"/></r></p></e>
+    <e><p><l>věčně<s n="adv"/><s n="sint"/></l><r>вечно<s n="adv"/></r></p></e>
+    <e><p><l>věrně<s n="adv"/><s n="sint"/></l><r>верно<s n="adv"/></r></p></e>
+    <e><p><l>viditelně<s n="adv"/><s n="sint"/></l><r>заметно<s n="adv"/></r></p></e>
+    <e><p><l>vlastně<s n="adv"/></l><r>именно<s n="adv"/></r></p></e>
+    <e><p><l>významně<s n="adv"/><s n="sint"/></l><r>значительно<s n="adv"/></r></p></e>
+    <e><p><l>zhruba<s n="adv"/></l><r>приблизительно<s n="adv"/></r></p></e>
+    <e><p><l>značně<s n="adv"/><s n="sint"/></l><r>значительно<s n="adv"/></r></p></e>
+    <e><p><l>znatelně<s n="adv"/><s n="sint"/></l><r>заметно<s n="adv"/></r></p></e>
+    <e><p><l>zpět<s n="adv"/></l><r>назад<s n="adv"/></r></p></e>
+    <e><p><l>zřetelně<s n="adv"/><s n="sint"/></l><r>отчетливо<s n="adv"/></r></p></e>
+    <e><p><l>zřetelně<s n="adv"/><s n="sint"/></l><r>очевидно<s n="adv"/></r></p></e>
 
 
     <!-- Раздел: Verbs -->
