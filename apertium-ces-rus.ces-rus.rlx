@@ -4,11 +4,43 @@ SOFT-DELIMITERS = "<,>" ;
 LIST BOS = (>>>) ; 
 LIST EOS = (<<<) ;
 
-LIST N = n ;
+LIST N = n np ;
+LIST A = adj ;
+
+LIST Nom = nom ; 
+LIST Gen = gen ; 
+LIST Dat = dat ; 
+LIST Acc = acc ; 
+LIST Ins = ins ; 
+LIST Loc = loc ; 
+LIST Voc = voc ; 
+
+LIST Sg = sg ; 
+LIST Pl = pl ; 
+
+LIST Masc = mi ma m ; 
+LIST Fem = f ; 
+LIST Neut = nt ; 
 
 LIST NP-MOD = adj det ; 
-LIST NGDAILV = nom gen dat acc ins loc voc ;
+
+SET NGDAILV = Nom | Gen | Dat | Acc | Ins | Loc | Voc ; 
+SET NUMBER = Sg | Pl ; 
+SET GENDER = Masc | Fem | Neut ; 
 
 SECTION
 
-REMOVE $$NGDAILV IF (0C NP-MOD) (1C N) (NOT 1C N + $$NGDAILV);
+REMOVE $$NGDAILV IF (0C NP-MOD) (1C N) (NOT 1 N + $$NGDAILV);
+REMOVE $$NUMBER IF (0C NP-MOD) (1C N) (NOT 1 N + $$NUMBER);
+REMOVE $$GENDER IF (0C NP-MOD) (1C N) (NOT 1 N + $$GENDER);
+
+REMOVE $$NGDAILV IF (0C N) (-1C NP-MOD) (NOT -1 NP-MOD + $$NGDAILV);
+REMOVE $$NUMBER IF (0C N) (-1C NP-MOD) (NOT -1 NP-MOD + $$NUMBER);
+REMOVE $$GENDER IF (0C N) (-1C NP-MOD) (NOT -1 NP-MOD + $$GENDER);
+
+
+REMOVE $$NGDAILV IF (0C A) (-1C N) (NOT -1 N + $$NGDAILV);
+REMOVE $$NUMBER IF (0C A) (-1C N) (NOT -1 N + $$NUMBER);
+REMOVE $$GENDER IF (0C A) (-1C N) (NOT -1 N + $$GENDER);
+    ## Ústava EU učiní Evropu demokratičtější a průhlednější .
+

@@ -1,5 +1,9 @@
 <rules>
   <rule>
-    <match lemma="word1" tags="n.*"><select lemma="word2" tags="n.*"/></match>
+    <match lemma="i" tags="cnjcoo"><select lemma="и" tags="cnjcoo"/></match>
+  </rule>
+
+  <rule>
+    <match lemma="o" tags="pr"><select lemma="о" tags="pr"/></match>
   </rule>
 </rules>

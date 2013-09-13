@@ -5,6 +5,9 @@
     <def-cat n="ne">
       <cat-item lemma="ne" tags="adv"/>
     </def-cat>
+    <def-cat n="adj">
+      <cat-item tags="adj.*"/>
+    </def-cat>
     <def-cat n="je">
       <cat-item lemma="být" tags="vbser.pres.p3.sg"/>
     </def-cat>
@@ -18,6 +21,19 @@
   <section-def-attrs>
     <def-attr n="a_nom">
       <attr-item tags="n"/>
+    </def-attr>
+    <def-attr n="a_grau">
+      <attr-item tags="comp"/>
+      <attr-item tags="sup"/>
+    </def-attr>
+    <def-attr n="a_genanim">
+      <attr-item tags="ma"/>
+      <attr-item tags="mi"/>
+      <attr-item tags="f"/>
+      <attr-item tags="nt"/>
+      <attr-item tags="f.an"/>
+      <attr-item tags="m.aa"/>
+      <attr-item tags="m.nn"/>
     </def-attr>
     <def-attr n="a_case">
       <attr-item tags="nom"/>
@@ -33,7 +49,7 @@
   </section-def-attrs>
   <section-def-vars>
     <def-var n="number"/>
-    <def-var n="current_verb"/>
+    <def-var n="adj-grau-word"/>
   </section-def-vars>
   <section-def-macros>
     <def-macro n="test" npar="1">
@@ -66,6 +82,44 @@
         </out>
       </action>
     </rule>
+
+    <rule comment="REGLA: ADJ">
+      <pattern>
+        <pattern-item n="adj"/>
+      </pattern>
+      <action>
+        <choose> <!-- Locative always changes to prepositional case -->
+          <when><test><equal><clip pos="1" side="sl" part="a_case"/><lit-tag v="loc"/></equal></test>
+            <let><clip pos="1" side="tl" part="a_case"/><lit-tag v="prp"/></let></when>
+          <when><test><equal><clip pos="1" side="sl" part="a_case"/><lit-tag v="voc"/></equal></test>
+            <let><clip pos="1" side="tl" part="a_case"/><lit-tag v="nom"/></let></when>
+        </choose>
+        <choose> 
+          <when><test><equal><clip pos="1" side="sl" part="a_genanim"/><lit-tag v="f"/></equal></test>
+            <let><clip pos="1" side="tl" part="a_genanim"/><lit-tag v="f.an"/></let></when>
+        </choose>
+        <choose> 
+          <when><test><equal><clip pos="1" side="sl" part="a_grau"/><lit-tag v="comp"/></equal></test>
+            <let><clip pos="1" side="tl" part="a_grau"/><lit v=""/></let>
+            <let><var n="adj-grau-word"/><concat><lit v="^более"/><lit-tag v="preadv"/><lit v="$ "/></concat></let>
+          </when>
+        </choose>
+        <out>
+          <chunk name="adj" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SA"/></tag>
+            </tags>
+            <var n="adj-grau-word"/>
+            <lu>
+              <clip pos="1" side="tl" part="whole"/>
+            </lu>
+          </chunk>
+        </out>
+        <let><var n="adj-grau-word"/><lit v=""/></let>
+      </action>
+    </rule>
+
+
 
     <rule comment="REGLA: NE JEST (není)">
       <pattern>

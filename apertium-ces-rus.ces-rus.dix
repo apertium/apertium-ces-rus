@@ -6,6 +6,7 @@
     <sdef n="det"        c="Determiner"/>
     <sdef n="prn"        c="Pronoun"/>
     <sdef n="adv"        c="Adverb"/>
+    <sdef n="preadv"     c="Preadverb"/>
     <sdef n="num"        c="Numeral"/>
     <sdef n="adj"        c="Adjective"/>
     <sdef n="pr"         c="Preposition"/>
@@ -40,6 +41,8 @@
     <sdef n="perf"       c="Perfective"/>
 
     <sdef n="sint"       c="Synthetic"/>
+
+    <sdef n="top"        c="Toponym"/>
 
     <sdef n="cm"         c="Comma"/>
     <sdef n="sent"       c="Sentence marker"/>
@@ -135,6 +138,7 @@
     <e><p><l>oproti<s n="pr"/></l><r>против<s n="pr"/></r></p></e>
     <e><p><l>o<s n="pr"/></l><r>в<s n="pr"/></r></p></e>
     <e><p><l>o<s n="pr"/></l><r>на<s n="pr"/></r></p></e>
+    <e><p><l>o<s n="pr"/></l><r>о<s n="pr"/></r></p></e>
     <e><p><l>podél<s n="pr"/></l><r>вдоль<s n="pr"/></r></p></e>
     <e><p><l>pod<s n="pr"/></l><r>за<s n="pr"/></r></p></e>
     <e><p><l>pod<s n="pr"/></l><r>ниже<s n="pr"/></r></p></e>
@@ -187,6 +191,7 @@
     <e><p><l>takový<s n="det"/><s n="dem"/></l><r>такой<s n="det"/><s n="ind"/></r></p></e>
     <e><p><l>všechen<s n="det"/><s n="ind"/></l><r>весь<s n="det"/><s n="ind"/></r></p></e>
 
+    <e><p><l>druhý<s n="det"/><s n="ord"/></l><r>второй<s n="det"/><s n="ord"/></r></p></e>
     <e><p><l>sedmý<s n="det"/><s n="ord"/></l><r>седьмой<s n="det"/><s n="ord"/></r></p></e>
 
     <!-- Раздел: Numerals -->
@@ -199,6 +204,7 @@
 
     <e><p><l>tisíc<s n="n"/><s n="mi"/></l><r>тысяча<s n="num"/><s n="f"/><s n="nn"/></r></p></e>
 
+    <e><p><l>ústava<s n="n"/><s n="f"/></l><r>конституция<s n="n"/><s n="f"/><s n="nn"/></r></p></e>
     <e><p><l>kočka<s n="n"/><s n="f"/></l><r>собака<s n="n"/><s n="f"/><s n="aa"/></r></p></e>
     <e><p><l>region<s n="n"/><s n="mi"/></l><r>регион<s n="n"/><s n="m"/><s n="nn"/></r></p></e>
     <e><p><l>generál<s n="n"/><s n="ma"/></l><r>генерал<s n="n"/><s n="m"/><s n="nn"/></r></p></e>
@@ -1726,12 +1732,196 @@
     <e><p><l>bazén<s n="n"/><s n="mi"/></l><r>бассейн<s n="n"/><s n="m"/><s n="nn"/></r></p></e>
     <e><p><l>automobil<s n="n"/><s n="mi"/></l><r>автомобиль<s n="n"/><s n="m"/><s n="nn"/></r></p></e>
 
+    <e><p><l>země<s n="n"/><s n="f"/></l><r>земля<s n="n"/><s n="f"/><s n="nn"/></r></p></e>
+    <e><p><l>země<s n="n"/><s n="f"/></l><r>страна<s n="n"/><s n="f"/><s n="nn"/></r></p></e>
+    <e><p><l>deficit<s n="n"/><s n="mi"/></l><r>дефицит<s n="n"/><s n="m"/><s n="nn"/></r></p></e>
+    <e><p><l>opozice<s n="n"/><s n="f"/></l><r>оппозиция<s n="n"/><s n="f"/><s n="nn"/></r></p></e>
+    <e><p><l>konkurence<s n="n"/><s n="f"/></l><r>конкуренция<s n="n"/><s n="f"/><s n="nn"/></r></p></e>
+    <e><p><l>gen<s n="n"/><s n="mi"/></l><r>ген<s n="n"/><s n="m"/><s n="nn"/></r></p></e>
+    <e><p><l>příspěvek<s n="n"/><s n="mi"/></l><r>взнос<s n="n"/><s n="m"/><s n="nn"/></r></p></e>
+    <e><p><l>kongres<s n="n"/><s n="mi"/></l><r>конгресс<s n="n"/><s n="m"/><s n="nn"/></r></p></e>
+    <e><p><l>přistěhovalec<s n="n"/><s n="ma"/></l><r>иммигрант<s n="n"/><s n="m"/><s n="aa"/></r></p></e>
+    <e><p><l>aspekt<s n="n"/><s n="mi"/></l><r>аспект<s n="n"/><s n="m"/><s n="nn"/></r></p></e>
+    <e><p><l>odkaz<s n="n"/><s n="mi"/></l><r>наследие<s n="n"/><s n="nt"/><s n="nn"/></r></p></e>
+    <e><p><l>dědictví<s n="n"/><s n="nt"/></l><r>наследие<s n="n"/><s n="nt"/><s n="nn"/></r></p></e>
+    <e><p><l>přistěhovalectví<s n="n"/><s n="mi"/></l><r>иммиграция<s n="n"/><s n="f"/><s n="nn"/></r></p></e>
+    <e><p><l>imigrant<s n="n"/><s n="ma"/></l><r>иммигрант<s n="n"/><s n="m"/><s n="aa"/></r></p></e>
+    <e><p><l>moře<s n="n"/><s n="nt"/></l><r>море<s n="n"/><s n="nt"/><s n="nn"/></r></p></e>
+    <e><p><l>biologie<s n="n"/><s n="f"/></l><r>биология<s n="n"/><s n="f"/><s n="nn"/></r></p></e>
+    <e><p><l>právník<s n="n"/><s n="ma"/></l><r>юрист<s n="n"/><s n="m"/><s n="aa"/></r></p></e>
+    <e><p><l>hegemonie<s n="n"/><s n="f"/></l><r>гегемония<s n="n"/><s n="f"/><s n="nn"/></r></p></e>
+    <e><p><l>pobřeží<s n="n"/><s n="mi"/></l><r>побережье<s n="n"/><s n="nt"/><s n="nn"/></r></p></e>
+    <e><p><l>garda<s n="n"/><s n="f"/></l><r>гвардия<s n="n"/><s n="f"/><s n="nn"/></r></p></e>
+    <e><p><l>liberalismus<s n="n"/><s n="mi"/></l><r>либерализм<s n="n"/><s n="m"/><s n="nn"/></r></p></e>
+    <e><p><l>agent<s n="n"/><s n="ma"/></l><r>агент<s n="n"/><s n="m"/><s n="aa"/></r></p></e>
+    <e><p><l>analogie<s n="n"/><s n="f"/></l><r>аналогия<s n="n"/><s n="f"/><s n="nn"/></r></p></e>
+    <e><p><l>lhostejnost<s n="n"/><s n="f"/></l><r>апатия<s n="n"/><s n="f"/><s n="nn"/></r></p></e>
+    <e><p><l>bakterie<s n="n"/><s n="f"/></l><r>бактерия<s n="n"/><s n="f"/><s n="nn"/></r></p></e>
+    <e><p><l>homosexualita<s n="n"/><s n="f"/></l><r>гомосексуализм<s n="n"/><s n="m"/><s n="nn"/></r></p></e>
+    <e><p><l>úroda<s n="n"/><s n="f"/></l><r>урожай<s n="n"/><s n="m"/><s n="nn"/></r></p></e>
+    <e><p><l>anarchie<s n="n"/><s n="f"/></l><r>анархия<s n="n"/><s n="f"/><s n="nn"/></r></p></e>
+    <e><p><l>účetnictví<s n="n"/><s n="mi"/></l><r>бухгалтерия<s n="n"/><s n="f"/><s n="nn"/></r></p></e>
+    <e><p><l>farmář<s n="n"/><s n="ma"/></l><r>фермер<s n="n"/><s n="m"/><s n="aa"/></r></p></e>
+    <e><p><l>amnestie<s n="n"/><s n="f"/></l><r>амнистия<s n="n"/><s n="f"/><s n="nn"/></r></p></e>
+    <e><p><l>harmonizace<s n="n"/><s n="f"/></l><r>гармонизация<s n="n"/><s n="f"/><s n="nn"/></r></p></e>
+    <e><p><l>smysl<s n="n"/><s n="mi"/></l><r>дух<s n="n"/><s n="m"/><s n="nn"/></r></p></e>
+    <e><p><l>smysl<s n="n"/><s n="mi"/></l><r>значение<s n="n"/><s n="nt"/><s n="nn"/></r></p></e>
+    <e><p><l>smysl<s n="n"/><s n="mi"/></l><r>смысл<s n="n"/><s n="m"/><s n="nn"/></r></p></e>
+    <e><p><l>gen<s n="n"/><s n="mi"/></l><r>ген<s n="n"/><s n="m"/><s n="nn"/></r></p></e>
+    <e><p><l>asimilace<s n="n"/><s n="f"/></l><r>ассимиляция<s n="n"/><s n="f"/><s n="nn"/></r></p></e>
+    <e><p><l>apatie<s n="n"/><s n="f"/></l><r>апатия<s n="n"/><s n="f"/><s n="nn"/></r></p></e>
+    <e><p><l>stát<s n="n"/><s n="mi"/></l><r>государство<s n="n"/><s n="nt"/><s n="nn"/></r></p></e>
+    <e><p><l>individualismus<s n="n"/><s n="mi"/></l><r>индивидуализм<s n="n"/><s n="m"/><s n="nn"/></r></p></e>
+    <e><p><l>legalizace<s n="n"/><s n="f"/></l><r>легализация<s n="n"/><s n="f"/><s n="nn"/></r></p></e>
+    <e><p><l>havárie<s n="n"/><s n="f"/></l><r>авария<s n="n"/><s n="f"/><s n="nn"/></r></p></e>
+    <e><p><l>přístup<s n="n"/><s n="mi"/></l><r>доступ<s n="n"/><s n="m"/><s n="nn"/></r></p></e>
+    <e><p><l>přístup<s n="n"/><s n="mi"/></l><r>подход<s n="n"/><s n="m"/><s n="nn"/></r></p></e>
+    <e><p><l>geografie<s n="n"/><s n="f"/></l><r>география<s n="n"/><s n="f"/><s n="nn"/></r></p></e>
+    <e><p><l>harmonie<s n="n"/><s n="f"/></l><r>гармония<s n="n"/><s n="f"/><s n="nn"/></r></p></e>
+    <e><p><l>důvod<s n="n"/><s n="mi"/></l><r>аргумент<s n="n"/><s n="m"/><s n="nn"/></r></p></e>
+    <e><p><l>důvod<s n="n"/><s n="mi"/></l><r>мотив<s n="n"/><s n="m"/><s n="nn"/></r></p></e>
+    <e><p><l>důvod<s n="n"/><s n="mi"/></l><r>основание<s n="n"/><s n="nt"/><s n="nn"/></r></p></e>
+    <e><p><l>důvod<s n="n"/><s n="mi"/></l><r>причина<s n="n"/><s n="f"/><s n="nn"/></r></p></e>
+    <e><p><l>variace<s n="n"/><s n="f"/></l><r>вариация<s n="n"/><s n="f"/><s n="nn"/></r></p></e>
+    <e><p><l>právo<s n="n"/><s n="nt"/></l><r>право<s n="n"/><s n="nt"/><s n="nn"/></r></p></e>
+    <e><p><l>metropole<s n="n"/><s n="f"/></l><r>столица<s n="n"/><s n="f"/><s n="nn"/></r></p></e>
+    <e><p><l>relativismus<s n="n"/><s n="mi"/></l><r>релятивизм<s n="n"/><s n="m"/><s n="nn"/></r></p></e>
+    <e><p><l>kolaborace<s n="n"/><s n="f"/></l><r>коллаборационизм<s n="n"/><s n="m"/><s n="nn"/></r></p></e>
+    <e><p><l>šance<s n="n"/><s n="f"/></l><r>шанс<s n="n"/><s n="m"/><s n="nn"/></r></p></e>
+    <e><p><l>prostředek<s n="n"/><s n="mi"/></l><r>орудие<s n="n"/><s n="nt"/><s n="nn"/></r></p></e>
+    <e><p><l>prostředek<s n="n"/><s n="mi"/></l><r>средство<s n="n"/><s n="nt"/><s n="nn"/></r></p></e>
+    <e><p><l>legenda<s n="n"/><s n="f"/></l><r>легенда<s n="n"/><s n="f"/><s n="nn"/></r></p></e>
+    <e><p><l>halucinace<s n="n"/><s n="f"/></l><r>галлюцинация<s n="n"/><s n="f"/><s n="nn"/></r></p></e>
+    <e><p><l>netrpělivost<s n="n"/><s n="f"/></l><r>нетерпение<s n="n"/><s n="nt"/><s n="nn"/></r></p></e>
+    <e><p><l>dobrovolník<s n="n"/><s n="ma"/></l><r>доброволец<s n="n"/><s n="m"/><s n="aa"/></r></p></e>
+    <e><p><l>biochemie<s n="n"/><s n="f"/></l><r>биохимия<s n="n"/><s n="f"/><s n="nn"/></r></p></e>
+    <e><p><l>anomálie<s n="n"/><s n="f"/></l><r>аномалия<s n="n"/><s n="f"/><s n="nn"/></r></p></e>
+    <e><p><l>možnost<s n="n"/><s n="f"/></l><r>возможность<s n="n"/><s n="f"/><s n="nn"/></r></p></e>
+    <e><p><l>alchymie<s n="n"/><s n="f"/></l><r>алхимия<s n="n"/><s n="f"/><s n="nn"/></r></p></e>
+    <e><p><l>pomoc<s n="n"/><s n="f"/></l><r>поддержка<s n="n"/><s n="f"/><s n="nn"/></r></p></e>
+    <e><p><l>pomoc<s n="n"/><s n="f"/></l><r>помощь<s n="n"/><s n="f"/><s n="nn"/></r></p></e>
+    <e><p><l>feudalismus<s n="n"/><s n="mi"/></l><r>феодализм<s n="n"/><s n="m"/><s n="nn"/></r></p></e>
+    <e><p><l>aristokracie<s n="n"/><s n="f"/></l><r>аристократия<s n="n"/><s n="f"/><s n="nn"/></r></p></e>
+    <e><p><l>anatomie<s n="n"/><s n="f"/></l><r>анатомия<s n="n"/><s n="f"/><s n="nn"/></r></p></e>
+    <e><p><l>aktivace<s n="n"/><s n="f"/></l><r>активация<s n="n"/><s n="f"/><s n="nn"/></r></p></e>
+    <e><p><l>agónie<s n="n"/><s n="f"/></l><r>агония<s n="n"/><s n="f"/><s n="nn"/></r></p></e>
+    <e><p><l>oportunismus<s n="n"/><s n="mi"/></l><r>оппортунизм<s n="n"/><s n="m"/><s n="nn"/></r></p></e>
+    <e><p><l>mikroorganismus<s n="n"/><s n="mi"/></l><r>микроорганизм<s n="n"/><s n="m"/><s n="nn"/></r></p></e>
+    <e><p><l>dualismus<s n="n"/><s n="mi"/></l><r>дуализм<s n="n"/><s n="m"/><s n="nn"/></r></p></e>
+    <e><p><l>astronomie<s n="n"/><s n="f"/></l><r>астрономия<s n="n"/><s n="f"/><s n="nn"/></r></p></e>
+    <e><p><l>anexe<s n="n"/><s n="f"/></l><r>аннексия<s n="n"/><s n="f"/><s n="nn"/></r></p></e>
+    <e><p><l>agitace<s n="n"/><s n="f"/></l><r>агитация<s n="n"/><s n="f"/><s n="nn"/></r></p></e>
+    <e><p><l>abstrakce<s n="n"/><s n="f"/></l><r>абстракция<s n="n"/><s n="f"/><s n="nn"/></r></p></e>
+    <e><p><l>zeměpis<s n="n"/><s n="mi"/></l><r>география<s n="n"/><s n="f"/><s n="nn"/></r></p></e>
+    <e><p><l>schopnost<s n="n"/><s n="f"/></l><r>способность<s n="n"/><s n="f"/><s n="nn"/></r></p></e>
+    <e><p><l>příležitost<s n="n"/><s n="f"/></l><r>возможность<s n="n"/><s n="f"/><s n="nn"/></r></p></e>
+    <e><p><l>pravda<s n="n"/><s n="f"/></l><r>истина<s n="n"/><s n="f"/><s n="nn"/></r></p></e>
+    <e><p><l>pravda<s n="n"/><s n="f"/></l><r>правда<s n="n"/><s n="f"/><s n="nn"/></r></p></e>
+    <e><p><l>politik<s n="n"/><s n="f"/></l><r>политика<s n="n"/><s n="f"/><s n="nn"/></r></p></e>
+    <e><p><l>politik<s n="n"/><s n="ma"/></l><r>политик<s n="n"/><s n="m"/><s n="aa"/></r></p></e>
+    <e><p><l>obojživelník<s n="n"/><s n="ma"/></l><r>амфибия<s n="n"/><s n="f"/><s n="nn"/></r></p></e>
+    <e><p><l>nihilismus<s n="n"/><s n="mi"/></l><r>нигилизм<s n="n"/><s n="m"/><s n="nn"/></r></p></e>
+    <e><p><l>naděje<s n="n"/><s n="f"/></l><r>надежда<s n="n"/><s n="f"/><s n="nn"/></r></p></e>
+    <e><p><l>moc<s n="n"/><s n="f"/></l><r>власть<s n="n"/><s n="f"/><s n="nn"/></r></p></e>
+    <e><p><l>jistota<s n="n"/><s n="f"/></l><r>безопасность<s n="n"/><s n="f"/><s n="nn"/></r></p></e>
+    <e><p><l>humanizmus<s n="n"/><s n="mi"/></l><r>гуманизм<s n="n"/><s n="m"/><s n="nn"/></r></p></e>
+    <e><p><l>genialita<s n="n"/><s n="f"/></l><r>гений<s n="n"/><s n="m"/><s n="aa"/></r></p></e>
+    <e><p><l>vulgarizace<s n="n"/><s n="f"/></l><r>вульгаризация<s n="n"/><s n="f"/><s n="nn"/></r></p></e>
+    <e><p><l>svět<s n="n"/><s n="mi"/></l><r>мир<s n="n"/><s n="m"/><s n="nn"/></r></p></e>
+    <e><p><l>štěstí<s n="n"/><s n="mi"/></l><r>счастье<s n="n"/><s n="nt"/><s n="nn"/></r></p></e>
+    <e><p><l>štěstí<s n="n"/><s n="mi"/></l><r>удача<s n="n"/><s n="f"/><s n="nn"/></r></p></e>
+    <e><p><l>spojitost<s n="n"/><s n="f"/></l><r>связь<s n="n"/><s n="f"/><s n="nn"/></r></p></e>
+    <e><p><l>síla<s n="n"/><s n="f"/></l><r>сила<s n="n"/><s n="f"/><s n="nn"/></r></p></e>
+    <e><p><l>racionalismus<s n="n"/><s n="mi"/></l><r>рационализм<s n="n"/><s n="m"/><s n="nn"/></r></p></e>
+    <e><p><l>program<s n="n"/><s n="mi"/></l><r>программа<s n="n"/><s n="f"/><s n="nn"/></r></p></e>
+    <e><p><l>problém<s n="n"/><s n="mi"/></l><r>вопрос<s n="n"/><s n="m"/><s n="nn"/></r></p></e>
+    <e><p><l>problém<s n="n"/><s n="mi"/></l><r>проблема<s n="n"/><s n="f"/><s n="nn"/></r></p></e>
+    <e><p><l>prezident<s n="n"/><s n="ma"/></l><r>президент<s n="n"/><s n="m"/><s n="aa"/></r></p></e>
+    <e><p><l>důvěra<s n="n"/><s n="f"/></l><r>доверие<s n="n"/><s n="nt"/><s n="nn"/></r></p></e>
+    <e><p><l>cena<s n="n"/><s n="f"/></l><r>значение<s n="n"/><s n="nt"/><s n="nn"/></r></p></e>
+    <e><p><l>cena<s n="n"/><s n="f"/></l><r>курс<s n="n"/><s n="m"/><s n="nn"/></r></p></e>
+    <e><p><l>cena<s n="n"/><s n="f"/></l><r>премия<s n="n"/><s n="f"/><s n="nn"/></r></p></e>
+    <e><p><l>cena<s n="n"/><s n="f"/></l><r>цена<s n="n"/><s n="f"/><s n="nn"/></r></p></e>
+    <e><p><l>budoucnost<s n="n"/><s n="f"/></l><r>будущее<s n="n"/><s n="nt"/><s n="nn"/></r></p></e>
+    <e><p><l>autobiografie<s n="n"/><s n="f"/></l><r>автобиография<s n="n"/><s n="f"/><s n="nn"/></r></p></e>
+    <e><p><l>astrologie<s n="n"/><s n="f"/></l><r>астрология<s n="n"/><s n="f"/><s n="nn"/></r></p></e>
+    <e><p><l>alegorie<s n="n"/><s n="f"/></l><r>аллегория<s n="n"/><s n="f"/><s n="nn"/></r></p></e>
+    <e><p><l>vzhled<s n="n"/><s n="mi"/></l><r>вид<s n="n"/><s n="m"/><s n="nn"/></r></p></e>
+    <e><p><l>vůle<s n="n"/><s n="f"/></l><r>воля<s n="n"/><s n="f"/><s n="aa"/></r></p></e>
+    <e><p><l>vláda<s n="n"/><s n="f"/></l><r>власть<s n="n"/><s n="f"/><s n="nn"/></r></p></e>
+    <e><p><l>vláda<s n="n"/><s n="f"/></l><r>правительство<s n="n"/><s n="nt"/><s n="nn"/></r></p></e>
+    <e><p><l>věc<s n="n"/><s n="f"/></l><r>вещь<s n="n"/><s n="f"/><s n="nn"/></r></p></e>
+    <e><p><l>věc<s n="n"/><s n="f"/></l><r>дело<s n="n"/><s n="nt"/><s n="nn"/></r></p></e>
+    <e><p><l>užitek<s n="n"/><s n="mi"/></l><r>благо<s n="n"/><s n="nt"/><s n="nn"/></r></p></e>
+    <e><p><l>užitek<s n="n"/><s n="mi"/></l><r>польза<s n="n"/><s n="f"/><s n="nn"/></r></p></e>
+    <e><p><l>úkol<s n="n"/><s n="mi"/></l><r>задание<s n="n"/><s n="nt"/><s n="nn"/></r></p></e>
+    <e><p><l>úkol<s n="n"/><s n="mi"/></l><r>задача<s n="n"/><s n="f"/><s n="nn"/></r></p></e>
+    <e><p><l>tým<s n="n"/><s n="mi"/></l><r>группа<s n="n"/><s n="f"/><s n="nn"/></r></p></e>
+    <e><p><l>tým<s n="n"/><s n="mi"/></l><r>команда<s n="n"/><s n="f"/><s n="nn"/></r></p></e>
+    <e><p><l>trpělivost<s n="n"/><s n="f"/></l><r>терпение<s n="n"/><s n="nt"/><s n="nn"/></r></p></e>
+    <e><p><l>svědomí<s n="n"/><s n="nt"/></l><r>совесть<s n="n"/><s n="f"/><s n="nn"/></r></p></e>
+    <e><p><l>styk<s n="n"/><s n="mi"/></l><r>контакт<s n="n"/><s n="m"/><s n="nn"/></r></p></e>
+    <e><p><l>styk<s n="n"/><s n="mi"/></l><r>связь<s n="n"/><s n="f"/><s n="nn"/></r></p></e>
+    <e><p><l>růst<s n="n"/><s n="mi"/></l><r>повышение<s n="n"/><s n="nt"/><s n="nn"/></r></p></e>
+    <e><p><l>růst<s n="n"/><s n="mi"/></l><r>рост<s n="n"/><s n="m"/><s n="nn"/></r></p></e>
+    <e><p><l>radost<s n="n"/><s n="f"/></l><r>радость<s n="n"/><s n="f"/><s n="nn"/></r></p></e>
+    <e><p><l>protivník<s n="n"/><s n="ma"/></l><r>противник<s n="n"/><s n="m"/><s n="aa"/></r></p></e>
+    <e><p><l>práce<s n="n"/><s n="f"/></l><r>дело<s n="n"/><s n="nt"/><s n="nn"/></r></p></e>
+    <e><p><l>práce<s n="n"/><s n="f"/></l><r>работа<s n="n"/><s n="f"/><s n="nn"/></r></p></e>
+    <e><p><l>potřeba<s n="n"/><s n="f"/></l><r>необходимость<s n="n"/><s n="f"/><s n="nn"/></r></p></e>
+    <e><p><l>podpora<s n="n"/><s n="f"/></l><r>поддержка<s n="n"/><s n="f"/><s n="nn"/></r></p></e>
+    <e><p><l>podoba<s n="n"/><s n="f"/></l><r>вид<s n="n"/><s n="m"/><s n="nn"/></r></p></e>
+    <e><p><l>podoba<s n="n"/><s n="f"/></l><r>форма<s n="n"/><s n="f"/><s n="nn"/></r></p></e>
+    <e><p><l>pocit<s n="n"/><s n="mi"/></l><r>ощущение<s n="n"/><s n="nt"/><s n="nn"/></r></p></e>
+    <e><p><l>pocit<s n="n"/><s n="mi"/></l><r>чувство<s n="n"/><s n="nt"/><s n="nn"/></r></p></e>
+    <e><p><l>počasí<s n="n"/><s n="nt"/></l><r>погода<s n="n"/><s n="f"/><s n="nn"/></r></p></e>
+    <e><p><l>plán<s n="n"/><s n="mi"/></l><r>замысел<s n="n"/><s n="m"/><s n="nn"/></r></p></e>
+    <e><p><l>plán<s n="n"/><s n="mi"/></l><r>план<s n="n"/><s n="m"/><s n="nn"/></r></p></e>
+    <e><p><l>parlament<s n="n"/><s n="mi"/></l><r>парламент<s n="n"/><s n="m"/><s n="nn"/></r></p></e>
+    <e><p><l>ochota<s n="n"/><s n="f"/></l><r>готовность<s n="n"/><s n="f"/><s n="nn"/></r></p></e>
+    <e><p><l>obyvatelstvo<s n="n"/><s n="nt"/></l><r>население<s n="n"/><s n="nt"/><s n="nn"/></r></p></e>
+    <e><p><l>oblast<s n="n"/><s n="f"/></l><r>зона<s n="n"/><s n="f"/><s n="nn"/></r></p></e>
+    <e><p><l>oblast<s n="n"/><s n="f"/></l><r>область<s n="n"/><s n="f"/><s n="nn"/></r></p></e>
+    <e><p><l>náboženství<s n="n"/><s n="nt"/></l><r>вера<s n="n"/><s n="f"/><s n="nn"/></r></p></e>
+    <e><p><l>náboženství<s n="n"/><s n="nt"/></l><r>религия<s n="n"/><s n="f"/><s n="nn"/></r></p></e>
+    <e><p><l>myšlenka<s n="n"/><s n="f"/></l><r>идея<s n="n"/><s n="f"/><s n="nn"/></r></p></e>
+    <e><p><l>motiv<s n="n"/><s n="mi"/></l><r>мотив<s n="n"/><s n="m"/><s n="nn"/></r></p></e>
+    <e><p><l>mír<s n="n"/><s n="mi"/></l><r>мир<s n="n"/><s n="m"/><s n="nn"/></r></p></e>
+    <e><p><l>merkantilismus<s n="n"/><s n="mi"/></l><r>меркантилизм<s n="n"/><s n="m"/><s n="nn"/></r></p></e>
+    <e><p><l>mechanismus<s n="n"/><s n="mi"/></l><r>механизм<s n="n"/><s n="m"/><s n="nn"/></r></p></e>
+    <e><p><l>konec<s n="n"/><s n="mi"/></l><r>конец<s n="n"/><s n="m"/><s n="nn"/></r></p></e>
+    <e><p><l>komisař<s n="n"/><s n="ma"/></l><r>комиссар<s n="n"/><s n="m"/><s n="aa"/></r></p></e>
+    <e><p><l>jméno<s n="n"/><s n="nt"/></l><r>имя<s n="n"/><s n="nt"/><s n="nn"/></r></p></e>
+    <e><p><l>instrument<s n="n"/><s n="mi"/></l><r>инструмент<s n="n"/><s n="m"/><s n="nn"/></r></p></e>
+    <e><p><l>hlad<s n="n"/><s n="mi"/></l><r>голод<s n="n"/><s n="m"/><s n="nn"/></r></p></e>
+    <e><p><l>dohled<s n="n"/><s n="mi"/></l><r>контроль<s n="n"/><s n="m"/><s n="nn"/></r></p></e>
+    <e><p><l>dítě<s n="n"/><s n="nt"/></l><r>младенец<s n="n"/><s n="m"/><s n="aa"/></r></p></e>
+    <e><p><l>dítě<s n="n"/><s n="nt"/></l><r>ребёнок<s n="n"/><s n="m"/><s n="aa"/></r></p></e>
+    <e><p><l>dělník<s n="n"/><s n="ma"/></l><r>рабочий<s n="adj"/><s n="m"/><s n="nn"/></r></p></e>
+    <e><p><l>člověk<s n="n"/><s n="ma"/></l><r>человек<s n="n"/><s n="m"/><s n="aa"/></r></p></e>
+    <e><p><l>čas<s n="n"/><s n="mi"/></l><r>время<s n="n"/><s n="nt"/><s n="nn"/></r></p></e>
+    <e><p><l>boj<s n="n"/><s n="mi"/></l><r>битва<s n="n"/><s n="f"/><s n="nn"/></r></p></e>
+    <e><p><l>boj<s n="n"/><s n="mi"/></l><r>бой<s n="n"/><s n="m"/><s n="aa"/></r></p></e>
+    <e><p><l>boj<s n="n"/><s n="mi"/></l><r>борьба<s n="n"/><s n="f"/><s n="nn"/></r></p></e>
+    <e><p><l>automobil<s n="n"/><s n="mi"/></l><r>автомобиль<s n="n"/><s n="m"/><s n="nn"/></r></p></e>
+    <e><p><l>atavismus<s n="n"/><s n="mi"/></l><r>атавизм<s n="n"/><s n="m"/><s n="nn"/></r></p></e>
+    <e><p><l>árie<s n="n"/><s n="f"/></l><r>ария<s n="n"/><s n="f"/><s n="nn"/></r></p></e>
+    <e><p><l>archeologie<s n="n"/><s n="f"/></l><r>археология<s n="n"/><s n="f"/><s n="nn"/></r></p></e>
+    <e><p><l>agentura<s n="n"/><s n="f"/></l><r>агентство<s n="n"/><s n="nt"/><s n="nn"/></r></p></e>
+
+    <!-- Раздел: Proper nouns -->
+
+    <e><p><l>Evropa<s n="np"/><s n="top"/><s n="f"/></l><r>Европа<s n="np"/><s n="top"/><s n="f"/></r></p></e>
 
     <!-- Раздел: Adjectives -->
 
     <e><p><l>syrský<s n="adj"/></l><r>сирийский<s n="adj"/></r></p></e>
+    <e><p><l>ruský<s n="adj"/></l><r>русский<s n="adj"/></r></p></e>
+    <e><p><l>ruský<s n="adj"/></l><r>российский<s n="adj"/></r></p></e>
     <e><p><l>poslední<s n="adj"/></l><r>последний<s n="adj"/></r></p></e>
     <e><p><l>poslední<s n="adj"/></l><r>конечный<s n="adj"/></r></p></e>
+    <e><p><l>demokratický<s n="adj"/></l><r>демократический<s n="adj"/></r></p></e>
+
 
     <e><p><l>absolutní<s n="adj"/></l><r>абсолютный<s n="adj"/></r></p></e>
     <e><p><l>abstraktní<s n="adj"/></l><r>абстрактный<s n="adj"/></r></p></e>
@@ -2019,8 +2209,132 @@
     <e><p><l>životní<s n="adj"/></l><r>жизненный<s n="adj"/></r></p></e>
     <e><p><l>zvláštní<s n="adj"/></l><r>необычный<s n="adj"/></r></p></e>
 
+    <e><p><l>alexandrijský<s n="adj"/></l><r>александрийский<s n="adj"/></r></p></e>
+    <e><p><l>alpský<s n="adj"/></l><r>альпийский<s n="adj"/></r></p></e>
+    <e><p><l>alžírský<s n="adj"/></l><r>алжирский<s n="adj"/></r></p></e>
+    <e><p><l>arabský<s n="adj"/></l><r>арабский<s n="adj"/></r></p></e>
+    <e><p><l>argentinský<s n="adj"/></l><r>аргентинский<s n="adj"/></r></p></e>
+    <e><p><l>arménský<s n="adj"/></l><r>армянский<s n="adj"/></r></p></e>
+    <e><p><l>asijský<s n="adj"/></l><r>азиатский<s n="adj"/></r></p></e>
+    <e><p><l>australský<s n="adj"/></l><r>австралийский<s n="adj"/></r></p></e>
+    <e><p><l>autorský<s n="adj"/></l><r>авторский<s n="adj"/></r></p></e>
+    <e><p><l>baltský<s n="adj"/></l><r>балтийский<s n="adj"/></r></p></e>
+    <e><p><l>barbarský<s n="adj"/></l><r>варварский<s n="adj"/></r></p></e>
+    <e><p><l>běloruský<s n="adj"/></l><r>белорусский<s n="adj"/></r></p></e>
+    <e><p><l>berlínský<s n="adj"/></l><r>берлинский<s n="adj"/></r></p></e>
+    <e><p><l>bratrský<s n="adj"/></l><r>братский<s n="adj"/></r></p></e>
+    <e><p><l>brazilský<s n="adj"/></l><r>бразильский<s n="adj"/></r></p></e>
+    <e><p><l>britský<s n="adj"/></l><r>английский<s n="adj"/></r></p></e>
+    <e><p><l>britský<s n="adj"/></l><r>британский<s n="adj"/></r></p></e>
+    <e><p><l>bulharský<s n="adj"/></l><r>болгарский<s n="adj"/></r></p></e>
+    <e><p><l>carský<s n="adj"/></l><r>царский<s n="adj"/></r></p></e>
+    <e><p><l>čečenský<s n="adj"/></l><r>чеченский<s n="adj"/></r></p></e>
+    <e><p><l>český<s n="adj"/></l><r>чешский<s n="adj"/></r></p></e>
+    <e><p><l>chorvatský<s n="adj"/></l><r>хорватский<s n="adj"/></r></p></e>
+    <e><p><l>čínský<s n="adj"/></l><r>китайский<s n="adj"/></r></p></e>
+    <e><p><l>císařský<s n="adj"/></l><r>императорский<s n="adj"/></r></p></e>
+    <e><p><l>císařský<s n="adj"/></l><r>имперский<s n="adj"/></r></p></e>
+    <e><p><l>dámský<s n="adj"/></l><r>женский<s n="adj"/></r></p></e>
+    <e><p><l>dánský<s n="adj"/></l><r>датский<s n="adj"/></r></p></e>
+    <e><p><l>dětský<s n="adj"/></l><r>детский<s n="adj"/></r></p></e>
+    <e><p><l>disidentský<s n="adj"/></l><r>диссидентский<s n="adj"/></r></p></e>
+    <e><p><l>dominikánský<s n="adj"/></l><r>доминиканский<s n="adj"/></r></p></e>
+    <e><p><l>egyptský<s n="adj"/></l><r>египетский<s n="adj"/></r></p></e>
+    <e><p><l>estonský<s n="adj"/></l><r>эстонский<s n="adj"/></r></p></e>
+    <e><p><l>evropský<s n="adj"/></l><r>европейский<s n="adj"/></r></p></e>
+    <e><p><l>finský<s n="adj"/></l><r>финский<s n="adj"/></r></p></e>
+    <e><p><l>francouzský<s n="adj"/></l><r>французский<s n="adj"/></r></p></e>
+    <e><p><l>gruzínský<s n="adj"/></l><r>грузинский<s n="adj"/></r></p></e>
+    <e><p><l>hebrejský<s n="adj"/></l><r>древнееврейский<s n="adj"/></r></p></e>
+    <e><p><l>holandský<s n="adj"/></l><r>голландский<s n="adj"/></r></p></e>
+    <e><p><l>hospodářský<s n="adj"/></l><r>экономический<s n="adj"/></r></p></e>
+    <e><p><l>indonéský<s n="adj"/></l><r>индонезийский<s n="adj"/></r></p></e>
+    <e><p><l>íránský<s n="adj"/></l><r>иранский<s n="adj"/></r></p></e>
+    <e><p><l>irský<s n="adj"/></l><r>ирландский<s n="adj"/></r></p></e>
+    <e><p><l>islámský<s n="adj"/></l><r>исламский<s n="adj"/></r></p></e>
+    <e><p><l>italský<s n="adj"/></l><r>итальянский<s n="adj"/></r></p></e>
+    <e><p><l>izraelský<s n="adj"/></l><r>еврейский<s n="adj"/></r></p></e>
+    <e><p><l>izraelský<s n="adj"/></l><r>израильский<s n="adj"/></r></p></e>
+    <e><p><l>japonský<s n="adj"/></l><r>японский<s n="adj"/></r></p></e>
+    <e><p><l>jihokorejský<s n="adj"/></l><r>южнокорейский<s n="adj"/></r></p></e>
+    <e><p><l>jugoslávský<s n="adj"/></l><r>югославский<s n="adj"/></r></p></e>
+    <e><p><l>jurský<s n="adj"/></l><r>юрский<s n="adj"/></r></p></e>
+    <e><p><l>kalifornský<s n="adj"/></l><r>калифорнийский<s n="adj"/></r></p></e>
+    <e><p><l>kanadský<s n="adj"/></l><r>канадский<s n="adj"/></r></p></e>
+    <e><p><l>kašmírský<s n="adj"/></l><r>кашмирский<s n="adj"/></r></p></e>
+    <e><p><l>kavkazský<s n="adj"/></l><r>кавказский<s n="adj"/></r></p></e>
+    <e><p><l>konžský<s n="adj"/></l><r>конголезский<s n="adj"/></r></p></e>
+    <e><p><l>korejský<s n="adj"/></l><r>корейский<s n="adj"/></r></p></e>
+    <e><p><l>královský<s n="adj"/></l><r>королевский<s n="adj"/></r></p></e>
+    <e><p><l>krymský<s n="adj"/></l><r>крымский<s n="adj"/></r></p></e>
+    <e><p><l>latinský<s n="adj"/></l><r>латинский<s n="adj"/></r></p></e>
+    <e><p><l>lékařský<s n="adj"/></l><r>медицинский<s n="adj"/></r></p></e>
+    <e><p><l>leningradský<s n="adj"/></l><r>ленинградский<s n="adj"/></r></p></e>
+    <e><p><l>leninský<s n="adj"/></l><r>ленинский<s n="adj"/></r></p></e>
+    <e><p><l>lidský<s n="adj"/></l><r>человеческий<s n="adj"/></r></p></e>
+    <e><p><l>litevský<s n="adj"/></l><r>литовский<s n="adj"/></r></p></e>
+    <e><p><l>lotyšský<s n="adj"/></l><r>латвийский<s n="adj"/></r></p></e>
+    <e><p><l>makedonský<s n="adj"/></l><r>македонский<s n="adj"/></r></p></e>
+    <e><p><l>mateřský<s n="adj"/></l><r>материнский<s n="adj"/></r></p></e>
+    <e><p><l>medicínský<s n="adj"/></l><r>медицинский<s n="adj"/></r></p></e>
+    <e><p><l>moskevský<s n="adj"/></l><r>московский<s n="adj"/></r></p></e>
+    <e><p><l>nadlidský<s n="adj"/></l><r>сверхчеловеческий<s n="adj"/></r></p></e>
+    <e><p><l>nemocenský<s n="adj"/></l><r>медицинский<s n="adj"/></r></p></e>
+    <e><p><l>norský<s n="adj"/></l><r>норвежский<s n="adj"/></r></p></e>
+    <e><p><l>občanský<s n="adj"/></l><r>гражданский<s n="adj"/></r></p></e>
+    <e><p><l>obrovský<s n="adj"/></l><r>гигантский<s n="adj"/></r></p></e>
+    <e><p><l>oceánský<s n="adj"/></l><r>океанский<s n="adj"/></r></p></e>
+    <e><p><l>olympijský<s n="adj"/></l><r>олимпийский<s n="adj"/></r></p></e>
+    <e><p><l>palestinský<s n="adj"/></l><r>палестинский<s n="adj"/></r></p></e>
+    <e><p><l>pařížský<s n="adj"/></l><r>парижский<s n="adj"/></r></p></e>
+    <e><p><l>partyzánský<s n="adj"/></l><r>партизанский<s n="adj"/></r></p></e>
+    <e><p><l>pekingský<s n="adj"/></l><r>пекинский<s n="adj"/></r></p></e>
+    <e><p><l>perský<s n="adj"/></l><r>персидский<s n="adj"/></r></p></e>
+    <e><p><l>peruánský<s n="adj"/></l><r>перуанский<s n="adj"/></r></p></e>
+    <e><p><l>pirátský<s n="adj"/></l><r>пиратский<s n="adj"/></r></p></e>
+    <e><p><l>pobaltský<s n="adj"/></l><r>прибалтийский<s n="adj"/></r></p></e>
+    <e><p><l>pohanský<s n="adj"/></l><r>языческий<s n="adj"/></r></p></e>
+    <e><p><l>polský<s n="adj"/></l><r>польский<s n="adj"/></r></p></e>
+    <e><p><l>portugalský<s n="adj"/></l><r>португальский<s n="adj"/></r></p></e>
+    <e><p><l>pražský<s n="adj"/></l><r>пражский<s n="adj"/></r></p></e>
+    <e><p><l>proletářský<s n="adj"/></l><r>пролетарский<s n="adj"/></r></p></e>
+    <e><p><l>protestantský<s n="adj"/></l><r>протестантский<s n="adj"/></r></p></e>
+    <e><p><l>puritánský<s n="adj"/></l><r>пуританский<s n="adj"/></r></p></e>
+    <e><p><l>rajský<s n="adj"/></l><r>райский<s n="adj"/></r></p></e>
+    <e><p><l>rakouský<s n="adj"/></l><r>австрийский<s n="adj"/></r></p></e>
+    <e><p><l>římský<s n="adj"/></l><r>римский<s n="adj"/></r></p></e>
+    <e><p><l>rumunský<s n="adj"/></l><r>румынский<s n="adj"/></r></p></e>
+    <e><p><l>ruský<s n="adj"/></l><r>российский<s n="adj"/></r></p></e>
+    <e><p><l>satanský<s n="adj"/></l><r>сатанинский<s n="adj"/></r></p></e>
+    <e><p><l>sesterský<s n="adj"/></l><r>сестринский<s n="adj"/></r></p></e>
+    <e><p><l>sibiřský<s n="adj"/></l><r>сибирский<s n="adj"/></r></p></e>
+    <e><p><l>skandinávský<s n="adj"/></l><r>скандинавский<s n="adj"/></r></p></e>
+    <e><p><l>skotský<s n="adj"/></l><r>шотландский<s n="adj"/></r></p></e>
+    <e><p><l>slovanský<s n="adj"/></l><r>славянский<s n="adj"/></r></p></e>
+    <e><p><l>slovinský<s n="adj"/></l><r>словенский<s n="adj"/></r></p></e>
+    <e><p><l>sovětský<s n="adj"/></l><r>советский<s n="adj"/></r></p></e>
+    <e><p><l>španělský<s n="adj"/></l><r>испанский<s n="adj"/></r></p></e>
+    <e><p><l>srbský<s n="adj"/></l><r>сербский<s n="adj"/></r></p></e>
+    <e><p><l>studentský<s n="adj"/></l><r>студенческий<s n="adj"/></r></p></e>
+    <e><p><l>súdánský<s n="adj"/></l><r>суданский<s n="adj"/></r></p></e>
+    <e><p><l>švédský<s n="adj"/></l><r>шведский<s n="adj"/></r></p></e>
+    <e><p><l>švýcarský<s n="adj"/></l><r>швейцарский<s n="adj"/></r></p></e>
+    <e><p><l>tibetský<s n="adj"/></l><r>тибетский<s n="adj"/></r></p></e>
+    <e><p><l>trojský<s n="adj"/></l><r>троянский<s n="adj"/></r></p></e>
+    <e><p><l>turkmenský<s n="adj"/></l><r>туркменский<s n="adj"/></r></p></e>
+    <e><p><l>uherský<s n="adj"/></l><r>венгерский<s n="adj"/></r></p></e>
+    <e><p><l>ukrajinský<s n="adj"/></l><r>украинский<s n="adj"/></r></p></e>
+    <e><p><l>venkovský<s n="adj"/></l><r>деревенский<s n="adj"/></r></p></e>
+    <e><p><l>vídeňský<s n="adj"/></l><r>венский<s n="adj"/></r></p></e>
+    <e><p><l>vysokoškolský<s n="adj"/></l><r>студенческий<s n="adj"/></r></p></e>
+    <e><p><l>zemědělský<s n="adj"/></l><r>сельский<s n="adj"/></r></p></e>
+    <e><p><l>ženský<s n="adj"/></l><r>женский<s n="adj"/></r></p></e>
+    <e><p><l>židovský<s n="adj"/></l><r>еврейский<s n="adj"/></r></p></e>
+
 
     <!-- Раздел: Adverbs -->
+
+    <e><p><l>nej<s n="adv"/></l><r>более<s n="preadv"/></r></p></e>
 
     <e><p><l>kdy<s n="adv"/><s n="itg"/></l><r>когда<s n="adv"/><s n="itg"/></r></p></e>
 
