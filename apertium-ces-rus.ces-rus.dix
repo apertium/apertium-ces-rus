@@ -1,4 +1,3 @@
-
 <dictionary>
   <alphabet/>
   <sdefs>
@@ -31,6 +30,7 @@
     <sdef n="rel"        c="Relative"/>
     <sdef n="ref"        c="Reflexive"/>
     <sdef n="pos"        c="Possessive"/>
+    <sdef n="qnt"        c="Quantifier"/>
     <sdef n="ind"        c="Indefinite"/>
     <sdef n="dem"        c="Demonstrative"/>
     <sdef n="ord"        c="Ordinal"/>
@@ -60,6 +60,35 @@
     <e><p><l>že<s n="cnjsub"/></l><r>что<s n="cnjsub"/></r></p></e>
     <e><p><l>když<s n="cnjsub"/></l><r>когда<s n="cnjsub"/></r></p></e>
     <e><p><l>pokud<s n="cnjadv"/></l><r>если<s n="cnjsub"/></r></p></e>
+
+    <e><p><l>aby<s n="cnjsub"/></l><r>чтоб<s n="cnjsub"/></r></p></e>
+    <e><p><l>ale<s n="cnjcoo"/></l><r>а<s n="cnjcoo"/></r></p></e>
+    <e><p><l>ale<s n="cnjcoo"/></l><r>но<s n="cnjcoo"/></r></p></e>
+    <e><p><l>ani<s n="cnjcoo"/></l><r>и<s n="cnjcoo"/></r></p></e>
+    <e><p><l>ani<s n="cnjcoo"/></l><r>ни<s n="cnjcoo"/></r></p></e>
+    <e><p><l>avšak<s n="cnjadv"/></l><r>а<s n="cnjcoo"/></r></p></e>
+    <e><p><l>avšak<s n="cnjadv"/></l><r>но<s n="cnjcoo"/></r></p></e>
+    <e><p><l>až<s n="cnjsub"/></l><r>и<s n="cnjcoo"/></r></p></e>
+    <e><p><l>a<s n="cnjcoo"/></l><r>а<s n="cnjcoo"/></r></p></e>
+    <e><p><l>a<s n="cnjcoo"/></l><r>и<s n="cnjcoo"/></r></p></e>
+    <e><p><l>čili<s n="cnjcoo"/></l><r>или<s n="cnjcoo"/></r></p></e>
+    <e><p><l>či<s n="cnjcoo"/></l><r>или<s n="cnjcoo"/></r></p></e>
+    <e><p><l>i<s n="cnjcoo"/></l><r>а<s n="cnjcoo"/></r></p></e>
+    <e><p><l>i<s n="cnjcoo"/></l><r>и<s n="cnjcoo"/></r></p></e>
+    <e><p><l>jakoby<s n="cnjadv"/></l><r>будто<s n="cnjsub"/></r></p></e>
+    <e><p><l>jelikož<s n="cnjadv"/></l><r>поскольку<s n="cnjsub"/></r></p></e>
+    <e><p><l>jestliže<s n="cnjadv"/></l><r>если<s n="cnjsub"/></r></p></e>
+    <e><p><l>jestli<s n="cnjadv"/></l><r>если<s n="cnjsub"/></r></p></e>
+    <e><p><l>kdyby<s n="cnjsub"/></l><r>если<s n="cnjsub"/></r></p></e>
+    <e><p><l>když<s n="cnjsub"/></l><r>если<s n="cnjsub"/></r></p></e>
+    <e><p><l>leč<s n="cnjcoo"/></l><r>но<s n="cnjcoo"/></r></p></e>
+    <e><p><l>nebo<s n="cnjcoo"/></l><r>или</r></p></e>
+    <e><p><l>nýbrž<s n="cnjcoo"/></l><r>а<s n="cnjcoo"/></r></p></e>
+    <e><p><l>pokud<s n="cnjadv"/></l><r>если<s n="cnjsub"/></r></p></e>
+    <e><p><l>protože<s n="cnjadv"/></l><r>поскольку<s n="cnjsub"/></r></p></e>
+    <e><p><l>však<s n="cnjadv"/></l><r>но<s n="cnjcoo"/></r></p></e>
+    <e><p><l>že<s n="cnjsub"/></l><r>если<s n="cnjsub"/></r></p></e>
+
 
     <!-- Раздел: Prepositions -->
 
@@ -133,21 +162,30 @@
     <!-- Раздел: Determiners -->
 
     <e><p><l>čí<s n="det"/><s n="itg"/></l><r>чей<s n="det"/><s n="pos"/></r></p></e>
-    <e><p><l>jiný<s n="det"/><s n="ind"/></l><r>другой<s n="det"/><s n="ind"/></r></p></e>
     <e><p><l>můj<s n="det"/><s n="pos"/></l><r>мой<s n="det"/><s n="pos"/></r></p></e>
-    <e><p><l>samotný<s n="adj"/><s n="sint"/></l><r>сам<s n="det"/><s n="ref"/></r></p></e>
     <e><p><l>svůj<s n="det"/><s n="pos"/></l><r>свой<s n="det"/><s n="pos"/></r></p></e>
-    <e><p><l>takový<s n="det"/><s n="dem"/></l><r>такой<s n="det"/><s n="ind"/></r></p></e>
+    <e><p><l>tvůj<s n="det"/><s n="pos"/></l><r>твой<s n="det"/><s n="pos"/></r></p></e>
+
+    <e><p><l>samotný<s n="adj"/><s n="sint"/></l><r>сам<s n="det"/><s n="ref"/></r></p></e>
+
     <e><p><l>toto<s n="det"/><s n="dem"/></l><r>этот<s n="det"/><s n="dem"/></r></p></e>
     <e><p><l>to<s n="det"/><s n="dem"/></l><r>тот<s n="det"/><s n="dem"/></r></p></e>
-    <e><p><l>tvůj<s n="det"/><s n="pos"/></l><r>твой<s n="det"/><s n="pos"/></r></p></e>
+
+    <e><p><l>jiný<s n="det"/><s n="ind"/></l><r>другой<s n="det"/><s n="ind"/></r></p></e>
+    <e><p><l>takový<s n="det"/><s n="dem"/></l><r>такой<s n="det"/><s n="ind"/></r></p></e>
     <e><p><l>všechen<s n="det"/><s n="ind"/></l><r>весь<s n="det"/><s n="ind"/></r></p></e>
 
     <e><p><l>sedmý<s n="det"/><s n="ord"/></l><r>седьмой<s n="det"/><s n="ord"/></r></p></e>
 
     <!-- Раздел: Numerals -->
+
+    <e><p><l>pět<s n="num"/><s n="qnt"/></l><r>пять<s n="num"/></r></p></e>
+    <e><p><l>deset<s n="num"/><s n="qnt"/></l><r>десять<s n="num"/></r></p></e>
+    <e><p><l>sto<s n="num"/><s n="qnt"/></l><r>сто<s n="num"/></r></p></e>
    
     <!-- Раздел: Nouns -->
+
+    <e><p><l>tisíc<s n="n"/><s n="mi"/></l><r>тысяча<s n="num"/><s n="f"/><s n="nn"/></r></p></e>
 
     <e><p><l>kočka<s n="n"/><s n="f"/></l><r>собака<s n="n"/><s n="f"/><s n="aa"/></r></p></e>
     <e><p><l>region<s n="n"/><s n="mi"/></l><r>регион<s n="n"/><s n="m"/><s n="nn"/></r></p></e>
@@ -633,7 +671,6 @@
     <e><p><l>test<s n="n"/><s n="mi"/></l><r>испытание<s n="n"/><s n="nt"/><s n="nn"/></r></p></e>
     <e><p><l>text<s n="n"/><s n="mi"/></l><r>текст<s n="n"/><s n="m"/><s n="nn"/></r></p></e>
     <e><p><l>těžkost<s n="n"/><s n="f"/></l><r>трудность<s n="n"/><s n="f"/><s n="nn"/></r></p></e>
-    <e><p><l>tisíc<s n="n"/><s n="mi"/></l><r>тысяча<s n="num"/><s n="f"/><s n="nn"/></r></p></e>
     <e><p><l>tisk<s n="n"/><s n="mi"/></l><r>печать<s n="n"/><s n="f"/><s n="nn"/></r></p></e>
     <e><p><l>tisk<s n="n"/><s n="mi"/></l><r>пресса<s n="n"/><s n="f"/><s n="nn"/></r></p></e>
     <e><p><l>titul<s n="n"/><s n="mi"/></l><r>звание<s n="n"/><s n="nt"/><s n="nn"/></r></p></e>

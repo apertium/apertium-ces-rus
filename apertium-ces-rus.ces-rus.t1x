@@ -44,7 +44,7 @@
         <pattern-item n="nom"/>
       </pattern>
       <action>
-        <choose>
+        <choose> <!-- Locative always changes to prepositional case -->
           <when><test><equal><clip pos="1" side="sl" part="a_case"/><lit-tag v="loc"/></equal></test>
             <let><clip pos="1" side="tl" part="a_case"/><lit-tag v="prp"/></let></when>
         </choose>
