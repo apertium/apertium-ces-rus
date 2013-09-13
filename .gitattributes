@@ -36,5 +36,6 @@ dev/testvoc/testvoc-summary.rus-ces.txt -text
 dev/testvoc/testvoc.sh -text
 /modes.xml -text
 /rus-ces.prob -text
+texts/116src.cs -text
 texts/rasskaz.rus.txt -text svneol=unset#application/octet-stream
 /to_do -text
