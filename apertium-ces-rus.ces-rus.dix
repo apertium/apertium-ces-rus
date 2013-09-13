@@ -56,11 +56,8 @@
 
     <!-- Раздел: Союзы-->
 
-    <e><p><l>i<s n="cnjcoo"/></l><r>и<s n="cnjcoo"/></r></p></e>
     <e><p><l>že<s n="cnjsub"/></l><r>что<s n="cnjsub"/></r></p></e>
     <e><p><l>když<s n="cnjsub"/></l><r>когда<s n="cnjsub"/></r></p></e>
-    <e><p><l>pokud<s n="cnjadv"/></l><r>если<s n="cnjsub"/></r></p></e>
-
     <e><p><l>aby<s n="cnjsub"/></l><r>чтоб<s n="cnjsub"/></r></p></e>
     <e><p><l>ale<s n="cnjcoo"/></l><r>а<s n="cnjcoo"/></r></p></e>
     <e><p><l>ale<s n="cnjcoo"/></l><r>но<s n="cnjcoo"/></r></p></e>
@@ -82,12 +79,27 @@
     <e><p><l>kdyby<s n="cnjsub"/></l><r>если<s n="cnjsub"/></r></p></e>
     <e><p><l>když<s n="cnjsub"/></l><r>если<s n="cnjsub"/></r></p></e>
     <e><p><l>leč<s n="cnjcoo"/></l><r>но<s n="cnjcoo"/></r></p></e>
-    <e><p><l>nebo<s n="cnjcoo"/></l><r>или</r></p></e>
+    <e><p><l>nebo<s n="cnjcoo"/></l><r>или<s n="cnjcoo"/></r></p></e>
     <e><p><l>nýbrž<s n="cnjcoo"/></l><r>а<s n="cnjcoo"/></r></p></e>
     <e><p><l>pokud<s n="cnjadv"/></l><r>если<s n="cnjsub"/></r></p></e>
     <e><p><l>protože<s n="cnjadv"/></l><r>поскольку<s n="cnjsub"/></r></p></e>
     <e><p><l>však<s n="cnjadv"/></l><r>но<s n="cnjcoo"/></r></p></e>
     <e><p><l>že<s n="cnjsub"/></l><r>если<s n="cnjsub"/></r></p></e>
+
+    <e><p><l>ačkoliv<s n="cnjadv"/></l><r>хотя<s n="cnjadv"/></r></p></e>
+    <e><p><l>ač<s n="cnjadv"/></l><r>хотя<s n="cnjadv"/></r></p></e>
+    <e><p><l>přestože<s n="cnjadv"/></l><r>хотя<s n="cnjadv"/></r></p></e>
+    <e><p><l>třebaže<s n="cnjadv"/></l><r>хотя<s n="cnjadv"/></r></p></e>
+    <e><p><l>ovšem<s n="cnjadv"/></l><r>конечно<s n="adv"/></r></p></e>
+    <e><p><l>ovšem<s n="cnjadv"/></l><r>однако<s n="adv"/></r></p></e>
+    <e><p><l>přece<s n="cnjadv"/></l><r>однако<s n="adv"/></r></p></e>
+    <e><p><l>předtím<s n="cnjadv"/></l><r>ранее<s n="adv"/></r></p></e>
+    <e><p><l>proto<s n="cnjadv"/></l><r>оттого<s n="adv"/></r></p></e>
+    <e><p><l>proto<s n="cnjadv"/></l><r>поэтому<s n="adv"/></r></p></e>
+    <e><p><l>tedy<s n="cnjadv"/></l><r>следовательно<s n="adv"/></r></p></e>
+    <e><p><l>tudíž<s n="cnjadv"/></l><r>следовательно<s n="adv"/></r></p></e>
+
+    <e><p><l>protože<s n="cnjadv"/></l><r>благодаря<s n="pr"/></r></p></e> <!-- FIXME: CHECK -->
 
 
     <!-- Раздел: Prepositions -->
