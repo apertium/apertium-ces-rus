@@ -38,9 +38,3 @@ REMOVE $$NGDAILV IF (0C N) (-1C NP-MOD) (NOT -1 NP-MOD + $$NGDAILV);
 REMOVE $$NUMBER IF (0C N) (-1C NP-MOD) (NOT -1 NP-MOD + $$NUMBER);
 REMOVE $$GENDER IF (0C N) (-1C NP-MOD) (NOT -1 NP-MOD + $$GENDER);
 
-
-REMOVE $$NGDAILV IF (0C A) (-1C N) (NOT -1 N + $$NGDAILV);
-REMOVE $$NUMBER IF (0C A) (-1C N) (NOT -1 N + $$NUMBER);
-REMOVE $$GENDER IF (0C A) (-1C N) (NOT -1 N + $$GENDER);
-    ## Ústava EU učiní Evropu demokratičtější a průhlednější .
-
