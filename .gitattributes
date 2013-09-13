@@ -25,6 +25,9 @@
 /autogen.sh -text
 /ces-rus.prob -text
 /configure.ac -text
+dev/testvoc/inconsistency-summary.sh -text
+dev/testvoc/inconsistency.sh -text
+dev/testvoc/testvoc.sh -text
 /modes.xml -text
 /rus-ces.prob -text
 texts/rasskaz.rus.txt -text svneol=unset#application/octet-stream
