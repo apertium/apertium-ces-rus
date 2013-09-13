@@ -25,6 +25,7 @@
 /autogen.sh -text
 /ces-rus.prob -text
 /configure.ac -text
+dev/slovar -text
 dev/testvoc/inconsistency-summary.sh -text
 dev/testvoc/inconsistency.sh -text
 dev/testvoc/testvoc-summary.ces-rus.txt -text
