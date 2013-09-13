@@ -11,6 +11,7 @@
     <sdef n="adj"        c="Adjective"/>
     <sdef n="pr"         c="Preposition"/>
     <sdef n="vblex"      c="Verb"/>
+    <sdef n="abbr"       c="Abbreviation"/>
     <sdef n="vbmod"      c="Modal verb"/>
     <sdef n="vbhaver"    c="Verb 'to have'"/>
     <sdef n="vbser"      c="Verb 'to be'"/>
@@ -18,6 +19,7 @@
     <sdef n="cnjsub"     c="Subordinating conjunction"/>
     <sdef n="cnjadv"     c="Adverbial conjunction"/>
 
+    <sdef n="sp"         c="Singular and plural"/>
 
     <sdef n="f"          c="Feminine"/>
     <sdef n="m"          c="Masculine"/>
@@ -43,6 +45,7 @@
     <sdef n="sint"       c="Synthetic"/>
 
     <sdef n="top"        c="Toponym"/>
+    <sdef n="indecl"     c="Indeclinable"/>
 
     <sdef n="cm"         c="Comma"/>
     <sdef n="sent"       c="Sentence marker"/>
@@ -2330,7 +2333,8 @@
     <e><p><l>zemědělský<s n="adj"/></l><r>сельский<s n="adj"/></r></p></e>
     <e><p><l>ženský<s n="adj"/></l><r>женский<s n="adj"/></r></p></e>
     <e><p><l>židovský<s n="adj"/></l><r>еврейский<s n="adj"/></r></p></e>
-
+    <e><p><l>průhledný<s n="adj"/><s n="sint"/></l><r>открытый<s n="adj"/></r></p></e>
+    <e><p><l>průhledný<s n="adj"/><s n="sint"/></l><r>прозрачный<s n="adj"/></r></p></e>
 
     <!-- Раздел: Adverbs -->
 
@@ -2685,6 +2689,12 @@
     <e><p><l>zůstat<s n="vblex"/><s n="perf"/></l><r>остаться<s n="vblex"/><s n="perf"/></r></p></e>
     <e><p><l>zvýšit<s n="vblex"/><s n="perf"/></l><r>увеличить<s n="vblex"/><s n="perf"/></r></p></e>
 
+
+
+    <!-- Раздел: Punctuation -->
+
+    <e><p><l>cm<s n="n"/><s n="mi"/><s n="sp"/><s n="indecl"/></l><r>см<s n="abbr"/></r></p></e>
+    <e><p><l>km<s n="n"/><s n="mi"/><s n="sp"/><s n="indecl"/></l><r>км<s n="abbr"/></r></p></e>
 
     <!-- Раздел: Punctuation -->
 
