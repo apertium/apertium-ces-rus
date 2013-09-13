@@ -51362,7 +51362,7 @@
     <e lm="instinkt"><i>instinkt</i><par n="arak__n"/></e>
     <e lm="instituce"><i>instituc</i><par n="alergi/e__n"/></e>
     <e lm="institucionalizace"><i>institucionalizac</i><par n="alergi/e__n"/></e>
-    <e lm="institut"><i>institut</i><par n="absolvent__n"/></e>
+<!--    <e lm="institut"><i>institut</i><par n="absolvent__n"/></e>-->
     <e lm="institut"><i>institut</i><par n="arak__n"/></e>
     <e lm="instrukce"><i>instrukc</i><par n="alergi/e__n"/></e>
     <e lm="instruktor"><i>instrukto</i><par n="amu/r__n"/></e>

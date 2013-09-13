@@ -5699,8 +5699,8 @@
       <e>       <p><l>есмь</l><r>быть<s n="vbser"/><s n="pres"/><s n="p1"/><s n="sg"/></r></p></e>
       <e>       <p><l>еси</l><r>быть<s n="vbser"/><s n="pres"/><s n="p2"/><s n="sg"/></r></p></e>
       <e>       <p><l>есть</l><r>быть<s n="vbser"/><s n="pres"/><s n="p3"/><s n="sg"/></r></p></e>
-      <e>       <p><l>нет</l><r>быть<s n="vbser"/><s n="neg"/><s n="pres"/><s n="p3"/><s n="sg"/></r></p></e>
-      <e r="LR"><p><l>нету</l><r>быть<s n="vbser"/><s n="neg"/><s n="pres"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e>       <p><l>нет</l><r>не<s n="adv"/><j/>быть<s n="vbser"/><s n="pres"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e r="LR"><p><l>нету</l><r>не<s n="adv"/><j/>быть<s n="vbser"/><s n="pres"/><s n="p3"/><s n="sg"/></r></p></e>
       <e>       <p><l>есмы</l><r>быть<s n="vbser"/><s n="pres"/><s n="p1"/><s n="pl"/></r></p></e>
       <e>       <p><l>есте</l><r>быть<s n="vbser"/><s n="pres"/><s n="p2"/><s n="pl"/></r></p></e>
       <e>       <p><l>суть</l><r>быть<s n="vbser"/><s n="pres"/><s n="p3"/><s n="pl"/></r></p></e>

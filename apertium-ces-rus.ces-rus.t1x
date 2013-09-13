@@ -2,6 +2,12 @@
 <!-- -*- nxml -*- -->
 <transfer default="chunk">
   <section-def-cats>
+    <def-cat n="ne">
+      <cat-item lemma="ne" tags="adv"/>
+    </def-cat>
+    <def-cat n="je">
+      <cat-item lemma="být" tags="vbser.pres.p3.sg"/>
+    </def-cat>
     <def-cat n="nom">
       <cat-item tags="n.*"/>
     </def-cat>
@@ -60,6 +66,31 @@
         </out>
       </action>
     </rule>
+
+    <rule comment="REGLA: NE JEST (není)">
+      <pattern>
+        <pattern-item n="ne"/>
+        <pattern-item n="je"/>
+      </pattern>
+      <action>
+        <out>
+          <chunk name="net" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SENT"/></tag>
+            </tags>
+            <mlu>
+              <lu>
+                <clip pos="1" side="tl" part="whole"/>
+              </lu>
+              <lu>
+                <clip pos="2" side="tl" part="whole"/>
+              </lu>
+            </mlu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
 
     <rule comment="REGLA: SENT">
       <pattern>
