@@ -27,6 +27,7 @@
 /configure.ac -text
 dev/cesilko.ces -text
 dev/cesilko.rus -text
+dev/dic.19k -text
 dev/slovar -text
 dev/testvoc/inconsistency-summary.sh -text
 dev/testvoc/inconsistency.sh -text
