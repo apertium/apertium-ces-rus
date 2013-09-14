@@ -37,7 +37,9 @@
     <sdef n="pos"        c="Possessive"/>
     <sdef n="qnt"        c="Quantifier"/>
     <sdef n="ind"        c="Indefinite"/>
+    <sdef n="def"        c="Definite"/>
     <sdef n="dem"        c="Demonstrative"/>
+    <sdef n="neg"        c="Negative"/>
     <sdef n="ord"        c="Ordinal"/>
     <sdef n="itg"        c="Interrogative"/>
 
@@ -114,9 +116,11 @@
 
     <e><p><l>protože<s n="cnjadv"/></l><r>благодаря<s n="pr"/></r></p></e> <!-- FIXME: CHECK -->
 
+    <e><p><l>než<s n="cnjcoo"/></l><r>чем<s n="cnjcoo"/></r></p></e> <!-- FIXME: CHECK -->
 
     <!-- Раздел: Prepositions -->
 
+    <e><p><l>bez<s n="pr"/></l><r>без<s n="pr"/></r></p></e>
     <e><p><l>v<s n="pr"/></l><r>в<s n="pr"/></r></p></e>
     <e><p><l>od<s n="pr"/></l><r>от<s n="pr"/></r></p></e>
     <e><p><l>asi<s n="pr"/></l><r>около<s n="pr"/></r></p></e>
@@ -156,6 +160,7 @@
     <e><p><l>po<s n="pr"/></l><r>до<s n="pr"/></r></p></e>
     <e><p><l>po<s n="pr"/></l><r>по<s n="pr"/></r></p></e>
     <e><p><l>po<s n="pr"/></l><r>после<s n="pr"/></r></p></e>
+    <e><p><l>podle<s n="pr"/></l><r>по<s n="pr"/></r></p></e>
     <e><p><l>před<s n="pr"/></l><r>до<s n="pr"/></r></p></e>
     <e><p><l>přes<s n="pr"/></l><r>несмотря<s n="pr"/></r></p></e>
     <e><p><l>při<s n="pr"/></l><r>в<s n="pr"/></r></p></e>
@@ -185,6 +190,24 @@
 
     <e><p><l>prpers<s n="prn"/></l><r>prpers<s n="prn"/></r></p></e>
 
+    <e><p><l>se<s n="prn"/><s n="ref"/></l><r>себя<s n="prn"/><s n="ref"/></r></p></e>
+
+    <e><p><l>můj<s n="prn"/><s n="pos"/></l><r>мой<s n="prn"/><s n="pos"/></r></p></e>
+    <e><p><l>svůj<s n="prn"/><s n="pos"/></l><r>свой<s n="prn"/><s n="pos"/></r></p></e>
+
+    <e><p><l>co<s n="prn"/><s n="itg"/></l><r>что<s n="prn"/><s n="itg"/></r></p></e>
+    <e><p><l>který<s n="prn"/><s n="itg"/></l><r>который<s n="prn"/><s n="itg"/></r></p></e>
+    <e><p><l>jenž<s n="prn"/><s n="itg"/></l><r>который<s n="prn"/><s n="itg"/></r></p></e>
+    <e><p><l>kdo<s n="prn"/><s n="itg"/></l><r>кто<s n="prn"/><s n="itg"/></r></p></e>
+
+    <e><p><l>něco<s n="prn"/><s n="ind"/><s n="nt"/></l><r>ничто<s n="prn"/><s n="neg"/><s n="nt"/><s n="nn"/></r></p></e>
+    <e><p><l>nic<s n="prn"/><s n="ind"/><s n="nt"/></l><r>ничто<s n="prn"/><s n="neg"/><s n="nt"/><s n="nn"/></r></p></e>
+    <e><p><l>všechen<s n="prn"/><s n="ind"/></l><r>весь<s n="prn"/><s n="ind"/></r></p></e> 
+    <e><p><l>kolik<s n="prn"/><s n="ind"/></l><r>сколько<s n="prn"/><s n="itg"/></r></p></e> <!-- FIXME: CHECK -->
+    <e><p><l>několik<s n="prn"/><s n="ind"/></l><r>несколько<s n="adv"/></r></p></e> <!-- FIXME: CHECK -->
+    <e><p><l>žádný<s n="prn"/><s n="ind"/></l><r>никакой<s n="prn"/><s n="ind"/></r></p></e>
+
+
     <!-- Раздел: Determiners -->
 
     <e><p><l>čí<s n="det"/><s n="itg"/></l><r>чей<s n="det"/><s n="pos"/></r></p></e>
@@ -200,6 +223,7 @@
     <e><p><l>jiný<s n="det"/><s n="ind"/></l><r>другой<s n="det"/><s n="ind"/></r></p></e>
     <e><p><l>takový<s n="det"/><s n="dem"/></l><r>такой<s n="det"/><s n="ind"/></r></p></e>
     <e><p><l>všechen<s n="det"/><s n="ind"/></l><r>весь<s n="det"/><s n="ind"/></r></p></e>
+    <e><p><l>každý<s n="det"/><s n="ind"/></l><r>каждый<s n="det"/><s n="def"/></r></p></e>
 
     <e><p><l>druhý<s n="det"/><s n="ord"/></l><r>второй<s n="det"/><s n="ord"/></r></p></e>
     <e><p><l>sedmý<s n="det"/><s n="ord"/></l><r>седьмой<s n="det"/><s n="ord"/></r></p></e>
@@ -214,6 +238,7 @@
 
     <e><p><l>tisíc<s n="n"/><s n="mi"/></l><r>тысяча<s n="num"/><s n="f"/><s n="nn"/></r></p></e>
 
+    <e><p><l>univerzita<s n="n"/><s n="f"/></l><r>университет<s n="n"/><s n="m"/><s n="nn"/></r></p></e>
     <e><p><l>ústava<s n="n"/><s n="f"/></l><r>конституция<s n="n"/><s n="f"/><s n="nn"/></r></p></e>
     <e><p><l>kočka<s n="n"/><s n="f"/></l><r>собака<s n="n"/><s n="f"/><s n="aa"/></r></p></e>
     <e><p><l>region<s n="n"/><s n="mi"/></l><r>регион<s n="n"/><s n="m"/><s n="nn"/></r></p></e>
@@ -851,8 +876,8 @@
     <e><p><l>pilot<s n="n"/><s n="ma"/></l><r>пилот<s n="n"/><s n="m"/><s n="aa"/></r></p></e>
     <e><p><l>institut<s n="n"/><s n="mi"/></l><r>институт<s n="n"/><s n="m"/><s n="nn"/></r></p></e>
     <e><p><l>sekretář<s n="n"/><s n="ma"/></l><r>секретарь<s n="n"/><s n="m"/><s n="aa"/></r></p></e>
-    <e><p><l>země<s n="n"/><s n="f"/></l><r>земля<s n="n"/><s n="f"/><s n="nn"/></r></p></e>
-    <e><p><l>země<s n="n"/><s n="f"/></l><r>страна<s n="n"/><s n="f"/><s n="nn"/></r></p></e>
+    <e><p><l>zem<s n="n"/><s n="f"/></l><r>земля<s n="n"/><s n="f"/><s n="nn"/></r></p></e>
+    <e><p><l>zem<s n="n"/><s n="f"/></l><r>страна<s n="n"/><s n="f"/><s n="nn"/></r></p></e>
     <e><p><l>rok<s n="n"/><s n="mi"/></l><r>год<s n="n"/><s n="m"/><s n="nn"/></r></p></e>
     <e><p><l>politik<s n="n"/><s n="ma"/></l><r>политик<s n="n"/><s n="m"/><s n="aa"/></r></p></e>
     <e><p><l>strana<s n="n"/><s n="f"/></l><r>партия<s n="n"/><s n="f"/><s n="nn"/></r></p></e>
@@ -4108,18 +4133,180 @@
     <e><p><l>zvěrstvo<s n="n"/><s n="nt"/></l><r>зверство<s n="n"/><s n="nt"/><s n="nn"/></r></p></e>
     <e><p><l>zvrat<s n="n"/><s n="mi"/></l><r>переворот<s n="n"/><s n="m"/><s n="nn"/></r></p></e>
 
+    <e><p><l>nedostatek<s n="n"/><s n="mi"/></l><r>дефект<s n="n"/><s n="m"/><s n="nn"/></r></p></e>
+    <e><p><l>nedostatek<s n="n"/><s n="mi"/></l><r>дефицит<s n="n"/><s n="m"/><s n="nn"/></r></p></e>
+    <e><p><l>nedostatek<s n="n"/><s n="mi"/></l><r>недостаток<s n="n"/><s n="m"/><s n="nn"/></r></p></e>
+    <e><p><l>mír<s n="n"/><s n="mi"/></l><r>мир<s n="n"/><s n="m"/><s n="nn"/></r></p></e>
+    <e><p><l>vesmír<s n="n"/><s n="mi"/></l><r>вселенная<s n="n"/><s n="f"/><s n="nn"/></r></p></e>
+    <e><p><l>obřad<s n="n"/><s n="mi"/></l><r>церемония<s n="n"/><s n="f"/><s n="nn"/></r></p></e>
+    <e><p><l>úřad<s n="n"/><s n="mi"/></l><r>должность<s n="n"/><s n="f"/><s n="nn"/></r></p></e>
+    <e><p><l>úřad<s n="n"/><s n="mi"/></l><r>пост<s n="n"/><s n="m"/><s n="nn"/></r></p></e>
+    <e><p><l>student<s n="n"/><s n="ma"/></l><r>студент<s n="n"/><s n="m"/><s n="aa"/></r></p></e>
+    <e><p><l>jazykovědec<s n="n"/><s n="ma"/></l><r>лингвист<s n="n"/><s n="m"/><s n="aa"/></r></p></e>
+    <e><p><l>vědec<s n="n"/><s n="ma"/></l><r>учёный<s n="n"/><s n="m"/><s n="aa"/></r></p></e>
+
+    <e><p><l>bublina<s n="n"/><s n="f"/></l><r>пузырь<s n="n"/><s n="m"/><s n="nn"/></r></p></e>
+    <e><p><l>ekonomie<s n="n"/><s n="f"/></l><r>экономика<s n="n"/><s n="f"/><s n="nn"/></r></p></e>
+    <e><p><l>ministr<s n="n"/><s n="ma"/></l><r>министр<s n="n"/><s n="m"/><s n="aa"/></r></p></e>
+    <e><p><l>množství<s n="n"/><s n="mi"/></l><r>количество<s n="n"/><s n="nt"/><s n="nn"/></r></p></e>
+    <e><p><l>model<s n="n"/><s n="mi"/></l><r>модель<s n="n"/><s n="f"/><s n="nn"/></r></p></e>
+    <e><p><l>odbor<s n="n"/><s n="mi"/></l><r>отдел<s n="n"/><s n="m"/><s n="nn"/></r></p></e>
+    <e><p><l>penzista<s n="n"/><s n="ma"/></l><r>пенсионер<s n="n"/><s n="m"/><s n="aa"/></r></p></e>
+    <e><p><l>plat<s n="n"/><s n="mi"/></l><r>зарплата<s n="n"/><s n="f"/><s n="nn"/></r></p></e>
+    <e><p><l>populace<s n="n"/><s n="f"/></l><r>население<s n="n"/><s n="nt"/><s n="nn"/></r></p></e>
+    <e><p><l>posudek<s n="n"/><s n="mi"/></l><r>оценка<s n="n"/><s n="f"/><s n="nn"/></r></p></e>
+    <e><p><l>průzkum<s n="n"/><s n="mi"/></l><r>изучение<s n="n"/><s n="nt"/><s n="nn"/></r></p></e>
+    <e><p><l>průzkum<s n="n"/><s n="mi"/></l><r>исследование<s n="n"/><s n="nt"/><s n="nn"/></r></p></e>
+    <e><p><l>schodek<s n="n"/><s n="mi"/></l><r>дефицит<s n="n"/><s n="m"/><s n="nn"/></r></p></e>
+    <e><p><l>slib<s n="n"/><s n="mi"/></l><r>обещание<s n="n"/><s n="nt"/><s n="nn"/></r></p></e>
+    <e><p><l>soutěž<s n="n"/><s n="f"/></l><r>конкуренция<s n="n"/><s n="f"/><s n="nn"/></r></p></e>
+    <e><p><l>uchazeč<s n="n"/><s n="ma"/></l><r>кандидат<s n="n"/><s n="m"/><s n="aa"/></r></p></e>
+    <e><p><l>vliv<s n="n"/><s n="mi"/></l><r>влияние<s n="n"/><s n="nt"/><s n="nn"/></r></p></e>
+    <e><p><l>záležitost<s n="n"/><s n="f"/></l><r>вещь<s n="n"/><s n="f"/><s n="nn"/></r></p></e>
+    <e><p><l>záležitost<s n="n"/><s n="f"/></l><r>дело<s n="n"/><s n="nt"/><s n="nn"/></r></p></e>
+    <e><p><l>zaměstnanec<s n="n"/><s n="ma"/></l><r>работник<s n="n"/><s n="m"/><s n="aa"/></r></p></e>
+    <e><p><l>zástup<s n="n"/><s n="mi"/></l><r>толпа<s n="n"/><s n="f"/><s n="nn"/></r></p></e>
+
+    <e><p><l>člen<s n="n"/><s n="mi"/></l><r>член<s n="n"/><s n="m"/><s n="nn"/></r></p></e>
+    <e><p><l>člen<s n="n"/><s n="ma"/></l><r>участник<s n="n"/><s n="m"/><s n="aa"/></r></p></e>
+
+
     <!-- Раздел: Proper nouns -->
 
     <e><p><l>Evropa<s n="np"/><s n="top"/><s n="f"/></l><r>Европа<s n="np"/><s n="top"/><s n="f"/></r></p></e>
 
     <!-- Раздел: Adjectives -->
 
+    <e><p><l>vysoký<s n="adj"/></l><r>высокий<s n="adj"/></r></p></e>
+    <e><p><l>starý<s n="adj"/></l><r>старый<s n="adj"/></r></p></e>
     <e><p><l>syrský<s n="adj"/></l><r>сирийский<s n="adj"/></r></p></e>
     <e><p><l>ruský<s n="adj"/></l><r>русский<s n="adj"/></r></p></e>
     <e><p><l>ruský<s n="adj"/></l><r>российский<s n="adj"/></r></p></e>
     <e><p><l>poslední<s n="adj"/></l><r>последний<s n="adj"/></r></p></e>
     <e><p><l>poslední<s n="adj"/></l><r>конечный<s n="adj"/></r></p></e>
     <e><p><l>demokratický<s n="adj"/></l><r>демократический<s n="adj"/></r></p></e>
+    <e><p><l>bezplatný<s n="adj"/></l><r>бесплатный<s n="adj"/></r></p></e>
+    <e><p><l>byrokratický<s n="adj"/></l><r>бюрократический<s n="adj"/></r></p></e>
+    <e><p><l>americký<s n="adj"/></l><r>американский<s n="adj"/></r></p></e>
+    <e><p><l>zlý<s n="adj"/></l><r>злой<s n="adj"/></r></p></e>
+
+    <e><p><l>agresivní<s n="adj"/></l><r>агрессивный<s n="adj"/></r></p></e>
+    <e><p><l>bankovní<s n="adj"/></l><r>банковский<s n="adj"/></r></p></e>
+    <e><p><l>bohatý<s n="adj"/><s n="sint"/></l><r>богатый<s n="adj"/></r></p></e>
+    <e><p><l>častý<s n="adj"/><s n="sint"/></l><r>частый<s n="adj"/></r></p></e>
+    <e><p><l>celý<s n="adj"/></l><r>весь<s n="adj"/></r></p></e>
+    <e><p><l>celý<s n="adj"/></l><r>весь<s n="adj"/></r></p></e>
+    <e><p><l>centralizovaný<s n="adj"/><s n="sint"/></l><r>централизованный<s n="adj"/></r></p></e>
+    <e><p><l>další<s n="adj"/></l><r>дальнейший<s n="adj"/></r></p></e>
+    <e><p><l>další<s n="adj"/></l><r>другой<s n="adj"/></r></p></e>
+    <e><p><l>daňový<s n="adj"/><s n="sint"/></l><r>налоговый<s n="adj"/></r></p></e>
+    <e><p><l>daný<s n="adj"/></l><r>данный<s n="adj"/></r></p></e>
+    <e><p><l>daný<s n="adj"/></l><r>этот<s n="adj"/></r></p></e>
+    <e><p><l>diferencovaný<s n="adj"/><s n="sint"/></l><r>дифференцированный<s n="adj"/></r></p></e>
+    <e><p><l>dnešní<s n="adj"/></l><r>настоящий<s n="adj"/></r></p></e>
+    <e><p><l>dnešní<s n="adj"/></l><r>нынешний<s n="adj"/></r></p></e>
+    <e><p><l>dnešní<s n="adj"/></l><r>сегодняшний<s n="adj"/></r></p></e>
+    <e><p><l>dobrý<s n="adj"/><s n="sint"/></l><r>благоприятный<s n="adj"/></r></p></e>
+    <e><p><l>dobrý<s n="adj"/><s n="sint"/></l><r>добрый<s n="adj"/></r></p></e>
+    <e><p><l>dobrý<s n="adj"/><s n="sint"/></l><r>хороший<s n="adj"/></r></p></e>
+    <e><p><l>domnělý<s n="adj"/></l><r>воображаемый<s n="adj"/></r></p></e>
+    <e><p><l>domnělý<s n="adj"/></l><r>мнимый<s n="adj"/></r></p></e>
+    <e><p><l>domnělý<s n="adj"/></l><r>предполагаемый<s n="adj"/></r></p></e>
+    <e><p><l>dostupný<s n="adj"/><s n="sint"/></l><r>доступный<s n="adj"/></r></p></e>
+    <e><p><l>drobný<s n="adj"/><s n="sint"/></l><r>мелкий<s n="adj"/></r></p></e>
+    <e><p><l>drobný<s n="adj"/><s n="sint"/></l><r>небольшой<s n="adj"/></r></p></e>
+    <e><p><l>ekonomický<s n="adj"/></l><r>хозяйственный<s n="adj"/></r></p></e>
+    <e><p><l>ekonomický<s n="adj"/></l><r>экономический<s n="adj"/></r></p></e>
+    <e><p><l>elektronický<s n="adj"/></l><r>электронный<s n="adj"/></r></p></e>
+    <e><p><l>expertní<s n="adj"/></l><r>экспертный<s n="adj"/></r></p></e>
+    <e><p><l>jasný<s n="adj"/><s n="sint"/></l><r>отчетливый<s n="adj"/></r></p></e>
+    <e><p><l>jasný<s n="adj"/><s n="sint"/></l><r>понятный<s n="adj"/></r></p></e>
+    <e><p><l>jasný<s n="adj"/><s n="sint"/></l><r>простой<s n="adj"/></r></p></e>
+    <e><p><l>jasný<s n="adj"/><s n="sint"/></l><r>четкий<s n="adj"/></r></p></e>
+    <e><p><l>jasný<s n="adj"/><s n="sint"/></l><r>ясный<s n="adj"/></r></p></e>
+    <e><p><l>jediný<s n="adj"/><s n="sint"/></l><r>единственный<s n="adj"/></r></p></e>
+    <e><p><l>jednotlivý<s n="adj"/><s n="sint"/></l><r>индивидуальный<s n="adj"/></r></p></e>
+    <e><p><l>jednotlivý<s n="adj"/><s n="sint"/></l><r>отдельный<s n="adj"/></r></p></e>
+    <e><p><l>jistý<s n="adj"/><s n="sint"/></l><r>бесспорный<s n="adj"/></r></p></e>
+    <e><p><l>jistý<s n="adj"/><s n="sint"/></l><r>верный<s n="adj"/></r></p></e>
+    <e><p><l>jistý<s n="adj"/><s n="sint"/></l><r>некоторый<s n="adj"/></r></p></e>
+    <e><p><l>legitimní<s n="adj"/></l><r>законный<s n="adj"/></r></p></e>
+    <e><p><l>mizerný<s n="adj"/><s n="sint"/></l><r>жалкий<s n="adj"/></r></p></e>
+    <e><p><l>mnohý<s n="adj"/></l><r>многий<s n="adj"/></r></p></e>
+    <e><p><l>nadaný<s n="adj"/><s n="sint"/></l><r>талантливый<s n="adj"/></r></p></e>
+    <e><p><l>nadějný<s n="adj"/><s n="sint"/></l><r>многообещающий<s n="adj"/></r></p></e>
+    <e><p><l>německý<s n="adj"/></l><r>германский<s n="adj"/></r></p></e>
+    <e><p><l>německý<s n="adj"/></l><r>немецкий<s n="adj"/></r></p></e>
+    <e><p><l>nestranný<s n="adj"/><s n="sint"/></l><r>беспристрастный<s n="adj"/></r></p></e>
+    <e><p><l>nový<s n="adj"/><s n="sint"/></l><r>новый<s n="adj"/></r></p></e>
+    <e><p><l>obchodní<s n="adj"/></l><r>деловой<s n="adj"/></r></p></e>
+    <e><p><l>obchodní<s n="adj"/></l><r>торговый<s n="adj"/></r></p></e>
+    <e><p><l>obvyklý<s n="adj"/></l><r>нормальный<s n="adj"/></r></p></e>
+    <e><p><l>obvyklý<s n="adj"/></l><r>обычный<s n="adj"/></r></p></e>
+    <e><p><l>ohromný<s n="adj"/><s n="sint"/></l><r>громадный<s n="adj"/></r></p></e>
+    <e><p><l>ohromný<s n="adj"/><s n="sint"/></l><r>огромный<s n="adj"/></r></p></e>
+    <e><p><l>ospalý<s n="adj"/></l><r>сонный<s n="adj"/></r></p></e>
+    <e><p><l>plodný<s n="adj"/><s n="sint"/></l><r>плодотворный<s n="adj"/></r></p></e>
+    <e><p><l>plodný<s n="adj"/><s n="sint"/></l><r>продуктивный<s n="adj"/></r></p></e>
+    <e><p><l>pomalý<s n="adj"/></l><r>медленный<s n="adj"/></r></p></e>
+    <e><p><l>potřebný<s n="adj"/><s n="sint"/></l><r>необходимый<s n="adj"/></r></p></e>
+    <e><p><l>pozoruhodný<s n="adj"/><s n="sint"/></l><r>замечательный<s n="adj"/></r></p></e>
+    <e><p><l>pracovitý<s n="adj"/><s n="sint"/></l><r>трудолюбивый<s n="adj"/></r></p></e>
+    <e><p><l>pracovní<s n="adj"/></l><r>рабочий<s n="adj"/></r></p></e>
+    <e><p><l>pracovní<s n="adj"/></l><r>рабочий<s n="adj"/></r></p></e>
+    <e><p><l>přistěhovalecký<s n="adj"/></l><r>иммигрантский<s n="adj"/></r></p></e>
+    <e><p><l>produktivní<s n="adj"/></l><r>продуктивный<s n="adj"/></r></p></e>
+    <e><p><l>profesorský<s n="adj"/></l><r>преподавательский<s n="adj"/></r></p></e>
+    <e><p><l>průměrný<s n="adj"/><s n="sint"/></l><r>посредственный<s n="adj"/></r></p></e>
+    <e><p><l>průměrný<s n="adj"/><s n="sint"/></l><r>средний<s n="adj"/></r></p></e>
+    <e><p><l>pružný<s n="adj"/><s n="sint"/></l><r>гибкий<s n="adj"/></r></p></e>
+    <e><p><l>řízený<s n="adj"/><s n="sint"/></l><r>управляемый<s n="adj"/></r></p></e>
+    <e><p><l>rodilý<s n="adj"/></l><r>коренной<s n="adj"/></r></p></e>
+    <e><p><l>rodinný<s n="adj"/><s n="sint"/></l><r>семейный<s n="adj"/></r></p></e>
+    <e><p><l>rozpočtový<s n="adj"/><s n="sint"/></l><r>бюджетный<s n="adj"/></r></p></e>
+    <e><p><l>schopný<s n="adj"/><s n="sint"/></l><r>способный<s n="adj"/></r></p></e>
+    <e><p><l>silný<s n="adj"/><s n="sint"/></l><r>крепкий<s n="adj"/></r></p></e>
+    <e><p><l>silný<s n="adj"/><s n="sint"/></l><r>могущественный<s n="adj"/></r></p></e>
+    <e><p><l>silný<s n="adj"/><s n="sint"/></l><r>мощный<s n="adj"/></r></p></e>
+    <e><p><l>silný<s n="adj"/><s n="sint"/></l><r>сильный<s n="adj"/></r></p></e>
+    <e><p><l>skutečný<s n="adj"/><s n="sint"/></l><r>действительный<s n="adj"/></r></p></e>
+    <e><p><l>skutečný<s n="adj"/><s n="sint"/></l><r>истинный<s n="adj"/></r></p></e>
+    <e><p><l>skutečný<s n="adj"/><s n="sint"/></l><r>настоящий<s n="adj"/></r></p></e>
+    <e><p><l>skutečný<s n="adj"/><s n="sint"/></l><r>реальный<s n="adj"/></r></p></e>
+    <e><p><l>snadný<s n="adj"/><s n="sint"/></l><r>легкий<s n="adj"/></r></p></e>
+    <e><p><l>špatný<s n="adj"/><s n="sint"/></l><r>дурной<s n="adj"/></r></p></e>
+    <e><p><l>špatný<s n="adj"/><s n="sint"/></l><r>неправильный<s n="adj"/></r></p></e>
+    <e><p><l>špatný<s n="adj"/><s n="sint"/></l><r>плохой<s n="adj"/></r></p></e>
+    <e><p><l>špatný<s n="adj"/><s n="sint"/></l><r>дурной<s n="adj"/></r></p></e>
+    <e><p><l>špatný<s n="adj"/><s n="sint"/></l><r>неправильный<s n="adj"/></r></p></e>
+    <e><p><l>špatný<s n="adj"/><s n="sint"/></l><r>плохой<s n="adj"/></r></p></e>
+    <e><p><l>spletitý<s n="adj"/><s n="sint"/></l><r>запутанный<s n="adj"/></r></p></e>
+    <e><p><l>spletitý<s n="adj"/><s n="sint"/></l><r>сложный<s n="adj"/></r></p></e>
+    <e><p><l>spravedlivý<s n="adj"/></l><r>беспристрастный<s n="adj"/></r></p></e>
+    <e><p><l>spravedlivý<s n="adj"/></l><r>справедливый<s n="adj"/></r></p></e>
+    <e><p><l>správný<s n="adj"/><s n="sint"/></l><r>верный<s n="adj"/></r></p></e>
+    <e><p><l>správný<s n="adj"/><s n="sint"/></l><r>правильный<s n="adj"/></r></p></e>
+    <e><p><l>účinný<s n="adj"/><s n="sint"/></l><r>активный<s n="adj"/></r></p></e>
+    <e><p><l>účinný<s n="adj"/><s n="sint"/></l><r>действенный<s n="adj"/></r></p></e>
+    <e><p><l>účinný<s n="adj"/><s n="sint"/></l><r>эффективный<s n="adj"/></r></p></e>
+    <e><p><l>učitelský<s n="adj"/></l><r>преподавательский<s n="adj"/></r></p></e>
+    <e><p><l>univerzitní<s n="adj"/></l><r>университетский<s n="adj"/></r></p></e>
+    <e><p><l>ušlechtilý<s n="adj"/></l><r>благородный<s n="adj"/></r></p></e>
+    <e><p><l>veřejný<s n="adj"/><s n="sint"/></l><r>общественный<s n="adj"/></r></p></e>
+    <e><p><l>veřejný<s n="adj"/><s n="sint"/></l><r>общественный<s n="adj"/></r></p></e>
+    <e><p><l>volný<s n="adj"/><s n="sint"/></l><r>беспрепятственный<s n="adj"/></r></p></e>
+    <e><p><l>volný<s n="adj"/><s n="sint"/></l><r>вольный<s n="adj"/></r></p></e>
+    <e><p><l>volný<s n="adj"/><s n="sint"/></l><r>открытый<s n="adj"/></r></p></e>
+    <e><p><l>volný<s n="adj"/><s n="sint"/></l><r>свободный<s n="adj"/></r></p></e>
+    <e><p><l>výzkumný<s n="adj"/><s n="sint"/></l><r>исследовательский<s n="adj"/></r></p></e>
+    <e><p><l>významný<s n="adj"/><s n="sint"/></l><r>важный<s n="adj"/></r></p></e>
+    <e><p><l>zdravotnický<s n="adj"/></l><r>медицинский<s n="adj"/></r></p></e>
+    <e><p><l>zdravý<s n="adj"/><s n="sint"/></l><r>здоровый<s n="adj"/></r></p></e>
+    <e><p><l>známý<s n="adj"/><s n="sint"/></l><r>знакомый<s n="adj"/></r></p></e>
+    <e><p><l>známý<s n="adj"/><s n="sint"/></l><r>знаменитый<s n="adj"/></r></p></e>
+    <e><p><l>zřetelný<s n="adj"/><s n="sint"/></l><r>видимый<s n="adj"/></r></p></e>
+    <e><p><l>zřetelný<s n="adj"/><s n="sint"/></l><r>отчетливый<s n="adj"/></r></p></e>
+    <e><p><l>zřetelný<s n="adj"/><s n="sint"/></l><r>очевидный<s n="adj"/></r></p></e>
 
 
     <e><p><l>absolutní<s n="adj"/></l><r>абсолютный<s n="adj"/></r></p></e>
@@ -4539,7 +4726,9 @@
 
     <e><p><l>nej<s n="adv"/></l><r>более<s n="preadv"/></r></p></e>
 
+    <e><p><l>jak<s n="adv"/><s n="itg"/></l><r>как<s n="adv"/><s n="itg"/></r></p></e>
     <e><p><l>kdy<s n="adv"/><s n="itg"/></l><r>когда<s n="adv"/><s n="itg"/></r></p></e>
+    <e><p><l>kde<s n="adv"/><s n="itg"/></l><r>где<s n="adv"/><s n="itg"/></r></p></e>
 
     <e><p><l>rychle<s n="adv"/></l><r>быстро<s n="adv"/></r></p></e>
     <e><p><l>již<s n="adv"/></l><r>уже<s n="adv"/></r></p></e>
@@ -4716,6 +4905,23 @@
     <e><p><l>zpět<s n="adv"/></l><r>назад<s n="adv"/></r></p></e>
     <e><p><l>zřetelně<s n="adv"/><s n="sint"/></l><r>отчетливо<s n="adv"/></r></p></e>
     <e><p><l>zřetelně<s n="adv"/><s n="sint"/></l><r>очевидно<s n="adv"/></r></p></e>
+
+    <e><p><l>částečně<s n="adv"/><s n="sint"/></l><r>отчасти<s n="adv"/></r></p></e>
+    <e><p><l>částečně<s n="adv"/><s n="sint"/></l><r>частично<s n="adv"/></r></p></e>
+    <e><p><l>mnohem<s n="adv"/></l><r>гораздо<s n="adv"/></r></p></e>
+    <e><p><l>nadále<s n="adv"/></l><r>впредь<s n="adv"/></r></p></e>
+    <e><p><l>naprosto<s n="adv"/></l><r>абсолютно<s n="adv"/></r></p></e>
+    <e><p><l>naprosto<s n="adv"/></l><r>полностью<s n="adv"/></r></p></e>
+    <e><p><l>naprosto<s n="adv"/></l><r>совершенно<s n="adv"/></r></p></e>
+    <e><p><l>pochopitelně<s n="adv"/><s n="sint"/></l><r>конечно<s n="adv"/></r></p></e>
+    <e><p><l>především<s n="adv"/></l><r>преимущественно<s n="adv"/></r></p></e>
+    <e><p><l>skutečně<s n="adv"/><s n="sint"/></l><r>действительно<s n="adv"/></r></p></e>
+    <e><p><l>spatra<s n="adv"/></l><r>свысока<s n="adv"/></r></p></e>
+    <e><p><l>takto<s n="adv"/></l><r>так<s n="adv"/></r></p></e>
+    <e><p><l>uvnitř<s n="adv"/></l><r>внутри<s n="adv"/></r></p></e>
+    <e><p><l>vážně<s n="adv"/><s n="sint"/></l><r>всерьез<s n="adv"/></r></p></e>
+    <e><p><l>všeobecně<s n="adv"/><s n="sint"/></l><r>широко<s n="adv"/></r></p></e>
+    <e><p><l>zvenčí<s n="adv"/></l><r>извне<s n="adv"/></r></p></e>
 
 
     <!-- Раздел: Verbs -->
@@ -4959,6 +5165,52 @@
     <e><p><l>zůstat<s n="vblex"/><s n="perf"/></l><r>остаться<s n="vblex"/><s n="perf"/></r></p></e>
     <e><p><l>zvýšit<s n="vblex"/><s n="perf"/></l><r>увеличить<s n="vblex"/><s n="perf"/></r></p></e>
     <e><p><l>zabývat<s n="vblex"/><s n="perf"/></l><r>заниматься<s n="vblex"/><s n="perf"/></r></p></e>
+
+    <e><p><l>dokázat<s n="vblex"/><s n="perf"/></l><r>добиться<s n="vblex"/><s n="perf"/></r></p></e>
+    <e><p><l>dokázat<s n="vblex"/><s n="perf"/></l><r>доказать<s n="vblex"/><s n="perf"/></r></p></e>
+    <e><p><l>dopřávat<s n="vblex"/><s n="impf"/></l><r>давать<s n="vblex"/><s n="impf"/></r></p></e>
+    <e><p><l>dosahovat<s n="vblex"/><s n="impf"/></l><r>добиваться<s n="vblex"/><s n="impf"/></r></p></e>
+    <e><p><l>dosahovat<s n="vblex"/><s n="impf"/></l><r>достигать<s n="vblex"/><s n="impf"/></r></p></e>
+    <e><p><l>hovořit<s n="vblex"/><s n="impf"/></l><r>говорить<s n="vblex"/><s n="impf"/></r></p></e>
+    <e><p><l>klesat<s n="vblex"/><s n="impf"/></l><r>падать<s n="vblex"/><s n="impf"/></r></p></e>
+    <e><p><l>nabízet<s n="vblex"/><s n="impf"/></l><r>предлагать<s n="vblex"/><s n="impf"/></r></p></e>
+    <e><p><l>naznačovat<s n="vblex"/><s n="impf"/></l><r>показывать<s n="vblex"/><s n="impf"/></r></p></e>
+    <e><p><l>naznačovat<s n="vblex"/><s n="impf"/></l><r>указывать<s n="vblex"/><s n="impf"/></r></p></e>
+    <e><p><l>nechávat<s n="vblex"/><s n="impf"/></l><r>оставлять<s n="vblex"/><s n="impf"/></r></p></e>
+    <e><p><l>objevovat<s n="vblex"/><s n="impf"/></l><r>открывать<s n="vblex"/><s n="impf"/></r></p></e>
+    <e><p><l>odcházet<s n="vblex"/><s n="impf"/></l><r>покидать<s n="vblex"/><s n="impf"/></r></p></e>
+    <e><p><l>odcházet<s n="vblex"/><s n="impf"/></l><r>уходить<s n="vblex"/><s n="perf"/></r></p></e>
+    <e><p><l>podat<s n="vblex"/><s n="perf"/></l><r>подать<s n="vblex"/><s n="perf"/></r></p></e>
+    <e><p><l>porušovat<s n="vblex"/><s n="impf"/></l><r>нарушать<s n="vblex"/><s n="impf"/></r></p></e>
+    <e><p><l>poskytovat<s n="vblex"/><s n="impf"/></l><r>выдавать<s n="vblex"/><s n="impf"/></r></p></e>
+    <e><p><l>poskytovat<s n="vblex"/><s n="impf"/></l><r>давать<s n="vblex"/><s n="impf"/></r></p></e>
+    <e><p><l>přestat<s n="vblex"/><s n="perf"/></l><r>бросить<s n="vblex"/><s n="perf"/></r></p></e>
+    <e><p><l>přestat<s n="vblex"/><s n="perf"/></l><r>перестать<s n="vblex"/><s n="perf"/></r></p></e>
+    <e><p><l>přežít<s n="vblex"/><s n="perf"/></l><r>выжить<s n="vblex"/><s n="perf"/></r></p></e>
+    <e><p><l>přežít<s n="vblex"/><s n="perf"/></l><r>пережить<s n="vblex"/><s n="perf"/></r></p></e>
+    <e><p><l>přilákat<s n="vblex"/><s n="perf"/></l><r>привлечь<s n="vblex"/><s n="perf"/></r></p></e>
+    <e><p><l>přinášet<s n="vblex"/><s n="impf"/></l><r>нести<s n="vblex"/><s n="impf"/></r></p></e>
+    <e><p><l>přinášet<s n="vblex"/><s n="impf"/></l><r>приносить<s n="vblex"/><s n="impf"/></r></p></e>
+    <e><p><l>prokazovat<s n="vblex"/><s n="impf"/></l><r>проявлять<s n="vblex"/><s n="impf"/></r></p></e>
+    <e><p><l>proměnit<s n="vblex"/><s n="perf"/></l><r>изменить<s n="vblex"/><s n="perf"/></r></p></e>
+    <e><p><l>proměnit<s n="vblex"/><s n="perf"/></l><r>превратить<s n="vblex"/><s n="perf"/></r></p></e>
+    <e><p><l>učit<s n="vblex"/><s n="impf"/></l><r>учить<s n="vblex"/><s n="impf"/></r></p></e>
+    <e><p><l>udílet<s n="vblex"/><s n="impf"/></l><r>давать<s n="vblex"/><s n="impf"/></r></p></e>
+    <e><p><l>upadat<s n="vblex"/><s n="impf"/></l><r>падать<s n="vblex"/><s n="impf"/></r></p></e>
+    <e><p><l>určovat<s n="vblex"/><s n="impf"/></l><r>определять<s n="vblex"/><s n="impf"/></r></p></e>
+    <e><p><l>utrácet<s n="vblex"/><s n="impf"/></l><r>тратить<s n="vblex"/><s n="impf"/></r></p></e>
+    <e><p><l>vstupovat<s n="vblex"/><s n="impf"/></l><r>вступать<s n="vblex"/><s n="impf"/></r></p></e>
+    <e><p><l>vychovávat<s n="vblex"/><s n="impf"/></l><r>воспитывать<s n="vblex"/><s n="impf"/></r></p></e>
+    <e><p><l>vyčnívat<s n="vblex"/><s n="impf"/></l><r>выступать<s n="vblex"/><s n="impf"/></r></p></e>
+    <e><p><l>vznikat<s n="vblex"/><s n="impf"/></l><r>возникать<s n="vblex"/><s n="impf"/></r></p></e>
+    <e><p><l>zacházet<s n="vblex"/><s n="impf"/></l><r>заходить<s n="vblex"/><s n="perf"/></r></p></e>
+    <e><p><l>zacházet<s n="vblex"/><s n="impf"/></l><r>обращаться<s n="vblex"/><s n="impf"/></r></p></e>
+    <e><p><l>zaplatit<s n="vblex"/><s n="perf"/></l><r>внести<s n="vblex"/><s n="perf"/></r></p></e>
+    <e><p><l>zaplatit<s n="vblex"/><s n="perf"/></l><r>заплатить<s n="vblex"/><s n="perf"/></r></p></e>
+    <e><p><l>zjistit<s n="vblex"/><s n="perf"/></l><r>выяснить<s n="vblex"/><s n="perf"/></r></p></e>
+    <e><p><l>zjistit<s n="vblex"/><s n="perf"/></l><r>найти<s n="vblex"/><s n="perf"/></r></p></e>
+    <e><p><l>zjistit<s n="vblex"/><s n="perf"/></l><r>обнаружить<s n="vblex"/><s n="perf"/></r></p></e>
+    <e><p><l>zvolit<s n="vblex"/><s n="perf"/></l><r>выбрать<s n="vblex"/><s n="perf"/></r></p></e>
 
 
 

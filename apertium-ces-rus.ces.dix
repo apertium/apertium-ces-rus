@@ -1206,7 +1206,8 @@
     </pardef>
      
     <pardef n="kolik__det">       
-    <!-- kolik 'how many', několik 'several', tolik 'so many', and mnoho 'much, many' all             follow the same paradigm, with the desinence -a in all oblique cases.  --><e><p><l></l><r><s n="det"/><s n="qnt"/></r></p><par n="BASE__kolik"/></e>
+    <!-- kolik 'how many', několik 'several', tolik 'so many', and mnoho 'much, many' all             follow the same paradigm, with the desinence -a in all oblique cases.  -->
+      <e><p><l></l><r><s n="det"/><s n="qnt"/></r></p><par n="BASE__kolik"/></e>
     </pardef>
      
     <pardef n="kolik__prn">
@@ -1228,7 +1229,8 @@
     </pardef>
      
     <pardef n="mnoh/o__prn">       
-    <!-- kolik 'how many', několik 'several', tolik 'so many', and mnoho 'much, many' all             follow the same paradigm, with the desinence -a in all oblique cases.  --><e><p><l></l><r>o<s n="prn"/><s n="ind"/></r></p><par n="BASE__mnoho"/></e>
+    <!-- kolik 'how many', několik 'several', tolik 'so many', and mnoho 'much, many' all             follow the same paradigm, with the desinence -a in all oblique cases.  -->
+      <e><p><l></l><r>o<s n="prn"/><s n="ind"/></r></p><par n="BASE__mnoho"/></e>
     </pardef>
      
     <pardef n="BASE__první">
@@ -35201,8 +35203,6 @@
     <e lm="univerzalita"><i>univerzalit</i><par n="dob/a__n"/></e>
     <e lm="univerziáda" r="LR"><p><l>universiád</l><r>univerziád</r></p><par n="dob/a__n"/></e>
     <e lm="univerziáda"><i>univerziád</i><par n="dob/a__n"/></e>
-    <e lm="univerzita" r="LR"><p><l>universit</l><r>univerzit</r></p><par n="dob/a__n"/></e>
-    <e lm="univerzita"><i>univerzit</i><par n="dob/a__n"/></e>
     <e lm="úplata"><i>úplat</i><par n="dob/a__n"/></e>
     <e lm="úprava"><i>úprav</i><par n="dob/a__n"/></e>
     <e lm="úroda"><i>úrod</i><par n="dob/a__n"/></e>

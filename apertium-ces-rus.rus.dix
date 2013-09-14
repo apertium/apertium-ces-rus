@@ -502,12 +502,12 @@
   </pardef>
 
     <pardef n="с/ебя__prn">
-      <e>       <p><l>ебя</l><r>ебя<s n="prn"/><s n="ref"/><s n="aa"/><s n="mfn"/><s n="sp"/><s n="gen"/></r></p></e>
-      <e>       <p><l>ебе</l><r>ебя<s n="prn"/><s n="ref"/><s n="aa"/><s n="mfn"/><s n="sp"/><s n="dat"/></r></p></e>
-      <e>       <p><l>ебя</l><r>ебя<s n="prn"/><s n="ref"/><s n="aa"/><s n="mfn"/><s n="sp"/><s n="acc"/></r></p></e>
-      <e>       <p><l>обой</l><r>ебя<s n="prn"/><s n="ref"/><s n="aa"/><s n="mfn"/><s n="sp"/><s n="ins"/></r></p></e>
-      <e r="LR"><p><l>обою</l><r>ебя<s n="prn"/><s n="ref"/><s n="aa"/><s n="mfn"/><s n="sp"/><s n="ins"/></r></p></e>
-      <e>       <p><l>ебе</l><r>ебя<s n="prn"/><s n="ref"/><s n="aa"/><s n="mfn"/><s n="sp"/><s n="prp"/></r></p></e>
+      <e>       <p><l>ебя</l><r>ебя<s n="prn"/><s n="ref"/><s n="gen"/></r></p></e>
+      <e>       <p><l>ебе</l><r>ебя<s n="prn"/><s n="ref"/><s n="dat"/></r></p></e>
+      <e>       <p><l>ебя</l><r>ебя<s n="prn"/><s n="ref"/><s n="acc"/></r></p></e>
+      <e>       <p><l>обой</l><r>ебя<s n="prn"/><s n="ref"/><s n="ins"/></r></p></e>
+      <e r="LR"><p><l>обою</l><r>ебя<s n="prn"/><s n="ref"/><s n="ins"/></r></p></e>
+      <e>       <p><l>ебе</l><r>ебя<s n="prn"/><s n="ref"/><s n="prp"/></r></p></e>
     </pardef>
 
     <pardef n="так/ой__prn">
