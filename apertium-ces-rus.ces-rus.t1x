@@ -19,6 +19,11 @@
     </def-cat>
   </section-def-cats>
   <section-def-attrs>
+    <def-attr n="a_nbr">
+      <attr-item tags="sg"/>
+      <attr-item tags="pl"/>
+      <attr-item tags="ND"/>
+    </def-attr>
     <def-attr n="a_nom">
       <attr-item tags="n"/>
     </def-attr>
@@ -27,15 +32,26 @@
       <attr-item tags="sup"/>
     </def-attr>
     <def-attr n="a_genanim">
+      <attr-item tags="mfn"/>
+      <attr-item tags="mfn.nn"/>
+      <attr-item tags="mfn.an"/>
+      <attr-item tags="mfn.aa"/>
+      <attr-item tags="f.aa"/>
+      <attr-item tags="f.nn"/>
+      <attr-item tags="f.an"/>
+      <attr-item tags="m.aa"/>
+      <attr-item tags="m.nn"/>
+      <attr-item tags="m.an"/>
+      <attr-item tags="nt.nn"/>
+      <attr-item tags="nt.an"/>
+      <attr-item tags="nt.aa"/>
+      <attr-item tags="m"/>
       <attr-item tags="ma"/>
       <attr-item tags="mi"/>
       <attr-item tags="f"/>
       <attr-item tags="nt"/>
-      <attr-item tags="f.an"/>
-      <attr-item tags="m.aa"/>
-      <attr-item tags="m.nn"/>
     </def-attr>
-    <def-attr n="a_case">
+    <def-attr n="a_cas">
       <attr-item tags="nom"/>
       <attr-item tags="acc"/>
       <attr-item tags="dat"/>
@@ -43,7 +59,7 @@
       <attr-item tags="loc"/>
       <attr-item tags="ins"/>
       <attr-item tags="prp"/>
-      <attr-item tags="abl"/>
+      <attr-item tags="voc"/>
     </def-attr>
 
   </section-def-attrs>
@@ -58,6 +74,91 @@
             <lit v=""/>
           </let>
     </def-macro>
+
+    <def-macro n="f_concord1" npar="1">
+        <!-- First parameter: Head -->
+
+        <choose> 
+          <when><test><equal><clip pos="1" side="tl" part="a_nbr"/><lit-tag v="pl"/></equal></test>
+                <let><clip pos="1" side="tl" part="a_genanim"/><lit-tag v="mfn.an"/></let></when>
+        </choose>
+
+        <choose> 
+          <when><test><equal><clip pos="1" side="tl" part="a_nbr"/><lit-tag v="sg"/></equal></test>
+                <choose>
+                  <when><test><equal><clip pos="1" side="tl" part="a_genanim"/><lit-tag v="ma"/></equal></test>
+                        <let><clip pos="1" side="tl" part="a_genanim"/><lit-tag v="m.aa"/></let></when>
+                  <when><test><equal><clip pos="1" side="tl" part="a_genanim"/><lit-tag v="mi"/></equal></test>
+                        <let><clip pos="1" side="tl" part="a_genanim"/><lit-tag v="m.nn"/></let></when>
+                  <when><test><equal><clip pos="1" side="tl" part="a_genanim"/><lit-tag v="nt"/></equal></test>
+                        <let><clip pos="1" side="tl" part="a_genanim"/><lit-tag v="nt.an"/></let></when>
+                  <when><test><equal><clip pos="1" side="tl" part="a_genanim"/><lit-tag v="f"/></equal></test>
+                        <let><clip pos="1" side="tl" part="a_genanim"/><lit-tag v="f.an"/></let></when>
+                </choose>
+          </when>
+        </choose>
+ 
+        <choose>
+          <when><test>
+             <not><equal><clip pos="1" side="tl" part="a_cas"/><lit-tag v="acc"/></equal></not></test>
+             <choose>
+                  <when><test><equal><clip pos="1" side="tl" part="a_genanim"/><lit-tag v="ma"/></equal></test>
+                        <let><clip pos="1" side="tl" part="a_genanim"/><lit-tag v="m.an"/></let></when>
+                  <when><test><equal><clip pos="1" side="tl" part="a_genanim"/><lit-tag v="mi"/></equal></test>
+                        <let><clip pos="1" side="tl" part="a_genanim"/><lit-tag v="m.an"/></let></when>
+             </choose>
+          </when>
+        </choose>
+
+        <!-- Case agreement -->
+
+    </def-macro>
+
+
+    <def-macro n="f_concord2" npar="2">
+        <!-- First parameter: Head -->
+
+        <!-- Case agreement -->
+        <let><clip pos="2" side="tl" part="a_genanim"/><clip pos="1" side="tl" part="a_genanim"/></let>
+        <let><clip pos="2" side="tl" part="a_nbr"/><clip pos="1" side="tl" part="a_nbr"/></let>
+        <let><clip pos="2" side="tl" part="a_cas"/><clip pos="1" side="tl" part="a_cas"/></let>
+
+        <choose> 
+          <when><test><equal><clip pos="1" side="sl" part="a_nbr"/><lit-tag v="pl"/></equal></test>
+                <let><clip pos="2" side="tl" part="a_genanim"/><lit-tag v="mfn.an"/></let></when>
+        </choose>
+
+        <choose> 
+          <when><test><equal><clip pos="1" side="tl" part="a_nbr"/><lit-tag v="sg"/></equal></test>
+                <choose>
+                  <when><test><equal><clip pos="1" side="tl" part="a_genanim"/><lit-tag v="m.aa"/></equal></test>
+                        <let><clip pos="2" side="tl" part="a_genanim"/><lit-tag v="m.an"/></let></when>
+                  <when><test><equal><clip pos="1" side="tl" part="a_genanim"/><lit-tag v="m.nn"/></equal></test>
+                        <let><clip pos="2" side="tl" part="a_genanim"/><lit-tag v="m.an"/></let></when>
+                  <when><test><equal><clip pos="2" side="tl" part="a_genanim"/><lit-tag v="nt"/></equal></test>
+                        <let><clip pos="2" side="tl" part="a_genanim"/><lit-tag v="nt.an"/></let></when>
+                  <when><test><equal><clip pos="2" side="tl" part="a_genanim"/><lit-tag v="f"/></equal></test>
+                        <let><clip pos="2" side="tl" part="a_genanim"/><lit-tag v="f.an"/></let></when>
+                </choose>
+          </when>
+        </choose>
+ 
+        <choose>
+          <when><test>
+             <equal><clip pos="1" side="tl" part="a_cas"/><lit-tag v="acc"/></equal></test>
+             <choose>
+                  <when><test><equal><clip pos="1" side="tl" part="a_genanim"/><lit-tag v="m.aa"/></equal></test>
+                        <let><clip pos="2" side="tl" part="a_genanim"/><lit-tag v="m.aa"/></let></when>
+                  <when><test><equal><clip pos="1" side="tl" part="a_genanim"/><lit-tag v="m.nn"/></equal></test>
+                        <let><clip pos="2" side="tl" part="a_genanim"/><lit-tag v="m.nn"/></let></when>
+             </choose>
+          </when>
+        </choose>
+
+
+    </def-macro>
+
+
   </section-def-macros>
   <section-rules>
 
@@ -67,13 +168,16 @@
       </pattern>
       <action>
         <choose> <!-- Locative always changes to prepositional case -->
-          <when><test><equal><clip pos="1" side="sl" part="a_case"/><lit-tag v="loc"/></equal></test>
-            <let><clip pos="1" side="tl" part="a_case"/><lit-tag v="prp"/></let></when>
+          <when><test><equal><clip pos="1" side="sl" part="a_cas"/><lit-tag v="loc"/></equal></test>
+            <let><clip pos="1" side="tl" part="a_cas"/><lit-tag v="prp"/></let></when>
         </choose>
         <out>
           <chunk name="n" case="caseFirstWord">
             <tags>
-              <tag><lit-tag v="SENT"/></tag>
+              <tag><lit-tag v="SN"/></tag>
+              <tag><clip pos="1" side="tl" part="a_genanim"/></tag>
+              <tag><clip pos="1" side="tl" part="a_nbr"/></tag>
+              <tag><clip pos="1" side="tl" part="a_cas"/></tag>
             </tags>
             <lu>
               <clip pos="1" side="tl" part="whole"/>
@@ -83,16 +187,52 @@
       </action>
     </rule>
 
+    <rule comment="REGLA: ADJ NOM">
+      <pattern>
+        <pattern-item n="adj"/>
+        <pattern-item n="nom"/>
+      </pattern>
+      <action>
+        <choose> <!-- Locative always changes to prepositional case -->
+          <when><test><equal><clip pos="1" side="sl" part="a_cas"/><lit-tag v="loc"/></equal></test>
+            <let><clip pos="1" side="tl" part="a_cas"/><lit-tag v="prp"/></let></when>
+        </choose>
+        <call-macro n="f_concord2">
+          <with-param pos="2"/>
+          <with-param pos="1"/>
+        </call-macro>
+        <out>
+          <chunk name="a-n" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SN"/></tag>
+              <tag><clip pos="2" side="tl" part="a_genanim"/></tag>
+              <tag><clip pos="2" side="tl" part="a_nbr"/></tag>
+              <tag><clip pos="2" side="tl" part="a_cas"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="whole"/>
+            </lu>
+            <b pos="1"/>
+            <lu>
+              <clip pos="2" side="tl" part="whole"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+
+
     <rule comment="REGLA: ADJ">
       <pattern>
         <pattern-item n="adj"/>
       </pattern>
       <action>
         <choose> <!-- Locative always changes to prepositional case -->
-          <when><test><equal><clip pos="1" side="sl" part="a_case"/><lit-tag v="loc"/></equal></test>
-            <let><clip pos="1" side="tl" part="a_case"/><lit-tag v="prp"/></let></when>
-          <when><test><equal><clip pos="1" side="sl" part="a_case"/><lit-tag v="voc"/></equal></test>
-            <let><clip pos="1" side="tl" part="a_case"/><lit-tag v="nom"/></let></when>
+          <when><test><equal><clip pos="1" side="sl" part="a_cas"/><lit-tag v="loc"/></equal></test>
+            <let><clip pos="1" side="tl" part="a_cas"/><lit-tag v="prp"/></let></when>
+          <when><test><equal><clip pos="1" side="sl" part="a_cas"/><lit-tag v="voc"/></equal></test>
+            <let><clip pos="1" side="tl" part="a_cas"/><lit-tag v="nom"/></let></when>
         </choose>
         <choose> 
           <when><test><equal><clip pos="1" side="sl" part="a_genanim"/><lit-tag v="f"/></equal></test>
@@ -104,6 +244,9 @@
             <let><var n="adj-grau-word"/><concat><lit v="^более"/><lit-tag v="preadv"/><lit v="$ "/></concat></let>
           </when>
         </choose>
+        <call-macro n="f_concord1">
+          <with-param pos="1"/>
+        </call-macro>
         <out>
           <chunk name="adj" case="caseFirstWord">
             <tags>
