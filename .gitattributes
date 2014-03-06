@@ -26,6 +26,7 @@
 /autogen.sh -text
 /ces-rus.prob -text
 /configure.ac -text
+dev/apertium-ces-rus.ces-rus.dix-raw -text
 dev/cesilko.ces -text
 dev/cesilko.rus -text
 dev/dic.19k -text
