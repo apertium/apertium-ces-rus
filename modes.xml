@@ -7,17 +7,17 @@
       <program name="lt-proc -w">
         <file name="ces-rus.automorf.bin"/>
       </program>
-      <program name="cg-proc -w">
+      <program name="cg-proc -n -1 -w">
         <file name="ces-rus.rlx.bin"/>
       </program>
-      <program name="apertium-tagger -g $2">
+<!--  <program name="apertium-tagger -g $2">
         <file name="ces-rus.prob"/>
-      </program>
+      </program>-->
       <program name="apertium-pretransfer"/>
       <program name="lt-proc -b">
         <file name="ces-rus.autobil.bin"/>
       </program>
-      <program name="lrx-proc">
+      <program name="lrx-proc -m">
         <file name="ces-rus.autolex.bin"/>
       </program>
       <program name="apertium-transfer -b -b">
@@ -46,17 +46,17 @@
       <program name="lt-proc -w">
         <file name="ces-rus.automorf.bin"/>
       </program>
-      <program name="cg-proc -w">
+      <program name="cg-proc -1 -n -w">
         <file name="ces-rus.rlx.bin"/>
       </program>
-      <program name="apertium-tagger -g $2">
+<!--      <program name="apertium-tagger -g $2">
         <file name="ces-rus.prob"/>
-      </program>
+      </program>-->
       <program name="apertium-pretransfer"/>
       <program name="lt-proc -b">
         <file name="ces-rus.autobil.bin"/>
       </program>
-      <program name="lrx-proc">
+      <program name="lrx-proc -m">
         <file name="ces-rus.autolex.bin"/>
       </program>
       <program name="apertium-transfer -b -b">
@@ -104,12 +104,12 @@
       <program name="lt-proc -w">
         <file name="ces-rus.automorf.bin"/>
       </program>
-      <program name="cg-proc -w">
+      <program name="cg-proc -n -1 -w">
         <file name="ces-rus.rlx.bin"/>
       </program>
-      <program name="apertium-tagger -g $2">
+<!--      <program name="apertium-tagger -g $2">
         <file name="ces-rus.prob"/>
-      </program>
+      </program>-->
       <program name="apertium-pretransfer"/>
     </pipeline>
   </mode>
@@ -119,12 +119,12 @@
       <program name="lt-proc -w">
         <file name="ces-rus.automorf.bin"/>
       </program>
-      <program name="cg-proc -w">
+      <program name="cg-proc -n -1 -w">
         <file name="ces-rus.rlx.bin"/>
       </program>
-      <program name="apertium-tagger -g $2">
+<!--      <program name="apertium-tagger -g $2">
         <file name="ces-rus.prob"/>
-      </program>
+      </program>-->
       <program name="apertium-pretransfer"/>
       <program name="lt-proc -b">
         <file name="ces-rus.autobil.bin"/>
@@ -138,17 +138,17 @@
       <program name="lt-proc -w">
         <file name="ces-rus.automorf.bin"/>
       </program>
-      <program name="cg-proc -w">
+      <program name="cg-proc -n -1 -w">
         <file name="ces-rus.rlx.bin"/>
       </program>
-      <program name="apertium-tagger -g $2">
+<!--      <program name="apertium-tagger -g $2">
         <file name="ces-rus.prob"/>
-      </program>
+      </program>-->
       <program name="apertium-pretransfer"/>
       <program name="lt-proc -b">
         <file name="ces-rus.autobil.bin"/>
       </program>
-      <program name="lrx-proc -t">
+      <program name="lrx-proc -t -m">
         <file name="ces-rus.autolex.bin"/>
       </program>
     </pipeline>
@@ -159,17 +159,17 @@
       <program name="lt-proc -w">
         <file name="ces-rus.automorf.bin"/>
       </program>
-      <program name="cg-proc -w">
+      <program name="cg-proc -n -1 -w">
         <file name="ces-rus.rlx.bin"/>
       </program>
-      <program name="apertium-tagger -g $2">
+<!--      <program name="apertium-tagger -g $2">
         <file name="ces-rus.prob"/>
-      </program>
+      </program>-->
       <program name="apertium-pretransfer"/>
       <program name="lt-proc -b">
         <file name="ces-rus.autobil.bin"/>
       </program>
-      <program name="lrx-proc">
+      <program name="lrx-proc -m">
         <file name="ces-rus.autolex.bin"/>
       </program>
       <program name="apertium-transfer -t -b">
@@ -184,17 +184,17 @@
       <program name="lt-proc -w">
         <file name="ces-rus.automorf.bin"/>
       </program>
-      <program name="cg-proc -w">
+      <program name="cg-proc -n -1 -w">
         <file name="ces-rus.rlx.bin"/>
       </program>
-      <program name="apertium-tagger -g $2">
+<!--      <program name="apertium-tagger -g $2">
         <file name="ces-rus.prob"/>
-      </program>
+      </program>-->
       <program name="apertium-pretransfer"/>
       <program name="lt-proc -b">
         <file name="ces-rus.autobil.bin"/>
       </program>
-      <program name="lrx-proc">
+      <program name="lrx-proc -m">
         <file name="ces-rus.autolex.bin"/>
       </program>
       <program name="apertium-transfer -b">
@@ -213,17 +213,17 @@
       <program name="lt-proc -w">
         <file name="ces-rus.automorf.bin"/>
       </program>
-      <program name="cg-proc -w">
+      <program name="cg-proc -n -1 -w">
         <file name="ces-rus.rlx.bin"/>
       </program>
-      <program name="apertium-tagger -g $2">
+<!--      <program name="apertium-tagger -g $2">
         <file name="ces-rus.prob"/>
-      </program>
+      </program>-->
       <program name="apertium-pretransfer"/>
       <program name="lt-proc -b">
         <file name="ces-rus.autobil.bin"/>
       </program>
-      <program name="lrx-proc">
+      <program name="lrx-proc -m">
         <file name="ces-rus.autolex.bin"/>
       </program>
       <program name="apertium-transfer -b">
@@ -246,17 +246,17 @@
       <program name="lt-proc -w">
         <file name="ces-rus.automorf.bin"/>
       </program>
-      <program name="cg-proc -w">
+      <program name="cg-proc -n -1 -w">
         <file name="ces-rus.rlx.bin"/>
       </program>
-      <program name="apertium-tagger -g $2">
+<!--      <program name="apertium-tagger -g $2">
         <file name="ces-rus.prob"/>
-      </program>
+      </program>-->
       <program name="apertium-pretransfer"/>
       <program name="lt-proc -b">
         <file name="ces-rus.autobil.bin"/>
       </program>
-      <program name="lrx-proc">
+      <program name="lrx-proc -m">
         <file name="ces-rus.autolex.bin"/>
       </program>
       <program name="apertium-transfer -b">
@@ -294,7 +294,7 @@
       <program name="lt-proc -b">
         <file name="rus-ces.autobil.bin"/>
       </program>
-      <program name="lrx-proc">
+      <program name="lrx-proc -m">
         <file name="rus-ces.autolex.bin"/>
       </program>
       <program name="apertium-transfer -b">
@@ -333,7 +333,7 @@
       <program name="lt-proc -b">
         <file name="rus-ces.autobil.bin"/>
       </program>
-      <program name="lrx-proc">
+      <program name="lrx-proc -m">
         <file name="rus-ces.autolex.bin"/>
       </program>
       <program name="apertium-transfer -b">
@@ -459,7 +459,7 @@
       <program name="lt-proc -b">
         <file name="rus-ces.autobil.bin"/>
       </program>
-      <program name="lrx-proc">
+      <program name="lrx-proc -m">
         <file name="rus-ces.autolex.bin"/>
       </program>
       <program name="apertium-transfer -t -b">
@@ -484,7 +484,7 @@
       <program name="lt-proc -b">
         <file name="rus-ces.autobil.bin"/>
       </program>
-      <program name="lrx-proc">
+      <program name="lrx-proc -m">
         <file name="rus-ces.autolex.bin"/>
       </program>
       <program name="apertium-transfer -b">
@@ -513,7 +513,7 @@
       <program name="lt-proc -b">
         <file name="rus-ces.autobil.bin"/>
       </program>
-      <program name="lrx-proc">
+      <program name="lrx-proc -m">
         <file name="rus-ces.autolex.bin"/>
       </program>
       <program name="apertium-transfer -b">
@@ -545,7 +545,7 @@
       <program name="lt-proc -b">
         <file name="rus-ces.autobil.bin"/>
       </program>
-      <program name="lrx-proc">
+      <program name="lrx-proc -m">
         <file name="rus-ces.autolex.bin"/>
       </program>
       <program name="apertium-pretransfer"/>

@@ -208,6 +208,7 @@
     <e><p><l>několik<s n="prn"/><s n="ind"/></l><r>несколько<s n="adv"/></r></p></e> <!-- FIXME: CHECK -->
     <e><p><l>žádný<s n="prn"/><s n="ind"/></l><r>никакой<s n="prn"/><s n="ind"/></r></p></e>
 
+    <e><p><l>kde<s n="rel"/><s n="adv"/></l><r>где<s n="rel"/><s n="adv"/></r></p></e>
 
     <!-- Раздел: Determiners -->
 
@@ -241,7 +242,7 @@
 
     <e><p><l>univerzita<s n="n"/><s n="f"/></l><r>университет<s n="n"/><s n="m"/><s n="nn"/></r></p></e>
     <e><p><l>ústava<s n="n"/><s n="f"/></l><r>конституция<s n="n"/><s n="f"/><s n="nn"/></r></p></e>
-    <e><p><l>kočka<s n="n"/><s n="f"/></l><r>собака<s n="n"/><s n="f"/><s n="aa"/></r></p></e>
+    <e><p><l>kočka<s n="n"/><s n="f"/></l><r>кошка<s n="n"/><s n="f"/><s n="aa"/></r></p></e>
     <e><p><l>region<s n="n"/><s n="mi"/></l><r>регион<s n="n"/><s n="m"/><s n="nn"/></r></p></e>
     <e><p><l>generál<s n="n"/><s n="ma"/></l><r>генерал<s n="n"/><s n="m"/><s n="nn"/></r></p></e>
     <e><p><l>absence<s n="n"/><s n="f"/></l><r>отсутствие<s n="n"/><s n="nt"/><s n="nn"/></r></p></e>
