@@ -11,6 +11,9 @@
     <def-cat n="je">
       <cat-item lemma="být" tags="vbser.pres.p3.sg"/>
     </def-cat>
+    <def-cat n="cop-pres">
+      <cat-item lemma="být" tags="vbser.pres.*"/>
+    </def-cat>
     <def-cat n="prop">
       <cat-item tags="np.*"/>
     </def-cat>
@@ -316,6 +319,24 @@
         </out>
       </action>
     </rule>
+
+
+    <rule comment="REGLA: cop-pres">
+      <pattern>
+        <pattern-item n="cop-pres"/>
+      </pattern>
+      <action>
+        <out>
+          <chunk name="cop" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="COP"/></tag>
+            </tags>
+            <b/>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
 
 
     <rule comment="REGLA: SENT">
