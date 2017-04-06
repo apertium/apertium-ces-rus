@@ -6,4 +6,6 @@
   <rule>
     <match lemma="o" tags="pr"><select lemma="о" tags="pr"/></match>
   </rule>
+  <rule>
+  </rule>
 </rules>

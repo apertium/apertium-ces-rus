@@ -14,6 +14,12 @@
     <def-cat n="cop-pres">
       <cat-item lemma="být" tags="vbser.pres.*"/>
     </def-cat>
+    <def-cat n="past-verb">
+      <cat-item tags="vblex.*.past.*"/>
+      <cat-item tags="vbmod.*.past.*"/>
+            <cat-item tags="vaux.*.past.*"/>
+
+    </def-cat>
     <def-cat n="prop">
       <cat-item tags="np.*"/>
     </def-cat>
@@ -57,6 +63,14 @@
       <attr-item tags="f"/>
       <attr-item tags="nt"/>
     </def-attr>
+    <def-attr n="a_gen">
+      <attr-item tags="mfn"/>
+      <attr-item tags="m"/>
+      <attr-item tags="ma"/>
+      <attr-item tags="mi"/>
+      <attr-item tags="f"/>
+      <attr-item tags="nt"/>
+    </def-attr>
     <def-attr n="a_cas">
       <attr-item tags="nom"/>
       <attr-item tags="acc"/>
@@ -84,12 +98,29 @@
     <def-macro n="f_concord1" npar="1">
         <!-- First parameter: Head -->
 
-        <choose> 
-          <when><test><equal><clip pos="1" side="tl" part="a_nbr"/><lit-tag v="pl"/></equal></test>
+        <choose> <!-- change -->
+          <when><test>
+                <not><and><equal><clip pos="1" side="tl" part="a_cas"/><lit-tag v="acc"/></equal>
+                <equal><clip pos="1" side="tl" part="a_nbr"/><lit-tag v="pl"/></equal></and></not></test>
                 <let><clip pos="1" side="tl" part="a_genanim"/><lit-tag v="mfn.an"/></let></when>
         </choose>
-
-        <choose> 
+        <choose>
+          <when><test>
+                <and><equal><clip pos="1" side="tl" part="a_cas"/><lit-tag v="acc"/></equal>
+                <equal><clip pos="1" side="tl" part="a_nbr"/><lit-tag v="pl"/></equal></and></test>
+                <choose>
+                  <when><test><equal><clip pos="1" side="tl" part="a_genanim"/><lit-tag v="ma"/></equal></test>
+                        <let><clip pos="1" side="tl" part="a_genanim"/><lit-tag v="mfn.aa"/></let></when>
+                  <when><test><equal><clip pos="1" side="tl" part="a_genanim"/><lit-tag v="mi"/></equal></test>
+                        <let><clip pos="1" side="tl" part="a_genanim"/><lit-tag v="mfn.nn"/></let></when>
+                  <when><test><equal><clip pos="1" side="tl" part="a_genanim"/><lit-tag v="nt"/></equal></test>
+                        <let><clip pos="1" side="tl" part="a_genanim"/><lit-tag v="mfn.an"/></let></when>
+                  <when><test><equal><clip pos="1" side="tl" part="a_genanim"/><lit-tag v="f"/></equal></test>
+                        <let><clip pos="1" side="tl" part="a_genanim"/><lit-tag v="mfn.an"/></let></when>
+                </choose>
+          </when>
+        </choose>
+        <choose>
           <when><test><equal><clip pos="1" side="tl" part="a_nbr"/><lit-tag v="sg"/></equal></test>
                 <choose>
                   <when><test><equal><clip pos="1" side="tl" part="a_genanim"/><lit-tag v="ma"/></equal></test>
@@ -295,6 +326,22 @@
     </rule>
 
 
+<!--     <rule comment="REGLA: Adj-cpd">
+      <pattern>
+        <pattern-item n="adj"/>
+      </pattern>
+        <choose>
+          <when><test>
+            <equal><clip pos="1" side="tl" part="cpd"/><lit-tag v="cpd"/></equal></test>
+            <let><clip pos='1' side='tl' part='cpd'/><lit-tag v='cm'/></let></when>
+        </choose>
+      <action>
+        <out>
+
+        </out>
+      </action>
+    </rule> -->
+
 
     <rule comment="REGLA: NE JEST (není)">
       <pattern>
@@ -337,7 +384,28 @@
       </action>
     </rule>
 
-
+    <rule comment="REGLA: past-verb">
+      <pattern>
+        <pattern-item n="past-verb"/>
+      </pattern>
+      <action>
+        <choose>
+          <when><test>
+            <equal><clip pos="1" side="tl" part="a_nbr"/><lit-tag v="pl"/></equal></test>
+            <let><clip pos='1' side='tl' part='a_gen'/><lit-tag v='mfn'/></let></when>
+        </choose>
+        <out>
+          <chunk name="verb" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SV"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="whole"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
 
     <rule comment="REGLA: SENT">
       <pattern>
@@ -356,6 +424,7 @@
         </out>
       </action>
     </rule>
+
 
   </section-rules>
 </transfer>
