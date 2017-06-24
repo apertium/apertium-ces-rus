@@ -55,6 +55,7 @@
     <sdef n="neg"        c="Negative"/>
     <sdef n="ord"        c="Ordinal"/>
     <sdef n="itg"        c="Interrogative"/>
+    <sdef n="coll"       c="Collective"/>
 
     <sdef n="impf"       c="Imperfective"/>
     <sdef n="perf"       c="Perfective"/>
@@ -84,8 +85,8 @@
 	<e><p><l>aby<s n="cnjsub"/></l><r>чтобы<s n="cnjsub"/></r></p></e>
 	<e><p><l>kdy<s n="cnjsub"/></l><r>когда<s n="cnjsub"/></r></p></e>
 	<e><p><l>a<s n="cnjcoo"/></l><r>а<s n="cnjcoo"/></r></p></e>
-	<e><p><l>ačkoliv<s n="cnjadv"/></l><r>хотя<s n="cnjsub"//></r></p></e>
-	<e><p><l>co<s n="prn"/><s n="itg"/></l><r>что<s n="cnjsub"//></r></p></e>
+	<e><p><l>ačkoliv<s n="cnjadv"/></l><r>хотя<s n="cnjsub"/></r></p></e>
+	<e><p><l>co<s n="prn"/><s n="itg"/></l><r>что<s n="cnjsub"/></r></p></e>
 	<e><p><l>nebo<s n="cnjadv"/></l><r>либо<s n="cnjcoo"/></r></p></e>
 	<e><p><l>že<s n="cnjsub"/></l><r>ж<s n="cnjcoo"/></r></p></e>
 	<e><p><l>přitom<s n="cnjadv"/></l><r>причём<s n="cnjsub"/></r></p></e>
@@ -94,11 +95,14 @@
 	<e><p><l>ale<s n="cnjcoo"/></l><r>однако<s n="cnjcoo"/></r></p></e>
 	<e><p><l>než<s n="cnjcoo"/></l><r>чем<s n="cnjsub"/></r></p></e>
 	<e><p><l>nebo<s n="cnjadv"/></l><r>или<s n="cnjcoo"/></r></p></e>
-
+	<e><p><l>proto<s n="cnjadv"/></l><r>потому<b/>что<s n="cnjadv"/></r></p></e>
     <!-- Раздел: Союзы-->
 
     <e><p><l>by<s n="cnjsub"/></l><r>бы<s n="part"/></r></p></e>
 
+	<!-- Раздел: NEW Союзы -->
+	<e><p><l>ačkoliv<s n="cnjadv"/></l><r>хотя<s n="cnjsub"/></r></p></e>
+	<e><p><l>proto<s n="cnjadv"/></l><r>потому что<s n="cnjadv"/></r></p></e>
     <!-- Раздел: Союзы-->
 
     <e><p><l>že<s n="cnjsub"/></l><r>что<s n="cnjsub"/></r></p></e>
@@ -149,64 +153,27 @@
     <e><p><l>než<s n="cnjcoo"/></l><r>чем<s n="cnjcoo"/></r></p></e> <!-- FIXME: CHECK -->
 
 	<!-- Раздел: NEW Prepositions -->
-	<e><p><l>včetně<s n="pr"/></l><r>включая<s n="pr"/></r></p></e>
 	<e><p><l>vedle<s n="pr"/></l><r>возле<s n="pr"/></r></p></e>
-	<e><p><l>kolik<s n="prn"/><s n="ind"/></l><r>сколько-то<s n="prn"/><s n="ind"/></r></p></e>
 	<e><p><l>kolem<s n="pr"/></l><r>около<s n="pr"/></r></p></e>
-	<e><p><l>něco<s n="prn"/><s n="ind"/></l><r>нечто<s n="prn"/><s n="ind"/></r></p></e>
-	<e><p><l>jako<s n="pr"//></l><r>вроде<s n="pr"//></r></p></e>
+	<e><p><l>o<s n="pr"/></l><r>про<s n="pr"/></r></p></e>
 	<e><p><l>z<s n="pr"/></l><r>из<s n="pr"/></r></p></e>
+	<e><p><l>kolem<s n="pr"/></l><r>вокруг<s n="pr"/></r></p></e>
 	<e><p><l>přes<s n="pr"/></l><r>через<s n="pr"/></r></p></e>
 	<e><p><l>u<s n="pr"/></l><r>у<s n="pr"/></r></p></e>
 	<e><p><l>o<s n="pr"/></l><r>обо<s n="pr"/></r></p></e>
-	<e><p><l>některý<s n="prn"/><s n="ind"/></l><r>некоторый<s n="prn"/><s n="ind"/></r></p></e>
-	<e><p><l>váš<s n="prn"/><s n="pos"/></l><r>ваш<s n="prn"/><s n="pos"/></r></p></e>
-	<e><p><l>žádný<s n="prn"/><s n="ind"/></l><r>никакой<s n="prn"/><s n="ind"/></r></p></e>
-	<e><p><l>nějaký<s n="prn"/><s n="ind"/></l><r>некий<s n="prn"/><s n="ind"/></r></p></e>
-	<e><p><l>můj<s n="prn"/><s n="pos"/></l><r>мой<s n="prn"/><s n="pos"/></r></p></e>
-	<e><p><l>náš<s n="prn"/><s n="pos"/></l><r>наш<s n="prn"/><s n="pos"/></r></p></e>
-	<e><p><l>tvůj<s n="prn"/><s n="pos"/></l><r>твой<s n="prn"/><s n="pos"/></r></p></e>
-	<e><p><l>co<s n="prn"/><s n="itg"/></l><r>что<s n="prn"/><s n="itg"/></r></p></e>
+	<e><p><l>pro<s n="pr"/></l><r>ради<s n="pr"/></r></p></e>
 	<e><p><l>vedle<s n="pr"/></l><r>подле<s n="pr"/></r></p></e>
-	<e><p><l>svůj<s n="prn"/><s n="pos"/></l><r>свой<s n="prn"/><s n="pos"/></r></p></e>
-	<e><p><l>mezi<s n="pr"/></l><r>меж<s n="pr"/></r></p></e>
+	<e><p><l>po<s n="pr"/></l><r>спустя<s n="pr"/></r></p></e>
 	<e><p><l>skrz<s n="pr"/></l><r>сквозь<s n="pr"/></r></p></e>
-	<e><p><l>mnoho<s n="prn"/><s n="ind"/></l><r>много<s n="prn"/><s n="ind"/></r></p></e>
-	<e><p><l>kromě<s n="pr"/></l><r>кроме<s n="pr"/></r></p></e>
-	<e><p><l>nic<s n="prn"/><s n="ind"/</l><r>ничто<s n="prn"/><s n="neg"/></r></p></e>
 	<e><p><l>následkem<s n="pr"/></l><r>вследствие<s n="pr"/></r></p></e>
-	<e><p><l>za<s n="pr"/></l><r>за<s n="pr"/></r></p></e>
-	<e><p><l>mnoho<s n="prn"/><s n="ind"/></l><r>многие<s n="prn"/><s n="ind"/></r></p></e>
-	<e><p><l>jaký<s n="prn"/><s n="itg"/></l><r>каков<s n="prn"/><s n="itg"/></r></p></e>
-	<e><p><l>mezi<s n="pr"/></l><r>между<s n="pr"/></r></p></e>
 	<e><p><l>přes<s n="pr"/></l><r>сверх<s n="pr"/></r></p></e>
-	<e><p><l>před<s n="pr"/></l><r>перед<s n="pr"/></r></p></e>
-	<e><p><l>jaký<s n="prn"/><s n="itg"/></l><r>какой<s n="prn"/><s n="itg"/></r></p></e>
 	<e><p><l>poblíž<s n="pr"/></l><r>вблизи<s n="pr"/></r></p></e>
-	<e><p><l>naproti<s n="pr"/></l><r>напротив<s n="pr"/></r></p></e>
 	<e><p><l>uprostřed<s n="pr"/></l><r>посредине<s n="pr"/></r></p></e>
-	<e><p><l>každý<s n="prn"/><s n="ind"/></l><r>всякий<s n="prn"/><s n="ind"/></r></p></e>
-	<e><p><l>pro<s n="pr"/></l><r>для<s n="pr"/></r></p></e>
-	<e><p><l>shora<s n="pr"/></l><r>сверху<s n="pr"/></r></p></e>
-	<e><p><l>mimo<s n="pr"/></l><r>помимо<s n="pr"/></r></p></e>
-	<e><p><l>navzdory<s n="pr"/></l><r>вопреки<s n="pr"/></r></p></e>
-	<e><p><l>někdo<s n="prn"/><s n="ind"/></l><r>кто-то<s n="prn"/><s n="ind"/></r></p></e>
 	<e><p><l>kolem<s n="pr"/></l><r>кругом<s n="pr"/></r></p></e>
-	<e><p><l>něco<s n="prn"/><s n="ind"/></l><r>что-то<s n="prn"/><s n="ind"/></r></p></e>
-	<e><p><l>který<s n="prn"/><s n="itg"/></l><r>который<s n="prn"/><s n="rel"/></r></p></e>
-	<e><p><l>nikdo<s n="prn"/><s n="ind"/></l><r>никто<s n="prn"/><s n="neg"/></r></p></e>
-	<e><p><l>o<s n="pr"/></l><r>про<s n="pr"/></r></p></e>
-	<e><p><l>uprostřed<s n="pr"/></l><r>посередине<s n="pr"/></r></p></e>
-	<e><p><l>kdo<s n="prn"/><s n="itg"/></l><r>кто<s n="prn"/><s n="itg"/></r></p></e>
 	<e><p><l>u<s n="pr"/></l><r>близ<s n="pr"/></r></p></e>
-	<e><p><l>uprostřed<s n="pr"/></l><r>посреди<s n="pr"/></r></p></e>
 	<e><p><l>mimo<s n="pr"/></l><r>мимо<s n="pr"/></r></p></e>
 	<e><p><l>u<s n="pr"/></l><r>при<s n="pr"/></r></p></e>
-	<e><p><l>nějaký<s n="prn"/><s n="ind"/></l><r>какой-то<s n="prn"/><s n="ind"/></r></p></e>
-	<e><p><l>mimo<s n="pr"/></l><r>вне<s n="pr"/></r></p></e>
-	<e><p><l>o<s n="pr"/></l><r>о<s n="pr"/></r></p></e>
 	<e><p><l>do<s n="pr"/></l><r>до<s n="pr"/></r></p></e>
-
     <!-- Раздел: Prepositions -->
 
     <e><p><l>bez<s n="pr"/></l><r>без<s n="pr"/></r></p></e>
@@ -276,6 +243,26 @@
     <e><p><l>z<s n="pr"/></l><r>в<s n="pr"/></r></p></e>
 
 
+	<!-- Раздел: NEW Pronouns -->
+	<e><p><l>nějaký<s n="prn"/><s n="ind"/></l><r>некий<s n="prn"/><s n="ind"/></r></p></e>
+	<e><p><l>něco<s n="prn"/><s n="ind"/></l><r>нечто<s n="prn"/><s n="ind"/></r></p></e>
+	<e><p><l>náš<s n="prn"/><s n="pos"/></l><r>наш<s n="prn"/><s n="pos"/></r></p></e>
+	<e><p><l>jaký<s n="prn"/><s n="itg"/></l><r>каков<s n="prn"/><s n="itg"/></r></p></e>
+	<e><p><l>můj<s n="prn"/><s n="pos"/></l><r>мой<s n="prn"/><s n="pos"/></r></p></e>
+	<e><p><l>co<s n="prn"/><s n="itg"/></l><r>что<s n="prn"/><s n="itg"/></r></p></e>
+	<e><p><l>tvůj<s n="prn"/><s n="pos"/></l><r>твой<s n="prn"/><s n="pos"/></r></p></e>
+	<e><p><l>nikdo<s n="prn"/><s n="ind"/></l><r>никто<s n="prn"/><s n="neg"/></r></p></e>
+	<e><p><l>svůj<s n="prn"/><s n="pos"/></l><r>свой<s n="prn"/><s n="pos"/></r></p></e>
+	<e><p><l>mnoho<s n="prn"/><s n="ind"/></l><r>много<s n="prn"/><s n="ind"/></r></p></e>
+	<e><p><l>jaký<s n="prn"/><s n="itg"/></l><r>какой<s n="prn"/><s n="itg"/></r></p></e>
+	<e><p><l>některý<s n="prn"/><s n="ind"/></l><r>некоторый<s n="prn"/><s n="ind"/></r></p></e>
+	<e><p><l>každý<s n="prn"/><s n="ind"/></l><r>всякий<s n="prn"/><s n="ind"/></r></p></e>
+	<e><p><l>nic<s n="prn"/><s n="ind"/></l><r>ничто<s n="prn"/><s n="neg"/></r></p></e>
+	<e><p><l>mnoho<s n="prn"/><s n="ind"/></l><r>многие<s n="prn"/><s n="ind"/></r></p></e>
+	<e><p><l>něco<s n="prn"/><s n="ind"/></l><r>что-то<s n="prn"/><s n="ind"/></r></p></e>
+	<e><p><l>kdo<s n="prn"/><s n="itg"/></l><r>кто<s n="prn"/><s n="itg"/></r></p></e>
+	<e><p><l>váš<s n="prn"/><s n="pos"/></l><r>ваш<s n="prn"/><s n="pos"/></r></p></e>
+	<e><p><l>žádný<s n="prn"/><s n="ind"/></l><r>никакой<s n="prn"/><s n="ind"/></r></p></e>
     <!-- Раздел: Pronouns -->
 
     <e><p><l>prpers<s n="prn"/></l><r>prpers<s n="prn"/></r></p></e>
@@ -388,6 +375,51 @@
     <e><p><l>druhý<s n="det"/><s n="ord"/></l><r>второй<s n="det"/><s n="ord"/></r></p></e>
     <e><p><l>sedmý<s n="det"/><s n="ord"/></l><r>седьмой<s n="det"/><s n="ord"/></r></p></e>
 
+	<!-- Раздел: NEW Numerals -->
+	<e><p><l>dvě<b/>stě<s n="num"/></l><r>двести<s n="num"/></r></p></e>
+	<e><p><l>tři<b/>sta<s n="num"/></l><r>триста<s n="num"/></r></p></e>
+	<e><p><l>deset<s n="num"/><s n="qnt"/></l><r>десятеро<s n="num"/><s n="coll"/></r></p></e>
+	<e><p><l>dva<s n="num"/></l><r>два<s n="num"/></r></p></e>
+	<e><p><l>devět<s n="num"/><s n="qnt"/></l><r>девятеро<s n="num"/><s n="coll"/></r></p></e>
+	<e><p><l>devatenáct<s n="num"/><s n="qnt"/></l><r>девятнадцать<s n="num"/></r></p></e>
+	<e><p><l>šedesát<s n="num"/><s n="qnt"/></l><r>шестьдесят<s n="num"/></r></p></e>
+	<e><p><l>devět<s n="num"/><s n="qnt"/></l><r>девять<s n="num"/></r></p></e>
+	<e><p><l>pět<s n="num"/><s n="qnt"/></l><r>пять<s n="num"/></r></p></e>
+	<e><p><l>třináct<s n="num"/><s n="qnt"/></l><r>тринадцать<s n="num"/></r></p></e>
+	<e><p><l>osm<b/>set<s n="num"/><s n="qnt"/></l><r>восемьсот<s n="num"/></r></p></e>
+	<e><p><l>sto<s n="num"/><s n="qnt"/></l><r>сто<s n="num"/></r></p></e>
+	<e><p><l>sedmnáct<s n="num"/><s n="qnt"/></l><r>семнадцать<s n="num"/></r></p></e>
+	<e><p><l>tři<s n="num"/><s n="mf"/></l><r>три<s n="num"/></r></p></e>
+	<e><p><l>čtyřicet<s n="num"/><s n="qnt"/></l><r>сорок<s n="num"/></r></p></e>
+	<e><p><l>šest<s n="num"/><s n="qnt"/></l><r>шесть<s n="num"/></r></p></e>
+	<e><p><l>osm<s n="num"/><s n="qnt"/></l><r>восьмеро<s n="num"/><s n="coll"/></r></p></e>
+	<e><p><l>osm<s n="num"/><s n="qnt"/></l><r>восемь<s n="num"/></r></p></e>
+	<e><p><l>deset<s n="num"/><s n="qnt"/></l><r>десять<s n="num"/></r></p></e>
+	<e><p><l>jeden<s n="num"/></l><r>один<s n="num"/></r></p></e>
+	<e><p><l>sedm<s n="num"/><s n="qnt"/></l><r>семь<s n="num"/></r></p></e>
+	<e><p><l>šest<s n="num"/><s n="qnt"/></l><r>шестеро<s n="num"/><s n="coll"/></r></p></e>
+	<e><p><l>sedm<b/>set<s n="num"/><s n="qnt"/></l><r>семьсот<s n="num"/></r></p></e>
+	<e><p><l>pět<b/>set<s n="num"/><s n="qnt"/></l><r>пятьсот<s n="num"/></r></p></e>
+	<e><p><l>dvanáct<s n="num"/><s n="qnt"/></l><r>двенадцать<s n="num"/></r></p></e>
+	<e><p><l>čtyři<s n="num"/><s n="mf"/></l><r>четверо<s n="num"/><s n="coll"/></r></p></e>
+	<e><p><l>čtyři<b/>sta<s n="num"/></l><r>четыреста<s n="num"/></r></p></e>
+	<e><p><l>šestnáct<s n="num"/><s n="qnt"/></l><r>шестнадцать<s n="num"/></r></p></e>
+	<e><p><l>padesát<s n="num"/><s n="qnt"/></l><r>пятьдесят<s n="num"/></r></p></e>
+	<e><p><l>tři<s n="num"/></l><r>трое<s n="num"/><s n="coll"/></r></p></e>
+	<e><p><l>čtrnáct<s n="num"/><s n="qnt"/></l><r>четырнадцать<s n="num"/></r></p></e>
+	<e><p><l>sedmdesát<s n="num"/><s n="qnt"/></l><r>семьдесят<s n="num"/></r></p></e>
+	<e><p><l>šest<b/>set<s n="num"/><s n="qnt"/></l><r>шестьсот<s n="num"/></r></p></e>
+	<e><p><l>devadesát<s n="num"/><s n="qnt"/></l><r>девяносто<s n="num"/></r></p></e>
+	<e><p><l>třicet<s n="num"/><s n="qnt"/></l><r>тридцать<s n="num"/></r></p></e>
+	<e><p><l>osmdesát<s n="num"/><s n="qnt"/></l><r>восемьдесят<s n="num"/></r></p></e>
+	<e><p><l>čtyři<s n="num"/><s n="mf"/></l><r>четыре<s n="num"/></r></p></e>
+	<e><p><l>dvacet<s n="num"/><s n="qnt"/></l><r>двадцать<s n="num"/></r></p></e>
+	<e><p><l>pět<s n="num"/><s n="qnt"/></l><r>пятеро<s n="num"/><s n="coll"/></r></p></e>
+	<e><p><l>jedenáct<s n="num"/><s n="qnt"/></l><r>одиннадцать<s n="num"/></r></p></e>
+	<e><p><l>dva<s n="num"/><s n="ma"/></l><r>двое<s n="num"/><s n="coll"/></r></p></e>
+	<e><p><l>patnáct<s n="num"/><s n="qnt"/></l><r>пятнадцать<s n="num"/></r></p></e>
+	<e><p><l>osmnáct<s n="num"/><s n="qnt"/></l><r>восемнадцать<s n="num"/></r></p></e>
+	<e><p><l>jedenáct<s n="num"/><s n="qnt"/></l><r>одиннадцатеро<s n="num"/><s n="coll"/></r></p></e>
     <!-- Раздел: Numerals -->
     <e><p><l>tři<s n="num"/><s n="qnt"/></l><r>три<s n="num"/></r></p></e>
     <e><p><l>čtyři<s n="num"/><s n="qnt"/></l><r>четыре<s n="num"/></r></p></e>
