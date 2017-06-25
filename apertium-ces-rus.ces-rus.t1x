@@ -29,6 +29,12 @@
     <def-cat n="sent">
       <cat-item tags="sent"/>
     </def-cat>
+    <def-cat n="deter">
+      <cat-item tags="det.*"/>
+    </def-cat>
+    <def-cat n="pron">
+      <cat-item tags="prn.*"/>
+    </def-cat>
   </section-def-cats>
   <section-def-attrs>
     <def-attr n="a_nbr">
@@ -38,6 +44,22 @@
     </def-attr>
     <def-attr n="a_nom">
       <attr-item tags="n"/>
+    </def-attr>
+
+    <def-attr n="a_det">
+      <attr-item tags="det"/>
+    </def-attr>
+    <def-attr n="det_type">
+      <attr-item tags="pos"/>
+      <attr-item tags="ord"/>
+      <attr-item tags="ind"/>
+      <attr-item tags="dem"/>
+      <attr-item tags="qnt"/>
+      <attr-item tags="itg"/>
+    </def-attr>
+
+    <def-attr n="a_prn">
+      <attr-item tags="prn"/>
     </def-attr>
     <def-attr n="a_grau">
       <attr-item tags="comp"/>
@@ -424,6 +446,54 @@
         </out>
       </action>
     </rule>
+
+<!--     <rule comment="REGLA: DET">
+      <pattern>
+        <pattern-item n="deter"/>
+      </pattern>
+      <action>
+        <call-macro n="f_concord1">
+          <with-param pos="1"/>
+        </call-macro>
+        <out>
+          <chunk name="det" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SD"/></tag>
+              <tag><clip pos="1" side="tl" part="a_genanim"/></tag>
+              <tag><clip pos="1" side="tl" part="a_nbr"/></tag>
+              <tag><clip pos="1" side="tl" part="a_cas"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="whole"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+    <rule comment="REGLA: PRN">
+      <pattern>
+        <pattern-item n="pron"/>
+      </pattern>
+      <action>
+        <call-macro n="f_concord1">
+          <with-param pos="1"/>
+        </call-macro>
+        <out>
+          <chunk name="pron" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SD"/></tag>
+              <tag><clip pos="1" side="tl" part="a_genanim"/></tag>
+              <tag><clip pos="1" side="tl" part="a_nbr"/></tag>
+              <tag><clip pos="1" side="tl" part="a_cas"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="whole"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule> -->
 
 
   </section-rules>
