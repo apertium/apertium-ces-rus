@@ -17,14 +17,24 @@
     <def-cat n="past-verb">
       <cat-item tags="vblex.*.past.*"/>
       <cat-item tags="vbmod.*.past.*"/>
-            <cat-item tags="vaux.*.past.*"/>
-
+      <cat-item tags="vaux.*.past.*"/>
+    </def-cat>
+    <def-cat n="vbhaver_pres">
+      <cat-item tags="vbhaver.*.pres.*"/>
+    </def-cat>
+    <def-cat n="vbhaver">
+      <cat-item tags="vbhaver.*"/>
     </def-cat>
     <def-cat n="prop">
       <cat-item tags="np.*"/>
     </def-cat>
     <def-cat n="nom">
       <cat-item tags="n.*"/>
+    </def-cat>
+    <def-cat n="subj">
+      <cat-item tags="n.*"/>
+      <cat-item tags="np.*"/>
+      <cat-item tags="prn.*"/>
     </def-cat>
     <def-cat n="sent">
       <cat-item tags="sent"/>
@@ -102,6 +112,11 @@
       <attr-item tags="ins"/>
       <attr-item tags="prp"/>
       <attr-item tags="voc"/>
+    </def-attr>
+    <def-attr n="v_ten">
+      <attr-item tags="pres"/>
+      <attr-item tags="fut"/>
+      <attr-item tags="past"/>
     </def-attr>
 
   </section-def-attrs>
@@ -447,7 +462,7 @@
       </action>
     </rule>
 
-<!--     <rule comment="REGLA: DET">
+<!--     <rule comment="REGLA: DET">  NEED HELP HERE!!!
       <pattern>
         <pattern-item n="deter"/>
       </pattern>
@@ -458,7 +473,7 @@
         <out>
           <chunk name="det" case="caseFirstWord">
             <tags>
-              <tag><lit-tag v="SD"/></tag>
+              <tag><lit-tag v="SN"/></tag>
               <tag><clip pos="1" side="tl" part="a_genanim"/></tag>
               <tag><clip pos="1" side="tl" part="a_nbr"/></tag>
               <tag><clip pos="1" side="tl" part="a_cas"/></tag>
@@ -482,7 +497,7 @@
         <out>
           <chunk name="pron" case="caseFirstWord">
             <tags>
-              <tag><lit-tag v="SD"/></tag>
+              <tag><lit-tag v="SN"/></tag>
               <tag><clip pos="1" side="tl" part="a_genanim"/></tag>
               <tag><clip pos="1" side="tl" part="a_nbr"/></tag>
               <tag><clip pos="1" side="tl" part="a_cas"/></tag>
@@ -493,8 +508,35 @@
           </chunk>
         </out>
       </action>
+    </rule>
+
+    <rule comment="REGLA: VBHAVER_PRES"> figure out more accurate way to change to у есть
+      <pattern>
+        <pattern-item n="subj"/>
+        <pattern-item n="vbhaver_pres"/>
+      </pattern>
+      <action>
+        <let><clip pos="1" side="tl" part="a_cas"/><lit-tag v="gen"/></let>
+        <out>
+          <lu>
+            <lit v="у"/>
+            <lit-tag v="pr"/>
+          </lu>
+          <b />
+          <lu>
+            <clip pos="1" side="tl" part="lem"/>
+            <clip pos="1" side="tl" part="a_nom"/>
+            <clip pos="1" side="tl" part="a_genanim"/>
+            <clip pos="1" side="tl" part="a_nbr"/>
+            <clip pos="1" side="tl" part="a_cas"/>
+          </lu>
+        </out>
+      </action>
     </rule> -->
+
+
 
 
   </section-rules>
 </transfer>
+
