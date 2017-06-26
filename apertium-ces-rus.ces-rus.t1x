@@ -46,6 +46,9 @@
     <def-cat n="pron">
       <cat-item tags="prn.*"/>
     </def-cat>
+    <def-cat n="pro_no_prs">
+      <cat-item tags="prn.*.pers.*"/>
+    </def-cat>
   </section-def-cats>
   <section-def-attrs>
     <def-attr n="a_nbr">
@@ -495,7 +498,7 @@
 
     <rule comment="REGLA: PRN">
       <pattern>
-        <pattern-item n="pron"/>
+        <pattern-item n="pro_no_prs"/>
       </pattern>
       <action>
         <call-macro n="f_concord1">
