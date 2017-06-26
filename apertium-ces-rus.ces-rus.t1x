@@ -23,7 +23,8 @@
       <cat-item tags="vbhaver.*.pres.*"/>
     </def-cat>
     <def-cat n="vbhaver">
-      <cat-item tags="vbhaver.*"/>
+      <cat-item tags="vbhaver.*.fut.*"/>
+      <cat-item tags="vbhaver.*.past.*"/>
     </def-cat>
     <def-cat n="prop">
       <cat-item tags="np.*"/>
@@ -32,9 +33,9 @@
       <cat-item tags="n.*"/>
     </def-cat>
     <def-cat n="subj">
-      <cat-item tags="n.*"/>
-      <cat-item tags="np.*"/>
-      <cat-item tags="prn.*"/>
+      <cat-item tags="n.*nom"/>
+      <cat-item tags="np.*nom"/>
+      <cat-item tags="prn.*nom"/>
     </def-cat>
     <def-cat n="sent">
       <cat-item tags="sent"/>
@@ -118,6 +119,12 @@
       <attr-item tags="fut"/>
       <attr-item tags="past"/>
     </def-attr>
+    <def-attr n="v_type">
+      <attr-item tags="vbser"/>
+      <attr-item tags="vblex"/>
+      <attr-item tags="vbmod"/>
+    </def-attr>
+
 
   </section-def-attrs>
   <section-def-vars>
@@ -508,15 +515,18 @@
           </chunk>
         </out>
       </action>
-    </rule>
-
-    <rule comment="REGLA: VBHAVER_PRES"> figure out more accurate way to change to у есть
+    </rule> -->
+<!-- 
+    <rule comment="REGLA: VBHAVER_PRES">
       <pattern>
         <pattern-item n="subj"/>
         <pattern-item n="vbhaver_pres"/>
       </pattern>
       <action>
-        <let><clip pos="1" side="tl" part="a_cas"/><lit-tag v="gen"/></let>
+        <choose>
+          <when><test><equal><clip pos="1" side="tl" part="a_cas"/><lit-tag v="nom"/></equal></test>
+          <let><clip pos="1" side="tl" part="a_cas"/><lit-tag v="gen"/></let></when>
+        </choose>
         <out>
           <lu>
             <lit v="у"/>
@@ -532,8 +542,43 @@
           </lu>
         </out>
       </action>
-    </rule> -->
+    </rule>
 
+    <rule comment="REGLA: VBHAVER">
+      <pattern>
+        <pattern-item n="subj"/>
+        <pattern-item n="vbhaver"/>
+      </pattern>
+      <action>
+        <choose>
+          <when><test><equal><clip pos="1" side="tl" part="a_cas"/><lit-tag v="nom"/></equal></test>
+          <let><clip pos="1" side="tl" part="a_cas"/><lit-tag v="gen"/></let></when>
+        </choose>
+        <choose>
+          <when><test><equal><clip pos="1" side="tl" part="v_type"/><lit-tag v="vblex"/></equal></test>
+          <let><clip pos="1" side="tl" part="v_type"/><lit-tag v="vbser"/></let></when>
+        </choose>
+        <out>
+          <lu>
+            <lit v="у"/>
+            <lit-tag v="pr"/>
+          </lu>
+          <b />
+          <lu>
+            <clip pos="1" side="tl" part="lem"/>
+            <clip pos="1" side="tl" part="a_nom"/>
+            <clip pos="1" side="tl" part="a_genanim"/>
+            <clip pos="1" side="tl" part="a_nbr"/>
+            <clip pos="1" side="tl" part="a_cas"/>
+          </lu>
+          <b />
+          <lu>
+            <lit v="быть"/>
+            <clip pos="2" side="tl" part=""
+        </out>
+      </action>
+    </rule>
+ -->
 
 
 
