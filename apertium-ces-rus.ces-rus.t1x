@@ -19,10 +19,15 @@
       <cat-item tags="vbmod.*.past.*"/>
       <cat-item tags="vaux.*.past.*"/>
     </def-cat>
+    <def-cat n="vbhaver">
+      <cat-item tags="vbhaver.*.pres.*"/>
+      <cat-item tags="vbhaver.*.fut.*"/>
+      <cat-item tags="vbhaver.*.past.*"/>
+    </def-cat>
     <def-cat n="vbhaver_pres">
       <cat-item tags="vbhaver.*.pres.*"/>
     </def-cat>
-    <def-cat n="vbhaver">
+    <def-cat n="vbhaver_other">
       <cat-item tags="vbhaver.*.fut.*"/>
       <cat-item tags="vbhaver.*.past.*"/>
     </def-cat>
@@ -47,7 +52,13 @@
       <cat-item tags="prn.*"/>
     </def-cat>
     <def-cat n="pro_no_prs">
-      <cat-item tags="prn.*.pers.*"/>
+      <cat-item tags="prn.*.ind.*"/>
+      <cat-item tags="prn.*.def.*"/>
+      <cat-item tags="prn.*.dem.*"/>
+      <cat-item tags="prn.*.ref.*"/>
+      <cat-item tags="prn.*.ind.*"/>
+      <cat-item tags="prn.*.itg.*"/>
+      <cat-item tags="prn.*.neg.*"/>
     </def-cat>
   </section-def-cats>
   <section-def-attrs>
@@ -107,6 +118,11 @@
       <attr-item tags="f"/>
       <attr-item tags="nt"/>
     </def-attr>
+    <def-attr n="a_anim">
+      <attr-item tags="aa"/>
+      <attr-item tags="an"/>
+      <attr-item tags="nn"/>
+    </def-attr>
     <def-attr n="a_cas">
       <attr-item tags="nom"/>
       <attr-item tags="acc"/>
@@ -126,6 +142,19 @@
       <attr-item tags="vbser"/>
       <attr-item tags="vblex"/>
       <attr-item tags="vbmod"/>
+    </def-attr>
+    <def-attr n="v_asp">
+      <attr-item tags="impf"/>
+      <attr-item tags="perf"/>
+    </def-attr>
+    <def-attr n="v_per">
+      <attr-item tags="p1"/>
+      <attr-item tags="p2"/>
+      <attr-item tags="p3"/>
+    </def-attr>
+    <def-attr n="v_trans">
+      <attr-item tags="tv"/>
+      <attr-item tags="iv"/>
     </def-attr>
 
 
@@ -345,11 +374,11 @@
             <let><clip pos="1" side="tl" part="a_cas"/><lit-tag v="nom"/></let></when>
         </choose>
         <choose> 
-          <when><test><equal><clip pos="1" side="sl" part="a_genanim"/><lit-tag v="f"/></equal></test>
+          <when><test><equal><clip pos="1" side="tl" part="a_genanim"/><lit-tag v="f..*"/></equal></test>
             <let><clip pos="1" side="tl" part="a_genanim"/><lit-tag v="f.an"/></let></when>
         </choose>
         <choose> 
-          <when><test><equal><clip pos="1" side="sl" part="a_grau"/><lit-tag v="comp"/></equal></test>
+          <when><test><equal><clip pos="1" side="sl" part="a_gau"/><lit-tag v="comp"/></equal></test>
             <let><clip pos="1" side="tl" part="a_grau"/><lit v=""/></let>
             <let><var n="adj-grau-word"/><concat><lit v="^более"/><lit-tag v="preadv"/><lit v="$ "/></concat></let>
           </when>
@@ -472,7 +501,31 @@
       </action>
     </rule>
 
-<!--     <rule comment="REGLA: DET">  NEED HELP HERE!!!
+
+    <rule comment="REGLA: VBHAVER TV">
+      <pattern>
+        <pattern-item n="vbhaver"/>
+      </pattern>
+      <action>
+        <choose>
+          <when><test>
+            <equal><clip pos="1" side="sl" part="v_type"/><lit-tag v="vbhaver"/></equal></test>
+            <let><clip pos="1" side="tl" part="v_type"/><lit-tag v="vblex"/></let></when>
+        </choose>
+        <out>
+          <lu>
+            <clip pos="1" side="tl" part="lem"/>
+            <clip pos="1" side="tl" part="v_asp"/>
+            <clip pos="1" side="tl" part="v_trans"/>
+            <clip pos="1" side="tl" part="v_ten"/>
+            <clip pos="1" side="tl" part="v_per"/>
+            <clip pos="1" side="tl" part="a_nbr"/>
+          </lu>
+        </out>
+      </action>
+    </rule>
+
+     <!-- <rule comment="REGLA: DET">
       <pattern>
         <pattern-item n="deter"/>
       </pattern>
@@ -519,6 +572,9 @@
         </out>
       </action>
     </rule> -->
+
+
+
 <!-- 
     <rule comment="REGLA: VBHAVER_PRES">
       <pattern>

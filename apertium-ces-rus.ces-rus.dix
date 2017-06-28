@@ -84,7 +84,6 @@
 	<!-- Раздел: NEW Союзы -->
 	<e><p><l>aby<s n="cnjsub"/></l><r>чтобы<s n="cnjsub"/></r></p></e>
 	<e><p><l>kdy<s n="cnjsub"/></l><r>когда<s n="cnjsub"/></r></p></e>
-	<e><p><l>a<s n="cnjcoo"/></l><r>а<s n="cnjcoo"/></r></p></e>
 	<e><p><l>ačkoliv<s n="cnjadv"/></l><r>хотя<s n="cnjsub"/></r></p></e>
 	<e><p><l>co<s n="prn"/><s n="itg"/></l><r>что<s n="cnjsub"/></r></p></e>
 	<e><p><l>nebo<s n="cnjadv"/></l><r>либо<s n="cnjcoo"/></r></p></e>
@@ -115,8 +114,8 @@
     <e><p><l>avšak<s n="cnjadv"/></l><r>а<s n="cnjcoo"/></r></p></e>
     <e><p><l>avšak<s n="cnjadv"/></l><r>но<s n="cnjcoo"/></r></p></e>
     <e><p><l>až<s n="cnjsub"/></l><r>и<s n="cnjcoo"/></r></p></e>
-    <e><p><l>a<s n="cnjcoo"/></l><r>а<s n="cnjcoo"/></r></p></e>
     <e><p><l>a<s n="cnjcoo"/></l><r>и<s n="cnjcoo"/></r></p></e>
+    <e><p><l>a<s n="cnjcoo"/></l><r>а<s n="cnjcoo"/></r></p></e>
     <e><p><l>čili<s n="cnjcoo"/></l><r>или<s n="cnjcoo"/></r></p></e>
     <e><p><l>či<s n="cnjcoo"/></l><r>или<s n="cnjcoo"/></r></p></e>
     <e><p><l>i<s n="cnjcoo"/></l><r>а<s n="cnjcoo"/></r></p></e>
@@ -135,10 +134,10 @@
     <e><p><l>však<s n="cnjadv"/></l><r>но<s n="cnjcoo"/></r></p></e>
     <e><p><l>že<s n="cnjsub"/></l><r>если<s n="cnjsub"/></r></p></e>
 
-    <e><p><l>ačkoliv<s n="cnjadv"/></l><r>хотя<s n="cnjadv"/></r></p></e>
-    <e><p><l>ač<s n="cnjadv"/></l><r>хотя<s n="cnjadv"/></r></p></e>
-    <e><p><l>přestože<s n="cnjadv"/></l><r>хотя<s n="cnjadv"/></r></p></e>
-    <e><p><l>třebaže<s n="cnjadv"/></l><r>хотя<s n="cnjadv"/></r></p></e>
+    <e><p><l>ačkoliv<s n="cnjadv"/></l><r>хотя<s n="cnjsub"/></r></p></e>
+    <e><p><l>ač<s n="cnjadv"/></l><r>хотя<s n="cnjsub"/></r></p></e>
+    <e><p><l>přestože<s n="cnjadv"/></l><r>хотя<s n="cnjsub"/></r></p></e>
+    <e><p><l>třebaže<s n="cnjadv"/></l><r>хотя<s n="cnjsub"/></r></p></e>
     <e><p><l>ovšem<s n="cnjadv"/></l><r>конечно<s n="adv"/></r></p></e>
     <e><p><l>ovšem<s n="cnjadv"/></l><r>однако<s n="adv"/></r></p></e>
     <e><p><l>přece<s n="cnjadv"/></l><r>однако<s n="adv"/></r></p></e>
@@ -420,6 +419,7 @@
 	<e><p><l>patnáct<s n="num"/><s n="qnt"/></l><r>пятнадцать<s n="num"/></r></p></e>
 	<e><p><l>osmnáct<s n="num"/><s n="qnt"/></l><r>восемнадцать<s n="num"/></r></p></e>
 	<e><p><l>jedenáct<s n="num"/><s n="qnt"/></l><r>одиннадцатеро<s n="num"/><s n="coll"/></r></p></e>
+	<!-- Раздел: NEW Numerals -->
     <!-- Раздел: Numerals -->
     <e><p><l>tři<s n="num"/><s n="qnt"/></l><r>три<s n="num"/></r></p></e>
     <e><p><l>čtyři<s n="num"/><s n="qnt"/></l><r>четыре<s n="num"/></r></p></e>
@@ -531,6 +531,7 @@
     <e><p><l>generace<s n="n"/><s n="f"/></l><r>поколение<s n="n"/><s n="nt"/><s n="nn"/></r></p></e>
     <e><p><l>gesto<s n="n"/><s n="nt"/></l><r>жест<s n="n"/><s n="m"/><s n="nn"/></r></p></e>
     <e><p><l>granát<s n="n"/><s n="mi"/></l><r>граната<s n="n"/><s n="f"/><s n="nn"/></r></p></e>
+    <e><p><l>hlava<s n="n"/><s n="f"/></l><r>голова<s n="n"/><s n="f"/><s n="nn"/></r></p></e>
     <e><p><l>heslo<s n="n"/><s n="nt"/></l><r>лозунг<s n="n"/><s n="m"/><s n="nn"/></r></p></e>
     <e><p><l>historie<s n="n"/><s n="f"/></l><r>история<s n="n"/><s n="f"/><s n="nn"/></r></p></e>
     <e><p><l>hloupost<s n="n"/><s n="f"/></l><r>глупость<s n="n"/><s n="f"/><s n="nn"/></r></p></e>
@@ -1178,7 +1179,7 @@
     <e><p><l>podoba<s n="n"/><s n="f"/></l><r>форма<s n="n"/><s n="f"/><s n="nn"/></r></p></e>
     <e><p><l>příčina<s n="n"/><s n="f"/></l><r>источник<s n="n"/><s n="m"/><s n="nn"/></r></p></e>
     <e><p><l>příčina<s n="n"/><s n="f"/></l><r>причина<s n="n"/><s n="f"/><s n="nn"/></r></p></e>
-    <e><p><l>hlava<s n="n"/><s n="f"/></l><r>глава<s n="n"/><s n="f"/><s n="nn"/></r></p></e>
+    <!-- <e><p><l>hlava<s n="n"/><s n="f"/></l><r>глава<s n="n"/><s n="f"/><s n="nn"/></r></p></e> unsure if this is correct-->
     <e><p><l>zisk<s n="n"/><s n="mi"/></l><r>доход<s n="n"/><s n="m"/><s n="nn"/></r></p></e>
     <e><p><l>zisk<s n="n"/><s n="mi"/></l><r>прибыль<s n="n"/><s n="f"/><s n="nn"/></r></p></e>
     <e><p><l>dům<s n="n"/><s n="mi"/></l><r>дом<s n="n"/><s n="m"/><s n="nn"/></r></p></e>
@@ -4959,6 +4960,7 @@
     <e><p><l>kdy<s n="adv"/><s n="itg"/></l><r>когда<s n="adv"/><s n="itg"/></r></p></e>
     <e><p><l>kde<s n="adv"/><s n="itg"/></l><r>где<s n="adv"/><s n="itg"/></r></p></e>
 
+
     <e><p><l>rychle<s n="adv"/></l><r>быстро<s n="adv"/></r></p></e>
     <e><p><l>již<s n="adv"/></l><r>уже<s n="adv"/></r></p></e>
     <e><p><l>ne<s n="adv"/></l><r>не<s n="adv"/></r></p></e>
@@ -4984,7 +4986,7 @@
     <e><p><l>jen<s n="adv"/></l><r>лишь<s n="adv"/></r></p></e>
     <e><p><l>jen<s n="adv"/></l><r>только<s n="adv"/></r></p></e>
     <e><p><l>ještě<s n="adv"/></l><r>ещё<s n="adv"/></r></p></e>
-    <e><p><l>kam<s n="adv"/><s n="itg"/></l><r>куда<s n="adv"/></r></p></e>
+    <e><p><l>kam<s n="adv"/><s n="itg"/></l><r>куда<s n="adv"/><s n="itg"/></r></p></e>
     <e><p><l>konečně<s n="adv"/></l><r>наконец<s n="adv"/></r></p></e>
     <e><p><l>kupříkladu<s n="adv"/></l><r>например<s n="adv"/></r></p></e>
     <e><p><l>mlčky<s n="adv"/></l><r>молча<s n="adv"/></r></p></e>
@@ -5024,8 +5026,8 @@
     <e><p><l>právě<s n="adv"/></l><r>именно<s n="adv"/></r></p></e>
     <e><p><l>předem<s n="adv"/></l><r>заранее<s n="adv"/></r></p></e>
     <e><p><l>přesně<s n="adv"/></l><r>точно<s n="adv"/></r></p></e>
-    <e><p><l>proč<s n="rel"/><s n="adv"/></l><r>зачем<s n="adv"/></r></p></e>
-    <e><p><l>proč<s n="rel"/><s n="adv"/></l><r>почему<s n="adv"/></r></p></e>
+    <e><p><l>proč<s n="rel"/><s n="adv"/></l><r>зачем<s n="adv"/><s n="itg"/></r></p></e>
+    <e><p><l>proč<s n="rel"/><s n="adv"/></l><r>почему<s n="adv"/><s n="itg"/></r></p></e>
     <e><p><l>prozatím<s n="adv"/></l><r>ещё<s n="adv"/></r></p></e>
     <e><p><l>prozatím<s n="adv"/></l><r>пока<s n="adv"/></r></p></e>
     <e><p><l>samozřejmě<s n="adv"/></l><r>конечно<s n="adv"/></r></p></e>
@@ -5039,6 +5041,7 @@
     <e><p><l>takřka<s n="adv"/></l><r>почти<s n="adv"/></r></p></e>
     <e><p><l>tak<s n="adv"/></l><r>столь<s n="adv"/></r></p></e>
     <e><p><l>tak<s n="adv"/></l><r>так<s n="adv"/></r></p></e>
+    <e><p><l>tam<s n="adv"/></l><r>там<s n="adv"/></r></p></e>
     <e><p><l>tehdy<s n="adv"/></l><r>тогда<s n="adv"/></r></p></e>
     <e><p><l>tehdy<s n="adv"/></l><r>тогда<s n="adv"/></r></p></e>
     <e><p><l>téměř<s n="adv"/></l><r>почти<s n="adv"/></r></p></e>
@@ -5194,7 +5197,7 @@
     <e><p><l>dělat<s n="vblex"/><s n="impf"/></l><r>делать<s n="vblex"/><s n="impf"/><s n="tv"/></r></p></e>
     <e><p><l>demonstrovat<s n="vblex"/><s n="impf"/></l><r>демонстрировать<s n="vblex"/><s n="impf"/><s n="tv"/></r></p></e>
     <e><p><l>disponovat<s n="vblex"/><s n="impf"/></l><r>обладать<s n="vblex"/><s n="impf"/><s n="iv"/></r></p></e>
-    <e><p><l>dívat<s n="vblex"/><s n="impf"/></l><r>смотреть2<s n="vblex"/><s n="impf"/><s n="tv"/></r></p></e>
+    <e><p><l>dívat<s n="vblex"/><s n="impf"/></l><r>смотреть<s n="vblex"/><s n="impf"/><s n="tv"/></r></p></e>
     <e><p><l>dodržovat<s n="vblex"/><s n="impf"/></l><r>выполнять<s n="vblex"/><s n="impf"/><s n="tv"/></r></p></e>
     <e><p><l>dodržovat<s n="vblex"/><s n="impf"/></l><r>следовать<s n="vblex"/><s n="impf"/><s n="iv"/></r></p></e>
     <e><p><l>dojít<s n="vblex"/><s n="perf"/></l><r>возникнуть<s n="vblex"/><s n="perf"/><s n="iv"/></r></p></e>
@@ -5216,7 +5219,7 @@
     <e><p><l>hledat<s n="vblex"/><s n="impf"/></l><r>искать<s n="vblex"/><s n="impf"/><s n="tv"/></r></p></e>
     <e><p><l>hlídat<s n="vblex"/><s n="impf"/></l><r>следить<s n="vblex"/><s n="impf"/><s n="iv"/></r></p></e>
     <e><p><l>hnát<s n="vblex"/><s n="impf"/></l><r>приводить<s n="vblex"/><s n="impf"/><s n="tv"/></r></p></e>
-    <e><p><l>hrát<s n="vblex"/><s n="impf"/></l><r>играть2<s n="vblex"/><s n="impf"/><s n="tv"/></r></p></e>
+    <e><p><l>hrát<s n="vblex"/><s n="impf"/></l><r>играть<s n="vblex"/><s n="impf"/><s n="tv"/></r></p></e>
     <e><p><l>jít<s n="vblex"/><s n="impf"/></l><r>выходить<s n="vblex"/><s n="perf"/><s n="iv"/></r></p></e>
     <e><p><l>jít<s n="vblex"/><s n="impf"/></l><r>идти<s n="vblex"/><s n="impf"/><s n="iv"/></r></p></e>
     <e><p><l>jít<s n="vblex"/><s n="impf"/></l><r>касаться<s n="vblex"/><s n="impf"/><s n="iv"/></r></p></e>
@@ -5235,9 +5238,9 @@
     <e><p><l>mít<s n="vbhaver"/><s n="impf"/></l><r>владеть<s n="vblex"/><s n="impf"/><s n="iv"/></r></p></e>
     <e><p><l>mít<s n="vbhaver"/><s n="impf"/></l><r>держать<s n="vblex"/><s n="impf"/><s n="tv"/></r></p></e>
     <e><p><l>mít<s n="vbhaver"/><s n="impf"/></l><r>думать<s n="vblex"/><s n="impf"/><s n="iv"/></r></p></e>
-    <e><p><l>mít<s n="vbhaver"/><s n="impf"/></l><r>иметь<s n="vbhaver"/><s n="impf"/></r></p></e>
-    <e><p><l>mívat<s n="vblex"/><s n="impf"/></l><r>иметь<s n="vbhaver"/><s n="impf"/></r></p></e>
-    <e><p><l>mluvit<s n="vblex"/><s n="impf"/></l><r>говорить2<s n="vblex"/><s n="impf"/><s n="tv"/></r></p></e>
+    <e><p><l>mít<s n="vbhaver"/><s n="impf"/></l><r>иметь<s n="vbhaver"/><s n="impf"/><s n="tv"/></r></p></e>
+    <e><p><l>mívat<s n="vblex"/><s n="impf"/></l><r>иметь<s n="vbhaver"/><s n="impf"/><s n="tv"/></r></p></e>
+    <e><p><l>mluvit<s n="vblex"/><s n="impf"/></l><r>говорить<s n="vblex"/><s n="impf"/><s n="tv"/></r></p></e>
     <e><p><l>nabírat<s n="vblex"/><s n="impf"/></l><r>набирать<s n="vblex"/><s n="impf"/><s n="tv"/></r></p></e>
     <e><p><l>nabývat<s n="vblex"/><s n="impf"/></l><r>приобретать<s n="vblex"/><s n="impf"/><s n="tv"/></r></p></e>
     <e><p><l>nacházet<s n="vblex"/><s n="impf"/></l><r>находить<s n="vblex"/><s n="perf"/><s n="tv"/></r></p></e>
@@ -5270,7 +5273,7 @@
     <e><p><l>platit<s n="vblex"/><s n="impf"/></l><r>платить<s n="vblex"/><s n="impf"/><s n="tv"/></r></p></e>
     <e><p><l>plavat<s n="vblex"/><s n="impf"/></l><r>плавать<s n="vblex"/><s n="impf"/><s n="iv"/></r></p></e>
     <e><p><l>pochybovat<s n="vblex"/><s n="impf"/></l><r>сомневаться<s n="vblex"/><s n="impf"/><s n="iv"/></r></p></e>
-    <e><p><l>počítat<s n="vblex"/><s n="impf"/></l><r>считать2<s n="vblex"/><s n="impf"/><s n="tv"/></r></p></e>    
+    <e><p><l>počítat<s n="vblex"/><s n="impf"/></l><r>считать<s n="vblex"/><s n="impf"/><s n="tv"/></r></p></e>    
     <e><p><l>počínat<s n="vblex"/><s n="impf"/></l><r>начинать<s n="vblex"/><s n="impf"/><s n="tv"/></r></p></e>
     <e><p><l>počkat<s n="vblex"/><s n="perf"/></l><r>подождать<s n="vblex"/><s n="perf"/><s n="iv"/></r></p></e>
     <e><p><l>podepsat<s n="vblex"/><s n="perf"/></l><r>подписать<s n="vblex"/><s n="perf"/><s n="tv"/></r></p></e>
@@ -5278,7 +5281,7 @@
     <e><p><l>podporovat<s n="vblex"/><s n="impf"/></l><r>поддерживать<s n="vblex"/><s n="impf"/><s n="tv"/></r></p></e>
     <e><p><l>pokládat<s n="vblex"/><s n="impf"/></l><r>полагать<s n="vblex"/><s n="impf"/><s n="tv"/></r></p></e>
     <e><p><l>pokládat<s n="vblex"/><s n="impf"/></l><r>рассматривать<s n="vblex"/><s n="impf"/><s n="tv"/></r></p></e>
-    <e><p><l>pokládat<s n="vblex"/><s n="impf"/></l><r>считать2<s n="vblex"/><s n="perf"/><s n="tv"/></r></p></e>
+    <e><p><l>pokládat<s n="vblex"/><s n="impf"/></l><r>считать<s n="vblex"/><s n="perf"/><s n="tv"/></r></p></e>
     <e><p><l>pokračovat<s n="vblex"/><s n="impf"/></l><r>продолжать<s n="vblex"/><s n="impf"/><s n="tv"/></r></p></e>
     <e><p><l>pomáhat<s n="vblex"/><s n="impf"/></l><r>поддерживать<s n="vblex"/><s n="impf"/><s n="tv"/></r></p></e>
     <e><p><l>pomáhat<s n="vblex"/><s n="impf"/></l><r>помогать<s n="vblex"/><s n="impf"/><s n="iv"/></r></p></e>
@@ -5314,7 +5317,7 @@
     <e><p><l>propůjčit<s n="vblex"/><s n="perf"/></l><r>предоставить<s n="vblex"/><s n="perf"/><s n="iv"/></r></p></e>
     <e><p><l>protestovat<s n="vblex"/><s n="impf"/></l><r>возражать<s n="vblex"/><s n="impf"/><s n="iv"/></r></p></e>
     <e><p><l>psát<s n="vblex"/><s n="impf"/></l><r>писать<s n="vblex"/><s n="impf"/><s n="tv"/></r></p></e>
-    <e><p><l>řeknout<s n="vblex"/><s n="perf"/></l><r>сказать2<s n="vblex"/><s n="perf"/><s n="tv"/></r></p></e>
+    <e><p><l>řeknout<s n="vblex"/><s n="perf"/></l><r>сказать<s n="vblex"/><s n="perf"/><s n="tv"/></r></p></e>
     <e><p><l>reagovat<s n="vblex"/><s n="impf"/></l><r>отвечать<s n="vblex"/><s n="impf"/><s n="iv"/></r></p></e>
     <e><p><l>reagovat<s n="vblex"/><s n="impf"/></l><r>реагировать<s n="vblex"/><s n="impf"/><s n="iv"/></r></p></e>
     <e><p><l>rozdělovat<s n="vblex"/><s n="impf"/></l><r>разделять<s n="vblex"/><s n="impf"/><s n="tv"/></r></p></e>
@@ -5349,7 +5352,7 @@
     <e><p><l>ukazovat<s n="vblex"/><s n="impf"/></l><r>показывать<s n="vblex"/><s n="impf"/><s n="tv"/></r></p></e>
     <e><p><l>umět<s n="vblex"/><s n="impf"/></l><r>уметь<s n="vblex"/><s n="perf"/><s n="iv"/></r></p></e>    
     <e><p><l>umírat<s n="vblex"/><s n="impf"/></l><r>умирать<s n="vblex"/><s n="impf"/><s n="iv"/></r></p></e>
-    <e><p><l>umožňovat<s n="vblex"/><s n="impf"/></l><r>делать2<s n="vblex"/><s n="impf"/><s n="tv"/></r></p></e>
+    <e><p><l>umožňovat<s n="vblex"/><s n="impf"/></l><r>делать<s n="vblex"/><s n="impf"/><s n="tv"/></r></p></e>
     <e><p><l>umožňovat<s n="vblex"/><s n="impf"/></l><r>позволять<s n="vblex"/><s n="impf"/><s n="tv"/></r></p></e>
     <e><p><l>usuzovat<s n="vblex"/><s n="impf"/></l><r>судить<s n="vblex"/><s n="impf"/><s n="tv"/></r></p></e>
     <e><p><l>utržit<s n="vblex"/><s n="perf"/></l><r>заработать<s n="vblex"/><s n="perf"/><s n="tv"/></r></p></e>
@@ -5357,10 +5360,11 @@
     <e><p><l>uvítat<s n="vblex"/><s n="perf"/></l><r>приветствовать<s n="vblex"/><s n="impf"/><s n="tv"/></r></p></e>
     <e><p><l>varovat<s n="vblex"/><s n="impf"/></l><r>предупредить<s n="vblex"/><s n="perf"/><s n="iv"/></r></p></e>
     <e><p><l>varovat<s n="vblex"/><s n="impf"/></l><r>предупреждать<s n="vblex"/><s n="impf"/><s n="tv"/></r></p></e>
-    <e><p><l>vědět<s n="vblex"/><s n="impf"/></l><r>знать²2<s n="vblex"/><s n="impf"/><s n="tv"/></r></p></e>
+    <e><p><l>vědět<s n="vblex"/><s n="impf"/></l><r>знать²<s n="vblex"/><s n="impf"/><s n="tv"/></r></p></e>
     <e><p><l>vejít<s n="vblex"/><s n="perf"/></l><r>войти<s n="vblex"/><s n="perf"/><s n="iv"/></r></p></e>
     <e><p><l>věnovat<s n="vblex"/><s n="impf"/></l><r>посвятить<s n="vblex"/><s n="perf"/><s n="tv"/></r></p></e>
     <e><p><l>věřit<s n="vblex"/><s n="impf"/></l><r>верить<s n="vblex"/><s n="impf"/><s n="iv"/></r></p></e>
+    <e><p><l>vidět<s n="vblex"/><s n="impf"/></l><r>видеть<s n="vblex"/><s n="impf"/><s n="iv"/></r></p></e>
     <e><p><l>vidět<s n="vblex"/><s n="impf"/></l><r>видеть1<s n="vblex"/><s n="impf"/><s n="iv"/></r></p></e>
     <e><p><l>vítat<s n="vblex"/><s n="impf"/></l><r>встречать<s n="vblex"/><s n="impf"/><s n="tv"/></r></p></e>
     <e><p><l>vítat<s n="vblex"/><s n="impf"/></l><r>приветствовать<s n="vblex"/><s n="impf"/><s n="tv"/></r></p></e>
@@ -5414,7 +5418,7 @@
     <e><p><l>zůstat<s n="vblex"/><s n="perf"/></l><r>остаться<s n="vblex"/><s n="perf"/><s n="iv"/></r></p></e>
     <e><p><l>zvýšit<s n="vblex"/><s n="perf"/></l><r>увеличить<s n="vblex"/><s n="perf"/><s n="tv"/></r></p></e>
     <e><p><l>zabývat<s n="vblex"/><s n="perf"/></l><r>заниматься<s n="vblex"/><s n="perf"/><s n="tv"/></r></p></e>
-    <e><p><l>zeptat<s n="vblex"/><s n="perf"/></l><r>спрашивать2<s n="vblex"/><s n="perf"/><s n="tv"/></r></p></e>
+    <e><p><l>zeptat<s n="vblex"/><s n="perf"/></l><r>спрашивать<s n="vblex"/><s n="perf"/><s n="tv"/></r></p></e>
     <e><p><l>dokázat<s n="vblex"/><s n="perf"/></l><r>добиться<s n="vblex"/><s n="perf"/><s n="iv"/></r></p></e>
     <e><p><l>dokázat<s n="vblex"/><s n="perf"/></l><r>доказать<s n="vblex"/><s n="perf"/><s n="tv"/></r></p></e>
     <e><p><l>dopřávat<s n="vblex"/><s n="impf"/></l><r>давать<s n="vblex"/><s n="impf"/><s n="tv"/></r></p></e>
