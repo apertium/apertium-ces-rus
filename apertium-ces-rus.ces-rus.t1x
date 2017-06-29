@@ -17,19 +17,8 @@
     <def-cat n="past-verb">
       <cat-item tags="vblex.*.past.*"/>
       <cat-item tags="vbmod.*.past.*"/>
-      <cat-item tags="vaux.*.past.*"/>
-    </def-cat>
-    <def-cat n="vbhaver">
-      <cat-item tags="vbhaver.*.pres.*"/>
-      <cat-item tags="vbhaver.*.fut.*"/>
-      <cat-item tags="vbhaver.*.past.*"/>
-    </def-cat>
-    <def-cat n="vbhaver_pres">
-      <cat-item tags="vbhaver.*.pres.*"/>
-    </def-cat>
-    <def-cat n="vbhaver_other">
-      <cat-item tags="vbhaver.*.fut.*"/>
-      <cat-item tags="vbhaver.*.past.*"/>
+            <cat-item tags="vaux.*.past.*"/>
+
     </def-cat>
     <def-cat n="prop">
       <cat-item tags="np.*"/>
@@ -37,28 +26,8 @@
     <def-cat n="nom">
       <cat-item tags="n.*"/>
     </def-cat>
-    <def-cat n="subj">
-      <cat-item tags="n.*nom"/>
-      <cat-item tags="np.*nom"/>
-      <cat-item tags="prn.*nom"/>
-    </def-cat>
     <def-cat n="sent">
       <cat-item tags="sent"/>
-    </def-cat>
-    <def-cat n="deter">
-      <cat-item tags="det.*"/>
-    </def-cat>
-    <def-cat n="pron">
-      <cat-item tags="prn.*"/>
-    </def-cat>
-    <def-cat n="pro_no_prs">
-      <cat-item tags="prn.*.ind.*"/>
-      <cat-item tags="prn.*.def.*"/>
-      <cat-item tags="prn.*.dem.*"/>
-      <cat-item tags="prn.*.ref.*"/>
-      <cat-item tags="prn.*.ind.*"/>
-      <cat-item tags="prn.*.itg.*"/>
-      <cat-item tags="prn.*.neg.*"/>
     </def-cat>
   </section-def-cats>
   <section-def-attrs>
@@ -69,22 +38,6 @@
     </def-attr>
     <def-attr n="a_nom">
       <attr-item tags="n"/>
-    </def-attr>
-
-    <def-attr n="a_det">
-      <attr-item tags="det"/>
-    </def-attr>
-    <def-attr n="det_type">
-      <attr-item tags="pos"/>
-      <attr-item tags="ord"/>
-      <attr-item tags="ind"/>
-      <attr-item tags="dem"/>
-      <attr-item tags="qnt"/>
-      <attr-item tags="itg"/>
-    </def-attr>
-
-    <def-attr n="a_prn">
-      <attr-item tags="prn"/>
     </def-attr>
     <def-attr n="a_grau">
       <attr-item tags="comp"/>
@@ -118,11 +71,6 @@
       <attr-item tags="f"/>
       <attr-item tags="nt"/>
     </def-attr>
-    <def-attr n="a_anim">
-      <attr-item tags="aa"/>
-      <attr-item tags="an"/>
-      <attr-item tags="nn"/>
-    </def-attr>
     <def-attr n="a_cas">
       <attr-item tags="nom"/>
       <attr-item tags="acc"/>
@@ -133,30 +81,6 @@
       <attr-item tags="prp"/>
       <attr-item tags="voc"/>
     </def-attr>
-    <def-attr n="v_ten">
-      <attr-item tags="pres"/>
-      <attr-item tags="fut"/>
-      <attr-item tags="past"/>
-    </def-attr>
-    <def-attr n="v_type">
-      <attr-item tags="vbser"/>
-      <attr-item tags="vblex"/>
-      <attr-item tags="vbmod"/>
-    </def-attr>
-    <def-attr n="v_asp">
-      <attr-item tags="impf"/>
-      <attr-item tags="perf"/>
-    </def-attr>
-    <def-attr n="v_per">
-      <attr-item tags="p1"/>
-      <attr-item tags="p2"/>
-      <attr-item tags="p3"/>
-    </def-attr>
-    <def-attr n="v_trans">
-      <attr-item tags="tv"/>
-      <attr-item tags="iv"/>
-    </def-attr>
-
 
   </section-def-attrs>
   <section-def-vars>
@@ -374,11 +298,11 @@
             <let><clip pos="1" side="tl" part="a_cas"/><lit-tag v="nom"/></let></when>
         </choose>
         <choose> 
-          <when><test><equal><clip pos="1" side="tl" part="a_genanim"/><lit-tag v="f..*"/></equal></test>
+          <when><test><equal><clip pos="1" side="sl" part="a_genanim"/><lit-tag v="f"/></equal></test>
             <let><clip pos="1" side="tl" part="a_genanim"/><lit-tag v="f.an"/></let></when>
         </choose>
         <choose> 
-          <when><test><equal><clip pos="1" side="sl" part="a_gau"/><lit-tag v="comp"/></equal></test>
+          <when><test><equal><clip pos="1" side="sl" part="a_grau"/><lit-tag v="comp"/></equal></test>
             <let><clip pos="1" side="tl" part="a_grau"/><lit v=""/></let>
             <let><var n="adj-grau-word"/><concat><lit v="^более"/><lit-tag v="preadv"/><lit v="$ "/></concat></let>
           </when>
@@ -502,145 +426,5 @@
     </rule>
 
 
-    <rule comment="REGLA: VBHAVER TV">
-      <pattern>
-        <pattern-item n="vbhaver"/>
-      </pattern>
-      <action>
-        <choose>
-          <when><test>
-            <equal><clip pos="1" side="sl" part="v_type"/><lit-tag v="vbhaver"/></equal></test>
-            <let><clip pos="1" side="tl" part="v_type"/><lit-tag v="vblex"/></let></when>
-        </choose>
-        <out>
-          <lu>
-            <clip pos="1" side="tl" part="lem"/>
-            <clip pos="1" side="tl" part="v_asp"/>
-            <clip pos="1" side="tl" part="v_trans"/>
-            <clip pos="1" side="tl" part="v_ten"/>
-            <clip pos="1" side="tl" part="v_per"/>
-            <clip pos="1" side="tl" part="a_nbr"/>
-          </lu>
-        </out>
-      </action>
-    </rule>
-
-     <!-- <rule comment="REGLA: DET">
-      <pattern>
-        <pattern-item n="deter"/>
-      </pattern>
-      <action>
-        <call-macro n="f_concord1">
-          <with-param pos="1"/>
-        </call-macro>
-        <out>
-          <chunk name="det" case="caseFirstWord">
-            <tags>
-              <tag><lit-tag v="SN"/></tag>
-              <tag><clip pos="1" side="tl" part="a_genanim"/></tag>
-              <tag><clip pos="1" side="tl" part="a_nbr"/></tag>
-              <tag><clip pos="1" side="tl" part="a_cas"/></tag>
-            </tags>
-            <lu>
-              <clip pos="1" side="tl" part="whole"/>
-            </lu>
-          </chunk>
-        </out>
-      </action>
-    </rule>
-
-    <rule comment="REGLA: PRN">
-      <pattern>
-        <pattern-item n="pro_no_prs"/>
-      </pattern>
-      <action>
-        <call-macro n="f_concord1">
-          <with-param pos="1"/>
-        </call-macro>
-        <out>
-          <chunk name="pron" case="caseFirstWord">
-            <tags>
-              <tag><lit-tag v="SN"/></tag>
-              <tag><clip pos="1" side="tl" part="a_genanim"/></tag>
-              <tag><clip pos="1" side="tl" part="a_nbr"/></tag>
-              <tag><clip pos="1" side="tl" part="a_cas"/></tag>
-            </tags>
-            <lu>
-              <clip pos="1" side="tl" part="whole"/>
-            </lu>
-          </chunk>
-        </out>
-      </action>
-    </rule> -->
-
-
-
-<!-- 
-    <rule comment="REGLA: VBHAVER_PRES">
-      <pattern>
-        <pattern-item n="subj"/>
-        <pattern-item n="vbhaver_pres"/>
-      </pattern>
-      <action>
-        <choose>
-          <when><test><equal><clip pos="1" side="tl" part="a_cas"/><lit-tag v="nom"/></equal></test>
-          <let><clip pos="1" side="tl" part="a_cas"/><lit-tag v="gen"/></let></when>
-        </choose>
-        <out>
-          <lu>
-            <lit v="у"/>
-            <lit-tag v="pr"/>
-          </lu>
-          <b />
-          <lu>
-            <clip pos="1" side="tl" part="lem"/>
-            <clip pos="1" side="tl" part="a_nom"/>
-            <clip pos="1" side="tl" part="a_genanim"/>
-            <clip pos="1" side="tl" part="a_nbr"/>
-            <clip pos="1" side="tl" part="a_cas"/>
-          </lu>
-        </out>
-      </action>
-    </rule>
-
-    <rule comment="REGLA: VBHAVER">
-      <pattern>
-        <pattern-item n="subj"/>
-        <pattern-item n="vbhaver"/>
-      </pattern>
-      <action>
-        <choose>
-          <when><test><equal><clip pos="1" side="tl" part="a_cas"/><lit-tag v="nom"/></equal></test>
-          <let><clip pos="1" side="tl" part="a_cas"/><lit-tag v="gen"/></let></when>
-        </choose>
-        <choose>
-          <when><test><equal><clip pos="1" side="tl" part="v_type"/><lit-tag v="vblex"/></equal></test>
-          <let><clip pos="1" side="tl" part="v_type"/><lit-tag v="vbser"/></let></when>
-        </choose>
-        <out>
-          <lu>
-            <lit v="у"/>
-            <lit-tag v="pr"/>
-          </lu>
-          <b />
-          <lu>
-            <clip pos="1" side="tl" part="lem"/>
-            <clip pos="1" side="tl" part="a_nom"/>
-            <clip pos="1" side="tl" part="a_genanim"/>
-            <clip pos="1" side="tl" part="a_nbr"/>
-            <clip pos="1" side="tl" part="a_cas"/>
-          </lu>
-          <b />
-          <lu>
-            <lit v="быть"/>
-            <clip pos="2" side="tl" part=""
-        </out>
-      </action>
-    </rule>
- -->
-
-
-
   </section-rules>
 </transfer>
-
