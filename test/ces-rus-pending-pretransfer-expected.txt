@@ -1,0 +1,2 @@
+[b7rwUk0pkSfL#0] ^Ústava<n><f><sg><nom>$ ^*EU$ ^učinit<vblex><perf><fut><p3><sg>$ ^Evropa<np><top><f><sg><acc>$ ^demokratický<adj><comp><f><sg><ins>$ ^a<cnjcoo>$ ^průhledný<adj><sint><comp><f><sg><ins>$^.<sent>$
+[/b7rwUk0pkSfL]

@@ -1,0 +1,2 @@
+[b7rwUk0pkSfL#0] ^n<SN><f><nn><sg><nom>{^Конституция<n><f><nn><sg><nom>$}$ ^unknown<unknown>{^*EU$}$ ^default<default>{^сделать<vblex><perf><tv><fut><p3><sg>$}$ ^prop<SN><f><sg><acc>{^Европа<np><top><f><sg><acc>$}$ ^adj<SA>{^демократический<adj><comp><mfn><an><sg><ins>$}$ ^default<default>{^и<cnjcoo>$}$ ^adj<SA>{^прозрачный<adj><comp><mfn><an><sg><ins>$}$^sent<SENT>{^.<sent>$}$
+[/b7rwUk0pkSfL]

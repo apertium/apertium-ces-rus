@@ -1,0 +1,2 @@
+[b7rwUk0pkSfL#0] ^Ústava<n><f><sg><nom>/Конституция<n><f><nn><sg><nom>$ ^*EU/*EU$ ^učinit<vblex><perf><fut><p3><sg>/сделать<vblex><perf><tv><fut><p3><sg>/предпринять<vblex><perf><tv><fut><p3><sg>$ ^Evropa<np><top><f><sg><acc>/Европа<np><top><f><sg><acc>$ ^demokratický<adj><comp><f><sg><ins>/демократический<adj><comp><f><sg><ins>$ ^a<cnjcoo>/и<cnjcoo>/а<cnjcoo>$ ^průhledný<adj><sint><comp><f><sg><ins>/прозрачный<adj><comp><f><sg><ins>/открытый<adj><comp><f><sg><ins>$^.<sent>/.<sent>$
+[/b7rwUk0pkSfL]

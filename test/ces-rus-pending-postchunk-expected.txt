@@ -1,0 +1,2 @@
+[b7rwUk0pkSfL#0] ^Конституция<n><f><nn><sg><nom>$ ^*EU$ ^сделать<vblex><perf><tv><fut><p3><sg>$ ^Европа<np><top><f><sg><acc>$ ^демократический<adj><comp><mfn><an><sg><ins>$ ^и<cnjcoo>$ ^прозрачный<adj><comp><mfn><an><sg><ins>$^.<sent>$
+[/b7rwUk0pkSfL]
